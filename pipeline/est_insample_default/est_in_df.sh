@@ -36,7 +36,7 @@ for idx in $(seq 50)
 do
     $mypython $src/hess.py \
         --local-hsqg /u/project/pasaniuc/shihuwen/response_result/sim_zsc/sim_n_"$n"_hsq_"$hsq"_ncau_"$ncau"/sim_gwas_"$region_start"_"$region_stop"_"$idx".txt --chrom 22 \
-        --bfile /u/project/pasaniuc/shihuwen/posc/analysis/data/ukb_chr22_maf/22 \
+        --bfile /u/project/pasaniuc/shihuwen/posc/analysis/data/ukb_chr22_maf_"$n"/22 \
         --out /u/project/pasaniuc/shihuwen/response_result/est_insample_default/est_insample_default_n_"$n"_hsq_"$hsq"_ncau_"$ncau"/sim_gwas_"$region_start"_"$region_stop"_"$idx"_step1 \
         --partition /u/project/pasaniuc/shihuwen/response/pipeline/regions/chr22_"$region_start"_"$region_stop".bed
         
