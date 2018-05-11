@@ -2480,3 +2480,24 @@ The 'gcc/4.7.2' module is being loaded
   assert np.issubdtype(self._col.dtype, str) and len(self._col.shape)==1, "sid should be of dtype of str and one dimensional"
 [INFO] bed file is open /u/project/pasaniuc/shihuwen/posc/analysis/data/ukb_chr22_maf/22.bed
 [INFO] 2734 SNPs in locus chr22:18296088-19912358
+[INFO] Command finished at: Fri, 11 May 2018 01:31:32
+[INFO] @----------------------------------------------------------@
+       |         HESS       |      v0.5      |    9/October/2017  |
+       |----------------------------------------------------------|
+       |  (C) 2017 Huwenbo Shi, GNU General Public License, v3    |
+       |----------------------------------------------------------|
+       |  For documentation, citation & bug-report instructions:  |
+       |   http://bogdan.bioinformatics.ucla.edu/software/hess/   |
+       @----------------------------------------------------------@
+[INFO] Command started at: Fri, 11 May 2018 01:31:38
+[INFO] Command issued:
+    /u/project/pasaniuc/shihuwen/response/code/hess_test/hess.py \
+        --min-eigval 1e-08 \
+        --prefix /u/project/pasaniuc/shihuwen/response_result/est_insample/est_insample_n_50000_hsq_0.05_ncau_3/sim_gwas_18296088_19912358_50_step1 \
+        --max-num-eig 3168 \
+        --out /u/project/pasaniuc/shihuwen/response_result/est_insample/est_insample_n_50000_hsq_0.05_ncau_3/sim_gwas_18296088_19912358_50_step2
+[INFO] Loaded results for 1 loci from step 1
+[INFO] Using 2734 SNPs with average sample size 50000.0
+[INFO] Re-inflate the summary statistics with lambda_gc: 1
+[INFO] Total SNP-heritability estimate: 0.0542 (0.00259)
+[INFO] Command finished at: Fri, 11 May 2018 01:31:38
