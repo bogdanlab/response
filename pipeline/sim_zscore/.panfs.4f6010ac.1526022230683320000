@@ -34,7 +34,7 @@ do
 
     echo $n $hsq $ncau $region_start $region_stop
 
-    $mypython $src/sim_gwas.py \
+    $mypython $src/sim_gwas_pop_chrom_ukb_cvg.py \
         --n $n --hsq $hsq --num_sim 100 --ncau $ncau \
         --region $region_start $region_stop \
         --legend /u/project/pasaniuc/shihuwen/posc/analysis/data/ukb_chr22_maf/22.bim \

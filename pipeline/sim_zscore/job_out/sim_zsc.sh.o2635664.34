@@ -1,0 +1,418 @@
+
+The 'gcc/4.7.2' module is being loaded
+
+100000 0.0015 3 19912358 22357325
+/u/home/s/shihuwen/python_packages/lib/python2.7/site-packages/pysnptools/snpreader/snpreader.py:622: FutureWarning: Conversion of the second argument of issubdtype from `str` to `str` is deprecated. In future, it will be treated as `np.string_ == np.dtype(str).type`.
+  assert np.issubdtype(self._row.dtype, str) and len(self._row.shape)==2 and self._row.shape[1]==2, "iid should be dtype str, have two dimensions, and the second dimension should be size 2"
+/u/home/s/shihuwen/python_packages/lib/python2.7/site-packages/pysnptools/snpreader/snpreader.py:623: FutureWarning: Conversion of the second argument of issubdtype from `str` to `str` is deprecated. In future, it will be treated as `np.string_ == np.dtype(str).type`.
+  assert np.issubdtype(self._col.dtype, str) and len(self._col.shape)==1, "sid should be of dtype of str and one dimensional"
+[ 429 1430  268] 3398 3
+/u/project/pasaniuc/shihuwen/response_result/sim_n_100000_hsq_0.0015_ncau_3/sim_gwas_19912358_22357325_1.txt
+[2452  394 2890] 3398 3
+/u/project/pasaniuc/shihuwen/response_result/sim_n_100000_hsq_0.0015_ncau_3/sim_gwas_19912358_22357325_2.txt
+[2263 1850  763] 3398 3
+/u/project/pasaniuc/shihuwen/response_result/sim_n_100000_hsq_0.0015_ncau_3/sim_gwas_19912358_22357325_3.txt
+[1526 2096  204] 3398 3
+/u/project/pasaniuc/shihuwen/response_result/sim_n_100000_hsq_0.0015_ncau_3/sim_gwas_19912358_22357325_4.txt
+[3100 2088 1410] 3398 3
+/u/project/pasaniuc/shihuwen/response_result/sim_n_100000_hsq_0.0015_ncau_3/sim_gwas_19912358_22357325_5.txt
+[ 907 2359 2912] 3398 3
+/u/project/pasaniuc/shihuwen/response_result/sim_n_100000_hsq_0.0015_ncau_3/sim_gwas_19912358_22357325_6.txt
+[1609  721  663] 3398 3
+/u/project/pasaniuc/shihuwen/response_result/sim_n_100000_hsq_0.0015_ncau_3/sim_gwas_19912358_22357325_7.txt
+[2127 1027 1293] 3398 3
+/u/project/pasaniuc/shihuwen/response_result/sim_n_100000_hsq_0.0015_ncau_3/sim_gwas_19912358_22357325_8.txt
+[ 824 2177 3133] 3398 3
+/u/project/pasaniuc/shihuwen/response_result/sim_n_100000_hsq_0.0015_ncau_3/sim_gwas_19912358_22357325_9.txt
+[3208 1777  161] 3398 3
+/u/project/pasaniuc/shihuwen/response_result/sim_n_100000_hsq_0.0015_ncau_3/sim_gwas_19912358_22357325_10.txt
+[3087 2330 1612] 3398 3
+/u/project/pasaniuc/shihuwen/response_result/sim_n_100000_hsq_0.0015_ncau_3/sim_gwas_19912358_22357325_11.txt
+[2345 1716 2226] 3398 3
+/u/project/pasaniuc/shihuwen/response_result/sim_n_100000_hsq_0.0015_ncau_3/sim_gwas_19912358_22357325_12.txt
+[768  67 638] 3398 3
+/u/project/pasaniuc/shihuwen/response_result/sim_n_100000_hsq_0.0015_ncau_3/sim_gwas_19912358_22357325_13.txt
+[ 401 2375  252] 3398 3
+/u/project/pasaniuc/shihuwen/response_result/sim_n_100000_hsq_0.0015_ncau_3/sim_gwas_19912358_22357325_14.txt
+[1574   35 1265] 3398 3
+/u/project/pasaniuc/shihuwen/response_result/sim_n_100000_hsq_0.0015_ncau_3/sim_gwas_19912358_22357325_15.txt
+[1020   36 1893] 3398 3
+/u/project/pasaniuc/shihuwen/response_result/sim_n_100000_hsq_0.0015_ncau_3/sim_gwas_19912358_22357325_16.txt
+[2067  240 2890] 3398 3
+/u/project/pasaniuc/shihuwen/response_result/sim_n_100000_hsq_0.0015_ncau_3/sim_gwas_19912358_22357325_17.txt
+[2123 1855  709] 3398 3
+/u/project/pasaniuc/shihuwen/response_result/sim_n_100000_hsq_0.0015_ncau_3/sim_gwas_19912358_22357325_18.txt
+[2480  243 2448] 3398 3
+/u/project/pasaniuc/shihuwen/response_result/sim_n_100000_hsq_0.0015_ncau_3/sim_gwas_19912358_22357325_19.txt
+[3285 2041  281] 3398 3
+/u/project/pasaniuc/shihuwen/response_result/sim_n_100000_hsq_0.0015_ncau_3/sim_gwas_19912358_22357325_20.txt
+[2473 2368 2019] 3398 3
+/u/project/pasaniuc/shihuwen/response_result/sim_n_100000_hsq_0.0015_ncau_3/sim_gwas_19912358_22357325_21.txt
+[ 203 3313  926] 3398 3
+/u/project/pasaniuc/shihuwen/response_result/sim_n_100000_hsq_0.0015_ncau_3/sim_gwas_19912358_22357325_22.txt
+[ 130 2040 1083] 3398 3
+/u/project/pasaniuc/shihuwen/response_result/sim_n_100000_hsq_0.0015_ncau_3/sim_gwas_19912358_22357325_23.txt
+[1597 3026  509] 3398 3
+/u/project/pasaniuc/shihuwen/response_result/sim_n_100000_hsq_0.0015_ncau_3/sim_gwas_19912358_22357325_24.txt
+[2236  634 3286] 3398 3
+/u/project/pasaniuc/shihuwen/response_result/sim_n_100000_hsq_0.0015_ncau_3/sim_gwas_19912358_22357325_25.txt
+[1131 3291  877] 3398 3
+/u/project/pasaniuc/shihuwen/response_result/sim_n_100000_hsq_0.0015_ncau_3/sim_gwas_19912358_22357325_26.txt
+[2579 1179 2719] 3398 3
+/u/project/pasaniuc/shihuwen/response_result/sim_n_100000_hsq_0.0015_ncau_3/sim_gwas_19912358_22357325_27.txt
+[1270 3304 1985] 3398 3
+/u/project/pasaniuc/shihuwen/response_result/sim_n_100000_hsq_0.0015_ncau_3/sim_gwas_19912358_22357325_28.txt
+[ 349 2576 3250] 3398 3
+/u/project/pasaniuc/shihuwen/response_result/sim_n_100000_hsq_0.0015_ncau_3/sim_gwas_19912358_22357325_29.txt
+[2501 3335  177] 3398 3
+/u/project/pasaniuc/shihuwen/response_result/sim_n_100000_hsq_0.0015_ncau_3/sim_gwas_19912358_22357325_30.txt
+[1204 2858 1135] 3398 3
+/u/project/pasaniuc/shihuwen/response_result/sim_n_100000_hsq_0.0015_ncau_3/sim_gwas_19912358_22357325_31.txt
+[1864  221 3353] 3398 3
+/u/project/pasaniuc/shihuwen/response_result/sim_n_100000_hsq_0.0015_ncau_3/sim_gwas_19912358_22357325_32.txt
+[2571 1941 2802] 3398 3
+/u/project/pasaniuc/shihuwen/response_result/sim_n_100000_hsq_0.0015_ncau_3/sim_gwas_19912358_22357325_33.txt
+[1917 3302 2643] 3398 3
+/u/project/pasaniuc/shihuwen/response_result/sim_n_100000_hsq_0.0015_ncau_3/sim_gwas_19912358_22357325_34.txt
+[2216 1576 3265] 3398 3
+/u/project/pasaniuc/shihuwen/response_result/sim_n_100000_hsq_0.0015_ncau_3/sim_gwas_19912358_22357325_35.txt
+[1572  614 3115] 3398 3
+/u/project/pasaniuc/shihuwen/response_result/sim_n_100000_hsq_0.0015_ncau_3/sim_gwas_19912358_22357325_36.txt
+[1993 1590 2016] 3398 3
+/u/project/pasaniuc/shihuwen/response_result/sim_n_100000_hsq_0.0015_ncau_3/sim_gwas_19912358_22357325_37.txt
+[ 895 1315 2536] 3398 3
+/u/project/pasaniuc/shihuwen/response_result/sim_n_100000_hsq_0.0015_ncau_3/sim_gwas_19912358_22357325_38.txt
+[2910  835 2862] 3398 3
+/u/project/pasaniuc/shihuwen/response_result/sim_n_100000_hsq_0.0015_ncau_3/sim_gwas_19912358_22357325_39.txt
+[1734  807 1779] 3398 3
+/u/project/pasaniuc/shihuwen/response_result/sim_n_100000_hsq_0.0015_ncau_3/sim_gwas_19912358_22357325_40.txt
+[2468    1 1378] 3398 3
+/u/project/pasaniuc/shihuwen/response_result/sim_n_100000_hsq_0.0015_ncau_3/sim_gwas_19912358_22357325_41.txt
+[1226 1708 2356] 3398 3
+/u/project/pasaniuc/shihuwen/response_result/sim_n_100000_hsq_0.0015_ncau_3/sim_gwas_19912358_22357325_42.txt
+[1894 2015 3027] 3398 3
+/u/project/pasaniuc/shihuwen/response_result/sim_n_100000_hsq_0.0015_ncau_3/sim_gwas_19912358_22357325_43.txt
+[ 346 1715 1003] 3398 3
+/u/project/pasaniuc/shihuwen/response_result/sim_n_100000_hsq_0.0015_ncau_3/sim_gwas_19912358_22357325_44.txt
+[1658 1975 1788] 3398 3
+/u/project/pasaniuc/shihuwen/response_result/sim_n_100000_hsq_0.0015_ncau_3/sim_gwas_19912358_22357325_45.txt
+[1341 1009 3386] 3398 3
+/u/project/pasaniuc/shihuwen/response_result/sim_n_100000_hsq_0.0015_ncau_3/sim_gwas_19912358_22357325_46.txt
+[  32 2947   57] 3398 3
+/u/project/pasaniuc/shihuwen/response_result/sim_n_100000_hsq_0.0015_ncau_3/sim_gwas_19912358_22357325_47.txt
+[1159 1831 3216] 3398 3
+/u/project/pasaniuc/shihuwen/response_result/sim_n_100000_hsq_0.0015_ncau_3/sim_gwas_19912358_22357325_48.txt
+[1852 2188 2584] 3398 3
+/u/project/pasaniuc/shihuwen/response_result/sim_n_100000_hsq_0.0015_ncau_3/sim_gwas_19912358_22357325_49.txt
+[2652 1824 3171] 3398 3
+/u/project/pasaniuc/shihuwen/response_result/sim_n_100000_hsq_0.0015_ncau_3/sim_gwas_19912358_22357325_50.txt
+[1717 3197  986] 3398 3
+/u/project/pasaniuc/shihuwen/response_result/sim_n_100000_hsq_0.0015_ncau_3/sim_gwas_19912358_22357325_51.txt
+[2719 2958 2604] 3398 3
+/u/project/pasaniuc/shihuwen/response_result/sim_n_100000_hsq_0.0015_ncau_3/sim_gwas_19912358_22357325_52.txt
+[2837 1636 2141] 3398 3
+/u/project/pasaniuc/shihuwen/response_result/sim_n_100000_hsq_0.0015_ncau_3/sim_gwas_19912358_22357325_53.txt
+[ 170  502 3007] 3398 3
+/u/project/pasaniuc/shihuwen/response_result/sim_n_100000_hsq_0.0015_ncau_3/sim_gwas_19912358_22357325_54.txt
+[2116 2737  293] 3398 3
+/u/project/pasaniuc/shihuwen/response_result/sim_n_100000_hsq_0.0015_ncau_3/sim_gwas_19912358_22357325_55.txt
+[2643 1065 2380] 3398 3
+/u/project/pasaniuc/shihuwen/response_result/sim_n_100000_hsq_0.0015_ncau_3/sim_gwas_19912358_22357325_56.txt
+[ 568 1660 2711] 3398 3
+/u/project/pasaniuc/shihuwen/response_result/sim_n_100000_hsq_0.0015_ncau_3/sim_gwas_19912358_22357325_57.txt
+[2596 1305 1533] 3398 3
+/u/project/pasaniuc/shihuwen/response_result/sim_n_100000_hsq_0.0015_ncau_3/sim_gwas_19912358_22357325_58.txt
+[ 962   67 3231] 3398 3
+/u/project/pasaniuc/shihuwen/response_result/sim_n_100000_hsq_0.0015_ncau_3/sim_gwas_19912358_22357325_59.txt
+[ 813 3350 1664] 3398 3
+/u/project/pasaniuc/shihuwen/response_result/sim_n_100000_hsq_0.0015_ncau_3/sim_gwas_19912358_22357325_60.txt
+[ 692 1713  904] 3398 3
+/u/project/pasaniuc/shihuwen/response_result/sim_n_100000_hsq_0.0015_ncau_3/sim_gwas_19912358_22357325_61.txt
+[ 765 3378 2005] 3398 3
+/u/project/pasaniuc/shihuwen/response_result/sim_n_100000_hsq_0.0015_ncau_3/sim_gwas_19912358_22357325_62.txt
+[1749 3345 3308] 3398 3
+/u/project/pasaniuc/shihuwen/response_result/sim_n_100000_hsq_0.0015_ncau_3/sim_gwas_19912358_22357325_63.txt
+[2384  861 1252] 3398 3
+/u/project/pasaniuc/shihuwen/response_result/sim_n_100000_hsq_0.0015_ncau_3/sim_gwas_19912358_22357325_64.txt
+[ 345 3110 1205] 3398 3
+/u/project/pasaniuc/shihuwen/response_result/sim_n_100000_hsq_0.0015_ncau_3/sim_gwas_19912358_22357325_65.txt
+[2960 2834  674] 3398 3
+/u/project/pasaniuc/shihuwen/response_result/sim_n_100000_hsq_0.0015_ncau_3/sim_gwas_19912358_22357325_66.txt
+[ 761 1308 2385] 3398 3
+/u/project/pasaniuc/shihuwen/response_result/sim_n_100000_hsq_0.0015_ncau_3/sim_gwas_19912358_22357325_67.txt
+[1127 2672 1149] 3398 3
+/u/project/pasaniuc/shihuwen/response_result/sim_n_100000_hsq_0.0015_ncau_3/sim_gwas_19912358_22357325_68.txt
+[ 106 2791  827] 3398 3
+/u/project/pasaniuc/shihuwen/response_result/sim_n_100000_hsq_0.0015_ncau_3/sim_gwas_19912358_22357325_69.txt
+[1752  667 2981] 3398 3
+/u/project/pasaniuc/shihuwen/response_result/sim_n_100000_hsq_0.0015_ncau_3/sim_gwas_19912358_22357325_70.txt
+[2893 3369 1181] 3398 3
+/u/project/pasaniuc/shihuwen/response_result/sim_n_100000_hsq_0.0015_ncau_3/sim_gwas_19912358_22357325_71.txt
+[ 399  634 1264] 3398 3
+/u/project/pasaniuc/shihuwen/response_result/sim_n_100000_hsq_0.0015_ncau_3/sim_gwas_19912358_22357325_72.txt
+[2708  709 1989] 3398 3
+/u/project/pasaniuc/shihuwen/response_result/sim_n_100000_hsq_0.0015_ncau_3/sim_gwas_19912358_22357325_73.txt
+[ 569 1803 1554] 3398 3
+/u/project/pasaniuc/shihuwen/response_result/sim_n_100000_hsq_0.0015_ncau_3/sim_gwas_19912358_22357325_74.txt
+[  6 379  29] 3398 3
+/u/project/pasaniuc/shihuwen/response_result/sim_n_100000_hsq_0.0015_ncau_3/sim_gwas_19912358_22357325_75.txt
+[ 672  713 2782] 3398 3
+/u/project/pasaniuc/shihuwen/response_result/sim_n_100000_hsq_0.0015_ncau_3/sim_gwas_19912358_22357325_76.txt
+[2043  462 1506] 3398 3
+/u/project/pasaniuc/shihuwen/response_result/sim_n_100000_hsq_0.0015_ncau_3/sim_gwas_19912358_22357325_77.txt
+[3274 2977 2150] 3398 3
+/u/project/pasaniuc/shihuwen/response_result/sim_n_100000_hsq_0.0015_ncau_3/sim_gwas_19912358_22357325_78.txt
+[ 843 1163  272] 3398 3
+/u/project/pasaniuc/shihuwen/response_result/sim_n_100000_hsq_0.0015_ncau_3/sim_gwas_19912358_22357325_79.txt
+[2473 1160 1601] 3398 3
+/u/project/pasaniuc/shihuwen/response_result/sim_n_100000_hsq_0.0015_ncau_3/sim_gwas_19912358_22357325_80.txt
+[2110  759  743] 3398 3
+/u/project/pasaniuc/shihuwen/response_result/sim_n_100000_hsq_0.0015_ncau_3/sim_gwas_19912358_22357325_81.txt
+[ 422 2461 2131] 3398 3
+/u/project/pasaniuc/shihuwen/response_result/sim_n_100000_hsq_0.0015_ncau_3/sim_gwas_19912358_22357325_82.txt
+[ 995 2582 1994] 3398 3
+/u/project/pasaniuc/shihuwen/response_result/sim_n_100000_hsq_0.0015_ncau_3/sim_gwas_19912358_22357325_83.txt
+[1659 2373 1727] 3398 3
+/u/project/pasaniuc/shihuwen/response_result/sim_n_100000_hsq_0.0015_ncau_3/sim_gwas_19912358_22357325_84.txt
+[ 623 3219 3261] 3398 3
+/u/project/pasaniuc/shihuwen/response_result/sim_n_100000_hsq_0.0015_ncau_3/sim_gwas_19912358_22357325_85.txt
+[2261 2334 1684] 3398 3
+/u/project/pasaniuc/shihuwen/response_result/sim_n_100000_hsq_0.0015_ncau_3/sim_gwas_19912358_22357325_86.txt
+[1058 2547  140] 3398 3
+/u/project/pasaniuc/shihuwen/response_result/sim_n_100000_hsq_0.0015_ncau_3/sim_gwas_19912358_22357325_87.txt
+[ 125 1574 1088] 3398 3
+/u/project/pasaniuc/shihuwen/response_result/sim_n_100000_hsq_0.0015_ncau_3/sim_gwas_19912358_22357325_88.txt
+[1184 1234 1500] 3398 3
+/u/project/pasaniuc/shihuwen/response_result/sim_n_100000_hsq_0.0015_ncau_3/sim_gwas_19912358_22357325_89.txt
+[1469 1265 2173] 3398 3
+/u/project/pasaniuc/shihuwen/response_result/sim_n_100000_hsq_0.0015_ncau_3/sim_gwas_19912358_22357325_90.txt
+[1942 2779 2461] 3398 3
+/u/project/pasaniuc/shihuwen/response_result/sim_n_100000_hsq_0.0015_ncau_3/sim_gwas_19912358_22357325_91.txt
+[2958  283  823] 3398 3
+/u/project/pasaniuc/shihuwen/response_result/sim_n_100000_hsq_0.0015_ncau_3/sim_gwas_19912358_22357325_92.txt
+[ 581 1921 1631] 3398 3
+/u/project/pasaniuc/shihuwen/response_result/sim_n_100000_hsq_0.0015_ncau_3/sim_gwas_19912358_22357325_93.txt
+[2986 2961 3356] 3398 3
+/u/project/pasaniuc/shihuwen/response_result/sim_n_100000_hsq_0.0015_ncau_3/sim_gwas_19912358_22357325_94.txt
+[ 688 2956  385] 3398 3
+/u/project/pasaniuc/shihuwen/response_result/sim_n_100000_hsq_0.0015_ncau_3/sim_gwas_19912358_22357325_95.txt
+[2732  421  842] 3398 3
+/u/project/pasaniuc/shihuwen/response_result/sim_n_100000_hsq_0.0015_ncau_3/sim_gwas_19912358_22357325_96.txt
+[1847  148 2635] 3398 3
+/u/project/pasaniuc/shihuwen/response_result/sim_n_100000_hsq_0.0015_ncau_3/sim_gwas_19912358_22357325_97.txt
+[3363 2047 2549] 3398 3
+/u/project/pasaniuc/shihuwen/response_result/sim_n_100000_hsq_0.0015_ncau_3/sim_gwas_19912358_22357325_98.txt
+[3137 1676 2010] 3398 3
+/u/project/pasaniuc/shihuwen/response_result/sim_n_100000_hsq_0.0015_ncau_3/sim_gwas_19912358_22357325_99.txt
+[2949 1155 1849] 3398 3
+/u/project/pasaniuc/shihuwen/response_result/sim_n_100000_hsq_0.0015_ncau_3/sim_gwas_19912358_22357325_100.txt
+100000 0.05 3 19912358 22357325
+/u/home/s/shihuwen/python_packages/lib/python2.7/site-packages/pysnptools/snpreader/snpreader.py:622: FutureWarning: Conversion of the second argument of issubdtype from `str` to `str` is deprecated. In future, it will be treated as `np.string_ == np.dtype(str).type`.
+  assert np.issubdtype(self._row.dtype, str) and len(self._row.shape)==2 and self._row.shape[1]==2, "iid should be dtype str, have two dimensions, and the second dimension should be size 2"
+/u/home/s/shihuwen/python_packages/lib/python2.7/site-packages/pysnptools/snpreader/snpreader.py:623: FutureWarning: Conversion of the second argument of issubdtype from `str` to `str` is deprecated. In future, it will be treated as `np.string_ == np.dtype(str).type`.
+  assert np.issubdtype(self._col.dtype, str) and len(self._col.shape)==1, "sid should be of dtype of str and one dimensional"
+[2202 1421 1119] 3398 3
+/u/project/pasaniuc/shihuwen/response_result/sim_n_100000_hsq_0.05_ncau_3/sim_gwas_19912358_22357325_1.txt
+[1260 2766 2865] 3398 3
+/u/project/pasaniuc/shihuwen/response_result/sim_n_100000_hsq_0.05_ncau_3/sim_gwas_19912358_22357325_2.txt
+[2415 3340 2893] 3398 3
+/u/project/pasaniuc/shihuwen/response_result/sim_n_100000_hsq_0.05_ncau_3/sim_gwas_19912358_22357325_3.txt
+[2799  584  186] 3398 3
+/u/project/pasaniuc/shihuwen/response_result/sim_n_100000_hsq_0.05_ncau_3/sim_gwas_19912358_22357325_4.txt
+[1946 3157 2482] 3398 3
+/u/project/pasaniuc/shihuwen/response_result/sim_n_100000_hsq_0.05_ncau_3/sim_gwas_19912358_22357325_5.txt
+[1712 3000 1980] 3398 3
+/u/project/pasaniuc/shihuwen/response_result/sim_n_100000_hsq_0.05_ncau_3/sim_gwas_19912358_22357325_6.txt
+[2757 1321 1469] 3398 3
+/u/project/pasaniuc/shihuwen/response_result/sim_n_100000_hsq_0.05_ncau_3/sim_gwas_19912358_22357325_7.txt
+[620 136 150] 3398 3
+/u/project/pasaniuc/shihuwen/response_result/sim_n_100000_hsq_0.05_ncau_3/sim_gwas_19912358_22357325_8.txt
+[2388   15  197] 3398 3
+/u/project/pasaniuc/shihuwen/response_result/sim_n_100000_hsq_0.05_ncau_3/sim_gwas_19912358_22357325_9.txt
+[1437 1651  929] 3398 3
+/u/project/pasaniuc/shihuwen/response_result/sim_n_100000_hsq_0.05_ncau_3/sim_gwas_19912358_22357325_10.txt
+[ 585  125 1615] 3398 3
+/u/project/pasaniuc/shihuwen/response_result/sim_n_100000_hsq_0.05_ncau_3/sim_gwas_19912358_22357325_11.txt
+[ 748 1424 2375] 3398 3
+/u/project/pasaniuc/shihuwen/response_result/sim_n_100000_hsq_0.05_ncau_3/sim_gwas_19912358_22357325_12.txt
+[  87 2532 1473] 3398 3
+/u/project/pasaniuc/shihuwen/response_result/sim_n_100000_hsq_0.05_ncau_3/sim_gwas_19912358_22357325_13.txt
+[2669 2984  889] 3398 3
+/u/project/pasaniuc/shihuwen/response_result/sim_n_100000_hsq_0.05_ncau_3/sim_gwas_19912358_22357325_14.txt
+[1679 3318 1360] 3398 3
+/u/project/pasaniuc/shihuwen/response_result/sim_n_100000_hsq_0.05_ncau_3/sim_gwas_19912358_22357325_15.txt
+[2939  952  554] 3398 3
+/u/project/pasaniuc/shihuwen/response_result/sim_n_100000_hsq_0.05_ncau_3/sim_gwas_19912358_22357325_16.txt
+[1122 1633  999] 3398 3
+/u/project/pasaniuc/shihuwen/response_result/sim_n_100000_hsq_0.05_ncau_3/sim_gwas_19912358_22357325_17.txt
+[ 486 2302  996] 3398 3
+/u/project/pasaniuc/shihuwen/response_result/sim_n_100000_hsq_0.05_ncau_3/sim_gwas_19912358_22357325_18.txt
+[2778 1420  924] 3398 3
+/u/project/pasaniuc/shihuwen/response_result/sim_n_100000_hsq_0.05_ncau_3/sim_gwas_19912358_22357325_19.txt
+[652 536 644] 3398 3
+/u/project/pasaniuc/shihuwen/response_result/sim_n_100000_hsq_0.05_ncau_3/sim_gwas_19912358_22357325_20.txt
+[ 988 2935 1800] 3398 3
+/u/project/pasaniuc/shihuwen/response_result/sim_n_100000_hsq_0.05_ncau_3/sim_gwas_19912358_22357325_21.txt
+[2346 1700 2185] 3398 3
+/u/project/pasaniuc/shihuwen/response_result/sim_n_100000_hsq_0.05_ncau_3/sim_gwas_19912358_22357325_22.txt
+[1351 2769 1636] 3398 3
+/u/project/pasaniuc/shihuwen/response_result/sim_n_100000_hsq_0.05_ncau_3/sim_gwas_19912358_22357325_23.txt
+[1181 3148 1567] 3398 3
+/u/project/pasaniuc/shihuwen/response_result/sim_n_100000_hsq_0.05_ncau_3/sim_gwas_19912358_22357325_24.txt
+[3144 1492 2470] 3398 3
+/u/project/pasaniuc/shihuwen/response_result/sim_n_100000_hsq_0.05_ncau_3/sim_gwas_19912358_22357325_25.txt
+[2278 2484  349] 3398 3
+/u/project/pasaniuc/shihuwen/response_result/sim_n_100000_hsq_0.05_ncau_3/sim_gwas_19912358_22357325_26.txt
+[1526 2083 2419] 3398 3
+/u/project/pasaniuc/shihuwen/response_result/sim_n_100000_hsq_0.05_ncau_3/sim_gwas_19912358_22357325_27.txt
+[3266  467 2696] 3398 3
+/u/project/pasaniuc/shihuwen/response_result/sim_n_100000_hsq_0.05_ncau_3/sim_gwas_19912358_22357325_28.txt
+[ 789 2312 2335] 3398 3
+/u/project/pasaniuc/shihuwen/response_result/sim_n_100000_hsq_0.05_ncau_3/sim_gwas_19912358_22357325_29.txt
+[2232 3101 2277] 3398 3
+/u/project/pasaniuc/shihuwen/response_result/sim_n_100000_hsq_0.05_ncau_3/sim_gwas_19912358_22357325_30.txt
+[2521 2887   15] 3398 3
+/u/project/pasaniuc/shihuwen/response_result/sim_n_100000_hsq_0.05_ncau_3/sim_gwas_19912358_22357325_31.txt
+[1918  588  528] 3398 3
+/u/project/pasaniuc/shihuwen/response_result/sim_n_100000_hsq_0.05_ncau_3/sim_gwas_19912358_22357325_32.txt
+[1940  952 1634] 3398 3
+/u/project/pasaniuc/shihuwen/response_result/sim_n_100000_hsq_0.05_ncau_3/sim_gwas_19912358_22357325_33.txt
+[2035  605  815] 3398 3
+/u/project/pasaniuc/shihuwen/response_result/sim_n_100000_hsq_0.05_ncau_3/sim_gwas_19912358_22357325_34.txt
+[1631  741 2743] 3398 3
+/u/project/pasaniuc/shihuwen/response_result/sim_n_100000_hsq_0.05_ncau_3/sim_gwas_19912358_22357325_35.txt
+[ 420 1922 1114] 3398 3
+/u/project/pasaniuc/shihuwen/response_result/sim_n_100000_hsq_0.05_ncau_3/sim_gwas_19912358_22357325_36.txt
+[2597 2882 2433] 3398 3
+/u/project/pasaniuc/shihuwen/response_result/sim_n_100000_hsq_0.05_ncau_3/sim_gwas_19912358_22357325_37.txt
+[ 594 2666 2575] 3398 3
+/u/project/pasaniuc/shihuwen/response_result/sim_n_100000_hsq_0.05_ncau_3/sim_gwas_19912358_22357325_38.txt
+[1236  843 3019] 3398 3
+/u/project/pasaniuc/shihuwen/response_result/sim_n_100000_hsq_0.05_ncau_3/sim_gwas_19912358_22357325_39.txt
+[1001 3006 3171] 3398 3
+/u/project/pasaniuc/shihuwen/response_result/sim_n_100000_hsq_0.05_ncau_3/sim_gwas_19912358_22357325_40.txt
+[3349  529  450] 3398 3
+/u/project/pasaniuc/shihuwen/response_result/sim_n_100000_hsq_0.05_ncau_3/sim_gwas_19912358_22357325_41.txt
+[1465 2995  849] 3398 3
+/u/project/pasaniuc/shihuwen/response_result/sim_n_100000_hsq_0.05_ncau_3/sim_gwas_19912358_22357325_42.txt
+[1957  264 3171] 3398 3
+/u/project/pasaniuc/shihuwen/response_result/sim_n_100000_hsq_0.05_ncau_3/sim_gwas_19912358_22357325_43.txt
+[2179 3106 1824] 3398 3
+/u/project/pasaniuc/shihuwen/response_result/sim_n_100000_hsq_0.05_ncau_3/sim_gwas_19912358_22357325_44.txt
+[3136 2307  176] 3398 3
+/u/project/pasaniuc/shihuwen/response_result/sim_n_100000_hsq_0.05_ncau_3/sim_gwas_19912358_22357325_45.txt
+[2834  904 1550] 3398 3
+/u/project/pasaniuc/shihuwen/response_result/sim_n_100000_hsq_0.05_ncau_3/sim_gwas_19912358_22357325_46.txt
+[ 445 2512 1111] 3398 3
+/u/project/pasaniuc/shihuwen/response_result/sim_n_100000_hsq_0.05_ncau_3/sim_gwas_19912358_22357325_47.txt
+[2122 2867 1983] 3398 3
+/u/project/pasaniuc/shihuwen/response_result/sim_n_100000_hsq_0.05_ncau_3/sim_gwas_19912358_22357325_48.txt
+[3356 2618 3219] 3398 3
+/u/project/pasaniuc/shihuwen/response_result/sim_n_100000_hsq_0.05_ncau_3/sim_gwas_19912358_22357325_49.txt
+[2599 2982 1921] 3398 3
+/u/project/pasaniuc/shihuwen/response_result/sim_n_100000_hsq_0.05_ncau_3/sim_gwas_19912358_22357325_50.txt
+[2603 2918 2281] 3398 3
+/u/project/pasaniuc/shihuwen/response_result/sim_n_100000_hsq_0.05_ncau_3/sim_gwas_19912358_22357325_51.txt
+[1611  653    1] 3398 3
+/u/project/pasaniuc/shihuwen/response_result/sim_n_100000_hsq_0.05_ncau_3/sim_gwas_19912358_22357325_52.txt
+[3194 2399  630] 3398 3
+/u/project/pasaniuc/shihuwen/response_result/sim_n_100000_hsq_0.05_ncau_3/sim_gwas_19912358_22357325_53.txt
+[1581  355 1750] 3398 3
+/u/project/pasaniuc/shihuwen/response_result/sim_n_100000_hsq_0.05_ncau_3/sim_gwas_19912358_22357325_54.txt
+[ 241 1589 1267] 3398 3
+/u/project/pasaniuc/shihuwen/response_result/sim_n_100000_hsq_0.05_ncau_3/sim_gwas_19912358_22357325_55.txt
+[2497  957 2070] 3398 3
+/u/project/pasaniuc/shihuwen/response_result/sim_n_100000_hsq_0.05_ncau_3/sim_gwas_19912358_22357325_56.txt
+[1020  559  480] 3398 3
+/u/project/pasaniuc/shihuwen/response_result/sim_n_100000_hsq_0.05_ncau_3/sim_gwas_19912358_22357325_57.txt
+[  47 1882  967] 3398 3
+/u/project/pasaniuc/shihuwen/response_result/sim_n_100000_hsq_0.05_ncau_3/sim_gwas_19912358_22357325_58.txt
+[2830 1738  282] 3398 3
+/u/project/pasaniuc/shihuwen/response_result/sim_n_100000_hsq_0.05_ncau_3/sim_gwas_19912358_22357325_59.txt
+[2153  690  688] 3398 3
+/u/project/pasaniuc/shihuwen/response_result/sim_n_100000_hsq_0.05_ncau_3/sim_gwas_19912358_22357325_60.txt
+[2929  614 1039] 3398 3
+/u/project/pasaniuc/shihuwen/response_result/sim_n_100000_hsq_0.05_ncau_3/sim_gwas_19912358_22357325_61.txt
+[  35 1228 3148] 3398 3
+/u/project/pasaniuc/shihuwen/response_result/sim_n_100000_hsq_0.05_ncau_3/sim_gwas_19912358_22357325_62.txt
+[1412 1356 1741] 3398 3
+/u/project/pasaniuc/shihuwen/response_result/sim_n_100000_hsq_0.05_ncau_3/sim_gwas_19912358_22357325_63.txt
+[2612 2394 1624] 3398 3
+/u/project/pasaniuc/shihuwen/response_result/sim_n_100000_hsq_0.05_ncau_3/sim_gwas_19912358_22357325_64.txt
+[1641   11  186] 3398 3
+/u/project/pasaniuc/shihuwen/response_result/sim_n_100000_hsq_0.05_ncau_3/sim_gwas_19912358_22357325_65.txt
+[2156 1300 1492] 3398 3
+/u/project/pasaniuc/shihuwen/response_result/sim_n_100000_hsq_0.05_ncau_3/sim_gwas_19912358_22357325_66.txt
+[ 277 2408 3040] 3398 3
+/u/project/pasaniuc/shihuwen/response_result/sim_n_100000_hsq_0.05_ncau_3/sim_gwas_19912358_22357325_67.txt
+[ 652 3138  494] 3398 3
+/u/project/pasaniuc/shihuwen/response_result/sim_n_100000_hsq_0.05_ncau_3/sim_gwas_19912358_22357325_68.txt
+[3285 3134 2873] 3398 3
+/u/project/pasaniuc/shihuwen/response_result/sim_n_100000_hsq_0.05_ncau_3/sim_gwas_19912358_22357325_69.txt
+[2595 3127 1632] 3398 3
+/u/project/pasaniuc/shihuwen/response_result/sim_n_100000_hsq_0.05_ncau_3/sim_gwas_19912358_22357325_70.txt
+[1454 2996 2068] 3398 3
+/u/project/pasaniuc/shihuwen/response_result/sim_n_100000_hsq_0.05_ncau_3/sim_gwas_19912358_22357325_71.txt
+[1544 2267 2120] 3398 3
+/u/project/pasaniuc/shihuwen/response_result/sim_n_100000_hsq_0.05_ncau_3/sim_gwas_19912358_22357325_72.txt
+[2979 3293 2711] 3398 3
+/u/project/pasaniuc/shihuwen/response_result/sim_n_100000_hsq_0.05_ncau_3/sim_gwas_19912358_22357325_73.txt
+[1090 1557  992] 3398 3
+/u/project/pasaniuc/shihuwen/response_result/sim_n_100000_hsq_0.05_ncau_3/sim_gwas_19912358_22357325_74.txt
+[2807  537 1439] 3398 3
+/u/project/pasaniuc/shihuwen/response_result/sim_n_100000_hsq_0.05_ncau_3/sim_gwas_19912358_22357325_75.txt
+[2919 2129 1424] 3398 3
+/u/project/pasaniuc/shihuwen/response_result/sim_n_100000_hsq_0.05_ncau_3/sim_gwas_19912358_22357325_76.txt
+[ 603 1933 1664] 3398 3
+/u/project/pasaniuc/shihuwen/response_result/sim_n_100000_hsq_0.05_ncau_3/sim_gwas_19912358_22357325_77.txt
+[3373 2428 2629] 3398 3
+/u/project/pasaniuc/shihuwen/response_result/sim_n_100000_hsq_0.05_ncau_3/sim_gwas_19912358_22357325_78.txt
+[ 212 1497 1127] 3398 3
+/u/project/pasaniuc/shihuwen/response_result/sim_n_100000_hsq_0.05_ncau_3/sim_gwas_19912358_22357325_79.txt
+[2318 3356 1582] 3398 3
+/u/project/pasaniuc/shihuwen/response_result/sim_n_100000_hsq_0.05_ncau_3/sim_gwas_19912358_22357325_80.txt
+[2303  989  370] 3398 3
+/u/project/pasaniuc/shihuwen/response_result/sim_n_100000_hsq_0.05_ncau_3/sim_gwas_19912358_22357325_81.txt
+[1894 2401  837] 3398 3
+/u/project/pasaniuc/shihuwen/response_result/sim_n_100000_hsq_0.05_ncau_3/sim_gwas_19912358_22357325_82.txt
+[ 135 2823 2138] 3398 3
+/u/project/pasaniuc/shihuwen/response_result/sim_n_100000_hsq_0.05_ncau_3/sim_gwas_19912358_22357325_83.txt
+[ 280 1834  199] 3398 3
+/u/project/pasaniuc/shihuwen/response_result/sim_n_100000_hsq_0.05_ncau_3/sim_gwas_19912358_22357325_84.txt
+[3138  743 1508] 3398 3
+/u/project/pasaniuc/shihuwen/response_result/sim_n_100000_hsq_0.05_ncau_3/sim_gwas_19912358_22357325_85.txt
+[1294  311 1027] 3398 3
+/u/project/pasaniuc/shihuwen/response_result/sim_n_100000_hsq_0.05_ncau_3/sim_gwas_19912358_22357325_86.txt
+[1727 2376  791] 3398 3
+/u/project/pasaniuc/shihuwen/response_result/sim_n_100000_hsq_0.05_ncau_3/sim_gwas_19912358_22357325_87.txt
+[1631 2129 1886] 3398 3
+/u/project/pasaniuc/shihuwen/response_result/sim_n_100000_hsq_0.05_ncau_3/sim_gwas_19912358_22357325_88.txt
+[2822 1324 2665] 3398 3
+/u/project/pasaniuc/shihuwen/response_result/sim_n_100000_hsq_0.05_ncau_3/sim_gwas_19912358_22357325_89.txt
+[2203 3112 3382] 3398 3
+/u/project/pasaniuc/shihuwen/response_result/sim_n_100000_hsq_0.05_ncau_3/sim_gwas_19912358_22357325_90.txt
+[1383 1370 2664] 3398 3
+/u/project/pasaniuc/shihuwen/response_result/sim_n_100000_hsq_0.05_ncau_3/sim_gwas_19912358_22357325_91.txt
+[3097  833  286] 3398 3
+/u/project/pasaniuc/shihuwen/response_result/sim_n_100000_hsq_0.05_ncau_3/sim_gwas_19912358_22357325_92.txt
+[1421 3359  791] 3398 3
+/u/project/pasaniuc/shihuwen/response_result/sim_n_100000_hsq_0.05_ncau_3/sim_gwas_19912358_22357325_93.txt
+[ 669 3245 2209] 3398 3
+/u/project/pasaniuc/shihuwen/response_result/sim_n_100000_hsq_0.05_ncau_3/sim_gwas_19912358_22357325_94.txt
+[2926 2517 2418] 3398 3
+/u/project/pasaniuc/shihuwen/response_result/sim_n_100000_hsq_0.05_ncau_3/sim_gwas_19912358_22357325_95.txt
+[2287 3239 1030] 3398 3
+/u/project/pasaniuc/shihuwen/response_result/sim_n_100000_hsq_0.05_ncau_3/sim_gwas_19912358_22357325_96.txt
+[2037 1800 2823] 3398 3
+/u/project/pasaniuc/shihuwen/response_result/sim_n_100000_hsq_0.05_ncau_3/sim_gwas_19912358_22357325_97.txt
+[1248 1599  695] 3398 3
+/u/project/pasaniuc/shihuwen/response_result/sim_n_100000_hsq_0.05_ncau_3/sim_gwas_19912358_22357325_98.txt
+[2069 1868   27] 3398 3
+/u/project/pasaniuc/shihuwen/response_result/sim_n_100000_hsq_0.05_ncau_3/sim_gwas_19912358_22357325_99.txt
+[ 610 1302 1218] 3398 3
+/u/project/pasaniuc/shihuwen/response_result/sim_n_100000_hsq_0.05_ncau_3/sim_gwas_19912358_22357325_100.txt
+100000 0.5 3 19912358 22357325
+/u/home/s/shihuwen/python_packages/lib/python2.7/site-packages/pysnptools/snpreader/snpreader.py:622: FutureWarning: Conversion of the second argument of issubdtype from `str` to `str` is deprecated. In future, it will be treated as `np.string_ == np.dtype(str).type`.
+  assert np.issubdtype(self._row.dtype, str) and len(self._row.shape)==2 and self._row.shape[1]==2, "iid should be dtype str, have two dimensions, and the second dimension should be size 2"
+/u/home/s/shihuwen/python_packages/lib/python2.7/site-packages/pysnptools/snpreader/snpreader.py:623: FutureWarning: Conversion of the second argument of issubdtype from `str` to `str` is deprecated. In future, it will be treated as `np.string_ == np.dtype(str).type`.
+  assert np.issubdtype(self._col.dtype, str) and len(self._col.shape)==1, "sid should be of dtype of str and one dimensional"
