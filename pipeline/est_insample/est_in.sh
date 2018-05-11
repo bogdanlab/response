@@ -3,7 +3,7 @@
 #$ -cwd 
 #$ -m beas
 #$ -M shihuwen@mail
-#$ -l h_data=24G,h_rt=6:00:00,highp
+#$ -l h_data=24G,h_rt=12:00:00
 #$ -j y
 #$ -o ./job_out
 
@@ -23,7 +23,7 @@ sumstats=/u/project/pasaniuc/shihuwen/ukbb_hess/analysis/data/sumstats
 refpanel=/u/project/pasaniuc/shihuwen/ukbb_hess/analysis/data/refpanel
 partition=/u/project/pasaniuc/shihuwen/ukbb_hess/analysis/data/partition
 
-i=$SGE_TASK_ID
+j=$SGE_TASK_ID
 line=$(head -n $j ./params.txt | tail -n 1)
 
 n=$(echo $line | awk '{print $1}')

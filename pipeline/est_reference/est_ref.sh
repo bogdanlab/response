@@ -3,7 +3,7 @@
 #$ -cwd 
 #$ -m beas
 #$ -M shihuwen@mail
-#$ -l h_data=24G,h_rt=6:00:00
+#$ -l h_data=24G,h_rt=12:00:00
 #$ -j y
 #$ -o ./job_out
 
@@ -20,7 +20,7 @@ mypython=/u/local/apps/python/2.7.3/bin/python
 
 src=/u/project/pasaniuc/shihuwen/response/code/hess_test
 
-i=$SGE_TASK_ID
+j=$SGE_TASK_ID
 line=$(head -n $j ./params.txt | tail -n 1)
 
 n=$(echo $line | awk '{print $1}')
@@ -28,8 +28,6 @@ hsq=$(echo $line | awk '{print $2}')
 ncau=$(echo $line | awk '{print $3}')
 region_start=$(echo $line | awk '{print $4}')
 region_stop=$(echo $line | awk '{print $5}')
-
-echo $n $hsq $ncau $region_start $region_stop
 
 for idx in $(seq 100)
 do
