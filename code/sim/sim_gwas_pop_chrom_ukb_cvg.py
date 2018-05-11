@@ -33,21 +33,19 @@ def main():
     genotype[nanidx] = mean_geno[nanidx[1]] 
     genotype = genotype[0:args.n, :]
 
-    print genotype.shape
-
-    sys.exit(0)
-
     # standardize genotypes
     geno_std = std_geno(genotype)
 
     # get the ld matrix
-    num_snps = legend.shape[0]
+    num_snps = genotype.shape[1]
 
     # iterate through total number of simulations
     for i in range(args.num_sim):
 
         # draw causal snps
-        cau = draw_causals(args.n, num_snps)
+        cau = draw_causals(args.ncau, num_snps)
+
+        print cau, num_snps, args.ncau
 
         # simulate phenotype
         phe,beta,phe_g,phe_e = sim_pheno(geno_std, cau, args.hsq, num_snps)
@@ -56,7 +54,7 @@ def main():
         zsc = sim_zsc(geno_std, phe)
 
         # write out result
-        write_zsc(legend, zsc, args.n1, '%s%d.txt'.format(args.out, i+1))
+        write_zsc(legend, zsc, args.n, '{}{}.txt'.format(args.out, i+1))
 
 # standardize genotypes
 def std_geno(geno):
@@ -109,14 +107,11 @@ def sim_zsc(geno, phe):
     return zsc
 
 # write out result
-def write_zsc(legend, zsc, beta, cau, n, file_nm):
-    cau_set = set(np.ndarray.tolist(cau))
+def write_zsc(legend, zsc, n, file_nm):
+    print file_nm
     file_nm = open(file_nm, 'w')
     file_nm.write('SNP\tCHR\tBP\tA2\tA1\tZ\tN\n')
     for i in range(zsc.shape[0]):
-        status = 0
-        if i in cau_set:
-            status = 1
         file_nm.write('%s\t%d\t%d\t%s\t%s\t%f\t%d\n' % (
             legend['SNP'][i], legend['CHR'][i], legend['BP'][i],
             legend['A2'][i], legend['A1'][i], zsc[i], n))
@@ -131,7 +126,7 @@ def get_command_line():
     parser.add_argument('--bfile', dest='bfile', type=str,
         help='genotype file', required=True)
 
-    parser.add_argument('--ncau', dest='ncau', type=float,
+    parser.add_argument('--ncau', dest='ncau', type=int,
         help='number of causal variants', required=True)
 
     parser.add_argument('--hsq', dest='hsq', type=float,

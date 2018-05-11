@@ -5,7 +5,7 @@ do
     region_stop=$(echo $line | awk '{print $3}')
     for n in 5000 50000 100000
     do
-        for hsq in 0.015 0.05 0.5
+        for hsq in 0.0015 0.05 0.5
         do
             for ncau in 3
             do
