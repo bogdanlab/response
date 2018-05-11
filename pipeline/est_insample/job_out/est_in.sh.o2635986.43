@@ -81,3 +81,2003 @@ The 'gcc/4.7.2' module is being loaded
 [INFO] bed file is open /u/project/pasaniuc/shihuwen/posc/analysis/data/ukb_chr22_maf/22.bed
 [INFO] 2734 SNPs in locus chr22:18296088-19912358
 [INFO] Command finished at: Fri, 11 May 2018 00:57:42
+[INFO] @----------------------------------------------------------@
+       |         HESS       |      v0.5      |    9/October/2017  |
+       |----------------------------------------------------------|
+       |  (C) 2017 Huwenbo Shi, GNU General Public License, v3    |
+       |----------------------------------------------------------|
+       |  For documentation, citation & bug-report instructions:  |
+       |   http://bogdan.bioinformatics.ucla.edu/software/hess/   |
+       @----------------------------------------------------------@
+[INFO] Command started at: Fri, 11 May 2018 00:57:45
+[INFO] Command issued:
+    /u/project/pasaniuc/shihuwen/response/code/hess_test/hess.py \
+        --min-eigval 1e-08 \
+        --prefix /u/project/pasaniuc/shihuwen/response_result/est_insample/est_insample_n_10000_hsq_0.0015_ncau_3/sim_gwas_18296088_19912358_2_step1 \
+        --max-num-eig 3168 \
+        --out /u/project/pasaniuc/shihuwen/response_result/est_insample/est_insample_n_10000_hsq_0.0015_ncau_3/sim_gwas_18296088_19912358_2_step2
+[INFO] Loaded results for 1 loci from step 1
+[INFO] Using 2734 SNPs with average sample size 10000.0
+[INFO] Re-inflate the summary statistics with lambda_gc: 1
+[INFO] Total SNP-heritability estimate: -0.00243 (0.00993)
+[INFO] Command finished at: Fri, 11 May 2018 00:57:45
+[INFO] @----------------------------------------------------------@
+       |         HESS       |      v0.5      |    9/October/2017  |
+       |----------------------------------------------------------|
+       |  (C) 2017 Huwenbo Shi, GNU General Public License, v3    |
+       |----------------------------------------------------------|
+       |  For documentation, citation & bug-report instructions:  |
+       |   http://bogdan.bioinformatics.ucla.edu/software/hess/   |
+       @----------------------------------------------------------@
+[INFO] Command started at: Fri, 11 May 2018 00:57:47
+[INFO] Command issued:
+    /u/project/pasaniuc/shihuwen/response/code/hess_test/hess.py \
+        --bfile /u/project/pasaniuc/shihuwen/posc/analysis/data/ukb_chr22_maf/22 \
+        --partition /u/project/pasaniuc/shihuwen/response/pipeline/regions/chr22_18296088_19912358.bed \
+        --out /u/project/pasaniuc/shihuwen/response_result/est_insample/est_insample_n_10000_hsq_0.0015_ncau_3/sim_gwas_18296088_19912358_3_step1 \
+        --chrom 22 \
+        --local-hsqg /u/project/pasaniuc/shihuwen/response_result/sim_zsc/sim_n_10000_hsq_0.0015_ncau_3/sim_gwas_18296088_19912358_3.txt
+[INFO] Loaded 1 partitions on chromosome 22
+[INFO] Average window size is 1616270
+[INFO] 74708 SNPs read from reference panel
+[INFO] Loaded 3168 SNPs with rs IDs and single-letter alleles on chromosome 22 from the GWAS summary data file
+[INFO] 2734 SNPs left after filtering
+[INFO] Loading fam file /u/project/pasaniuc/shihuwen/posc/analysis/data/ukb_chr22_maf/22.fam
+[INFO] Loading bim file /u/project/pasaniuc/shihuwen/posc/analysis/data/ukb_chr22_maf/22.bim
+/u/home/s/shihuwen/python_packages/lib/python2.7/site-packages/pysnptools/snpreader/snpreader.py:622: FutureWarning: Conversion of the second argument of issubdtype from `str` to `str` is deprecated. In future, it will be treated as `np.string_ == np.dtype(str).type`.
+  assert np.issubdtype(self._row.dtype, str) and len(self._row.shape)==2 and self._row.shape[1]==2, "iid should be dtype str, have two dimensions, and the second dimension should be size 2"
+/u/home/s/shihuwen/python_packages/lib/python2.7/site-packages/pysnptools/snpreader/snpreader.py:623: FutureWarning: Conversion of the second argument of issubdtype from `str` to `str` is deprecated. In future, it will be treated as `np.string_ == np.dtype(str).type`.
+  assert np.issubdtype(self._col.dtype, str) and len(self._col.shape)==1, "sid should be of dtype of str and one dimensional"
+[INFO] bed file is open /u/project/pasaniuc/shihuwen/posc/analysis/data/ukb_chr22_maf/22.bed
+[INFO] 2734 SNPs in locus chr22:18296088-19912358
+[INFO] Command finished at: Fri, 11 May 2018 00:58:21
+[INFO] @----------------------------------------------------------@
+       |         HESS       |      v0.5      |    9/October/2017  |
+       |----------------------------------------------------------|
+       |  (C) 2017 Huwenbo Shi, GNU General Public License, v3    |
+       |----------------------------------------------------------|
+       |  For documentation, citation & bug-report instructions:  |
+       |   http://bogdan.bioinformatics.ucla.edu/software/hess/   |
+       @----------------------------------------------------------@
+[INFO] Command started at: Fri, 11 May 2018 00:58:23
+[INFO] Command issued:
+    /u/project/pasaniuc/shihuwen/response/code/hess_test/hess.py \
+        --min-eigval 1e-08 \
+        --prefix /u/project/pasaniuc/shihuwen/response_result/est_insample/est_insample_n_10000_hsq_0.0015_ncau_3/sim_gwas_18296088_19912358_3_step1 \
+        --max-num-eig 3168 \
+        --out /u/project/pasaniuc/shihuwen/response_result/est_insample/est_insample_n_10000_hsq_0.0015_ncau_3/sim_gwas_18296088_19912358_3_step2
+[INFO] Loaded results for 1 loci from step 1
+[INFO] Using 2734 SNPs with average sample size 10000.0
+[INFO] Re-inflate the summary statistics with lambda_gc: 1
+[INFO] Total SNP-heritability estimate: -0.00396 (0.00988)
+[INFO] Command finished at: Fri, 11 May 2018 00:58:23
+[INFO] @----------------------------------------------------------@
+       |         HESS       |      v0.5      |    9/October/2017  |
+       |----------------------------------------------------------|
+       |  (C) 2017 Huwenbo Shi, GNU General Public License, v3    |
+       |----------------------------------------------------------|
+       |  For documentation, citation & bug-report instructions:  |
+       |   http://bogdan.bioinformatics.ucla.edu/software/hess/   |
+       @----------------------------------------------------------@
+[INFO] Command started at: Fri, 11 May 2018 00:58:25
+[INFO] Command issued:
+    /u/project/pasaniuc/shihuwen/response/code/hess_test/hess.py \
+        --bfile /u/project/pasaniuc/shihuwen/posc/analysis/data/ukb_chr22_maf/22 \
+        --partition /u/project/pasaniuc/shihuwen/response/pipeline/regions/chr22_18296088_19912358.bed \
+        --out /u/project/pasaniuc/shihuwen/response_result/est_insample/est_insample_n_10000_hsq_0.0015_ncau_3/sim_gwas_18296088_19912358_4_step1 \
+        --chrom 22 \
+        --local-hsqg /u/project/pasaniuc/shihuwen/response_result/sim_zsc/sim_n_10000_hsq_0.0015_ncau_3/sim_gwas_18296088_19912358_4.txt
+[INFO] Loaded 1 partitions on chromosome 22
+[INFO] Average window size is 1616270
+[INFO] 74708 SNPs read from reference panel
+[INFO] Loaded 3168 SNPs with rs IDs and single-letter alleles on chromosome 22 from the GWAS summary data file
+[INFO] 2734 SNPs left after filtering
+[INFO] Loading fam file /u/project/pasaniuc/shihuwen/posc/analysis/data/ukb_chr22_maf/22.fam
+[INFO] Loading bim file /u/project/pasaniuc/shihuwen/posc/analysis/data/ukb_chr22_maf/22.bim
+/u/home/s/shihuwen/python_packages/lib/python2.7/site-packages/pysnptools/snpreader/snpreader.py:622: FutureWarning: Conversion of the second argument of issubdtype from `str` to `str` is deprecated. In future, it will be treated as `np.string_ == np.dtype(str).type`.
+  assert np.issubdtype(self._row.dtype, str) and len(self._row.shape)==2 and self._row.shape[1]==2, "iid should be dtype str, have two dimensions, and the second dimension should be size 2"
+/u/home/s/shihuwen/python_packages/lib/python2.7/site-packages/pysnptools/snpreader/snpreader.py:623: FutureWarning: Conversion of the second argument of issubdtype from `str` to `str` is deprecated. In future, it will be treated as `np.string_ == np.dtype(str).type`.
+  assert np.issubdtype(self._col.dtype, str) and len(self._col.shape)==1, "sid should be of dtype of str and one dimensional"
+[INFO] bed file is open /u/project/pasaniuc/shihuwen/posc/analysis/data/ukb_chr22_maf/22.bed
+[INFO] 2734 SNPs in locus chr22:18296088-19912358
+[INFO] Command finished at: Fri, 11 May 2018 00:59:03
+[INFO] @----------------------------------------------------------@
+       |         HESS       |      v0.5      |    9/October/2017  |
+       |----------------------------------------------------------|
+       |  (C) 2017 Huwenbo Shi, GNU General Public License, v3    |
+       |----------------------------------------------------------|
+       |  For documentation, citation & bug-report instructions:  |
+       |   http://bogdan.bioinformatics.ucla.edu/software/hess/   |
+       @----------------------------------------------------------@
+[INFO] Command started at: Fri, 11 May 2018 00:59:06
+[INFO] Command issued:
+    /u/project/pasaniuc/shihuwen/response/code/hess_test/hess.py \
+        --min-eigval 1e-08 \
+        --prefix /u/project/pasaniuc/shihuwen/response_result/est_insample/est_insample_n_10000_hsq_0.0015_ncau_3/sim_gwas_18296088_19912358_4_step1 \
+        --max-num-eig 3168 \
+        --out /u/project/pasaniuc/shihuwen/response_result/est_insample/est_insample_n_10000_hsq_0.0015_ncau_3/sim_gwas_18296088_19912358_4_step2
+[INFO] Loaded results for 1 loci from step 1
+[INFO] Using 2734 SNPs with average sample size 10000.0
+[INFO] Re-inflate the summary statistics with lambda_gc: 1
+[INFO] Total SNP-heritability estimate: 0.0097 (0.0103)
+[INFO] Command finished at: Fri, 11 May 2018 00:59:07
+[INFO] @----------------------------------------------------------@
+       |         HESS       |      v0.5      |    9/October/2017  |
+       |----------------------------------------------------------|
+       |  (C) 2017 Huwenbo Shi, GNU General Public License, v3    |
+       |----------------------------------------------------------|
+       |  For documentation, citation & bug-report instructions:  |
+       |   http://bogdan.bioinformatics.ucla.edu/software/hess/   |
+       @----------------------------------------------------------@
+[INFO] Command started at: Fri, 11 May 2018 00:59:09
+[INFO] Command issued:
+    /u/project/pasaniuc/shihuwen/response/code/hess_test/hess.py \
+        --bfile /u/project/pasaniuc/shihuwen/posc/analysis/data/ukb_chr22_maf/22 \
+        --partition /u/project/pasaniuc/shihuwen/response/pipeline/regions/chr22_18296088_19912358.bed \
+        --out /u/project/pasaniuc/shihuwen/response_result/est_insample/est_insample_n_10000_hsq_0.0015_ncau_3/sim_gwas_18296088_19912358_5_step1 \
+        --chrom 22 \
+        --local-hsqg /u/project/pasaniuc/shihuwen/response_result/sim_zsc/sim_n_10000_hsq_0.0015_ncau_3/sim_gwas_18296088_19912358_5.txt
+[INFO] Loaded 1 partitions on chromosome 22
+[INFO] Average window size is 1616270
+[INFO] 74708 SNPs read from reference panel
+[INFO] Loaded 3168 SNPs with rs IDs and single-letter alleles on chromosome 22 from the GWAS summary data file
+[INFO] 2734 SNPs left after filtering
+[INFO] Loading fam file /u/project/pasaniuc/shihuwen/posc/analysis/data/ukb_chr22_maf/22.fam
+[INFO] Loading bim file /u/project/pasaniuc/shihuwen/posc/analysis/data/ukb_chr22_maf/22.bim
+/u/home/s/shihuwen/python_packages/lib/python2.7/site-packages/pysnptools/snpreader/snpreader.py:622: FutureWarning: Conversion of the second argument of issubdtype from `str` to `str` is deprecated. In future, it will be treated as `np.string_ == np.dtype(str).type`.
+  assert np.issubdtype(self._row.dtype, str) and len(self._row.shape)==2 and self._row.shape[1]==2, "iid should be dtype str, have two dimensions, and the second dimension should be size 2"
+/u/home/s/shihuwen/python_packages/lib/python2.7/site-packages/pysnptools/snpreader/snpreader.py:623: FutureWarning: Conversion of the second argument of issubdtype from `str` to `str` is deprecated. In future, it will be treated as `np.string_ == np.dtype(str).type`.
+  assert np.issubdtype(self._col.dtype, str) and len(self._col.shape)==1, "sid should be of dtype of str and one dimensional"
+[INFO] bed file is open /u/project/pasaniuc/shihuwen/posc/analysis/data/ukb_chr22_maf/22.bed
+[INFO] 2734 SNPs in locus chr22:18296088-19912358
+[INFO] Command finished at: Fri, 11 May 2018 00:59:46
+[INFO] @----------------------------------------------------------@
+       |         HESS       |      v0.5      |    9/October/2017  |
+       |----------------------------------------------------------|
+       |  (C) 2017 Huwenbo Shi, GNU General Public License, v3    |
+       |----------------------------------------------------------|
+       |  For documentation, citation & bug-report instructions:  |
+       |   http://bogdan.bioinformatics.ucla.edu/software/hess/   |
+       @----------------------------------------------------------@
+[INFO] Command started at: Fri, 11 May 2018 00:59:48
+[INFO] Command issued:
+    /u/project/pasaniuc/shihuwen/response/code/hess_test/hess.py \
+        --min-eigval 1e-08 \
+        --prefix /u/project/pasaniuc/shihuwen/response_result/est_insample/est_insample_n_10000_hsq_0.0015_ncau_3/sim_gwas_18296088_19912358_5_step1 \
+        --max-num-eig 3168 \
+        --out /u/project/pasaniuc/shihuwen/response_result/est_insample/est_insample_n_10000_hsq_0.0015_ncau_3/sim_gwas_18296088_19912358_5_step2
+[INFO] Loaded results for 1 loci from step 1
+[INFO] Using 2734 SNPs with average sample size 10000.0
+[INFO] Re-inflate the summary statistics with lambda_gc: 1
+[INFO] Total SNP-heritability estimate: 0.0118 (0.0103)
+[INFO] Command finished at: Fri, 11 May 2018 00:59:48
+[INFO] @----------------------------------------------------------@
+       |         HESS       |      v0.5      |    9/October/2017  |
+       |----------------------------------------------------------|
+       |  (C) 2017 Huwenbo Shi, GNU General Public License, v3    |
+       |----------------------------------------------------------|
+       |  For documentation, citation & bug-report instructions:  |
+       |   http://bogdan.bioinformatics.ucla.edu/software/hess/   |
+       @----------------------------------------------------------@
+[INFO] Command started at: Fri, 11 May 2018 00:59:50
+[INFO] Command issued:
+    /u/project/pasaniuc/shihuwen/response/code/hess_test/hess.py \
+        --bfile /u/project/pasaniuc/shihuwen/posc/analysis/data/ukb_chr22_maf/22 \
+        --partition /u/project/pasaniuc/shihuwen/response/pipeline/regions/chr22_18296088_19912358.bed \
+        --out /u/project/pasaniuc/shihuwen/response_result/est_insample/est_insample_n_10000_hsq_0.0015_ncau_3/sim_gwas_18296088_19912358_6_step1 \
+        --chrom 22 \
+        --local-hsqg /u/project/pasaniuc/shihuwen/response_result/sim_zsc/sim_n_10000_hsq_0.0015_ncau_3/sim_gwas_18296088_19912358_6.txt
+[INFO] Loaded 1 partitions on chromosome 22
+[INFO] Average window size is 1616270
+[INFO] 74708 SNPs read from reference panel
+[INFO] Loaded 3168 SNPs with rs IDs and single-letter alleles on chromosome 22 from the GWAS summary data file
+[INFO] 2734 SNPs left after filtering
+[INFO] Loading fam file /u/project/pasaniuc/shihuwen/posc/analysis/data/ukb_chr22_maf/22.fam
+[INFO] Loading bim file /u/project/pasaniuc/shihuwen/posc/analysis/data/ukb_chr22_maf/22.bim
+/u/home/s/shihuwen/python_packages/lib/python2.7/site-packages/pysnptools/snpreader/snpreader.py:622: FutureWarning: Conversion of the second argument of issubdtype from `str` to `str` is deprecated. In future, it will be treated as `np.string_ == np.dtype(str).type`.
+  assert np.issubdtype(self._row.dtype, str) and len(self._row.shape)==2 and self._row.shape[1]==2, "iid should be dtype str, have two dimensions, and the second dimension should be size 2"
+/u/home/s/shihuwen/python_packages/lib/python2.7/site-packages/pysnptools/snpreader/snpreader.py:623: FutureWarning: Conversion of the second argument of issubdtype from `str` to `str` is deprecated. In future, it will be treated as `np.string_ == np.dtype(str).type`.
+  assert np.issubdtype(self._col.dtype, str) and len(self._col.shape)==1, "sid should be of dtype of str and one dimensional"
+[INFO] bed file is open /u/project/pasaniuc/shihuwen/posc/analysis/data/ukb_chr22_maf/22.bed
+[INFO] 2734 SNPs in locus chr22:18296088-19912358
+[INFO] Command finished at: Fri, 11 May 2018 01:00:24
+[INFO] @----------------------------------------------------------@
+       |         HESS       |      v0.5      |    9/October/2017  |
+       |----------------------------------------------------------|
+       |  (C) 2017 Huwenbo Shi, GNU General Public License, v3    |
+       |----------------------------------------------------------|
+       |  For documentation, citation & bug-report instructions:  |
+       |   http://bogdan.bioinformatics.ucla.edu/software/hess/   |
+       @----------------------------------------------------------@
+[INFO] Command started at: Fri, 11 May 2018 01:00:28
+[INFO] Command issued:
+    /u/project/pasaniuc/shihuwen/response/code/hess_test/hess.py \
+        --min-eigval 1e-08 \
+        --prefix /u/project/pasaniuc/shihuwen/response_result/est_insample/est_insample_n_10000_hsq_0.0015_ncau_3/sim_gwas_18296088_19912358_6_step1 \
+        --max-num-eig 3168 \
+        --out /u/project/pasaniuc/shihuwen/response_result/est_insample/est_insample_n_10000_hsq_0.0015_ncau_3/sim_gwas_18296088_19912358_6_step2
+[INFO] Loaded results for 1 loci from step 1
+[INFO] Using 2734 SNPs with average sample size 10000.0
+[INFO] Re-inflate the summary statistics with lambda_gc: 1
+[INFO] Total SNP-heritability estimate: 0.0104 (0.0103)
+[INFO] Command finished at: Fri, 11 May 2018 01:00:28
+[INFO] @----------------------------------------------------------@
+       |         HESS       |      v0.5      |    9/October/2017  |
+       |----------------------------------------------------------|
+       |  (C) 2017 Huwenbo Shi, GNU General Public License, v3    |
+       |----------------------------------------------------------|
+       |  For documentation, citation & bug-report instructions:  |
+       |   http://bogdan.bioinformatics.ucla.edu/software/hess/   |
+       @----------------------------------------------------------@
+[INFO] Command started at: Fri, 11 May 2018 01:00:30
+[INFO] Command issued:
+    /u/project/pasaniuc/shihuwen/response/code/hess_test/hess.py \
+        --bfile /u/project/pasaniuc/shihuwen/posc/analysis/data/ukb_chr22_maf/22 \
+        --partition /u/project/pasaniuc/shihuwen/response/pipeline/regions/chr22_18296088_19912358.bed \
+        --out /u/project/pasaniuc/shihuwen/response_result/est_insample/est_insample_n_10000_hsq_0.0015_ncau_3/sim_gwas_18296088_19912358_7_step1 \
+        --chrom 22 \
+        --local-hsqg /u/project/pasaniuc/shihuwen/response_result/sim_zsc/sim_n_10000_hsq_0.0015_ncau_3/sim_gwas_18296088_19912358_7.txt
+[INFO] Loaded 1 partitions on chromosome 22
+[INFO] Average window size is 1616270
+[INFO] 74708 SNPs read from reference panel
+[INFO] Loaded 3168 SNPs with rs IDs and single-letter alleles on chromosome 22 from the GWAS summary data file
+[INFO] 2734 SNPs left after filtering
+[INFO] Loading fam file /u/project/pasaniuc/shihuwen/posc/analysis/data/ukb_chr22_maf/22.fam
+[INFO] Loading bim file /u/project/pasaniuc/shihuwen/posc/analysis/data/ukb_chr22_maf/22.bim
+/u/home/s/shihuwen/python_packages/lib/python2.7/site-packages/pysnptools/snpreader/snpreader.py:622: FutureWarning: Conversion of the second argument of issubdtype from `str` to `str` is deprecated. In future, it will be treated as `np.string_ == np.dtype(str).type`.
+  assert np.issubdtype(self._row.dtype, str) and len(self._row.shape)==2 and self._row.shape[1]==2, "iid should be dtype str, have two dimensions, and the second dimension should be size 2"
+/u/home/s/shihuwen/python_packages/lib/python2.7/site-packages/pysnptools/snpreader/snpreader.py:623: FutureWarning: Conversion of the second argument of issubdtype from `str` to `str` is deprecated. In future, it will be treated as `np.string_ == np.dtype(str).type`.
+  assert np.issubdtype(self._col.dtype, str) and len(self._col.shape)==1, "sid should be of dtype of str and one dimensional"
+[INFO] bed file is open /u/project/pasaniuc/shihuwen/posc/analysis/data/ukb_chr22_maf/22.bed
+[INFO] 2734 SNPs in locus chr22:18296088-19912358
+[INFO] Command finished at: Fri, 11 May 2018 01:01:06
+[INFO] @----------------------------------------------------------@
+       |         HESS       |      v0.5      |    9/October/2017  |
+       |----------------------------------------------------------|
+       |  (C) 2017 Huwenbo Shi, GNU General Public License, v3    |
+       |----------------------------------------------------------|
+       |  For documentation, citation & bug-report instructions:  |
+       |   http://bogdan.bioinformatics.ucla.edu/software/hess/   |
+       @----------------------------------------------------------@
+[INFO] Command started at: Fri, 11 May 2018 01:01:08
+[INFO] Command issued:
+    /u/project/pasaniuc/shihuwen/response/code/hess_test/hess.py \
+        --min-eigval 1e-08 \
+        --prefix /u/project/pasaniuc/shihuwen/response_result/est_insample/est_insample_n_10000_hsq_0.0015_ncau_3/sim_gwas_18296088_19912358_7_step1 \
+        --max-num-eig 3168 \
+        --out /u/project/pasaniuc/shihuwen/response_result/est_insample/est_insample_n_10000_hsq_0.0015_ncau_3/sim_gwas_18296088_19912358_7_step2
+[INFO] Loaded results for 1 loci from step 1
+[INFO] Using 2734 SNPs with average sample size 10000.0
+[INFO] Re-inflate the summary statistics with lambda_gc: 1
+[INFO] Total SNP-heritability estimate: 0.0123 (0.0103)
+[INFO] Command finished at: Fri, 11 May 2018 01:01:08
+[INFO] @----------------------------------------------------------@
+       |         HESS       |      v0.5      |    9/October/2017  |
+       |----------------------------------------------------------|
+       |  (C) 2017 Huwenbo Shi, GNU General Public License, v3    |
+       |----------------------------------------------------------|
+       |  For documentation, citation & bug-report instructions:  |
+       |   http://bogdan.bioinformatics.ucla.edu/software/hess/   |
+       @----------------------------------------------------------@
+[INFO] Command started at: Fri, 11 May 2018 01:01:10
+[INFO] Command issued:
+    /u/project/pasaniuc/shihuwen/response/code/hess_test/hess.py \
+        --bfile /u/project/pasaniuc/shihuwen/posc/analysis/data/ukb_chr22_maf/22 \
+        --partition /u/project/pasaniuc/shihuwen/response/pipeline/regions/chr22_18296088_19912358.bed \
+        --out /u/project/pasaniuc/shihuwen/response_result/est_insample/est_insample_n_10000_hsq_0.0015_ncau_3/sim_gwas_18296088_19912358_8_step1 \
+        --chrom 22 \
+        --local-hsqg /u/project/pasaniuc/shihuwen/response_result/sim_zsc/sim_n_10000_hsq_0.0015_ncau_3/sim_gwas_18296088_19912358_8.txt
+[INFO] Loaded 1 partitions on chromosome 22
+[INFO] Average window size is 1616270
+[INFO] 74708 SNPs read from reference panel
+[INFO] Loaded 3168 SNPs with rs IDs and single-letter alleles on chromosome 22 from the GWAS summary data file
+[INFO] 2734 SNPs left after filtering
+[INFO] Loading fam file /u/project/pasaniuc/shihuwen/posc/analysis/data/ukb_chr22_maf/22.fam
+[INFO] Loading bim file /u/project/pasaniuc/shihuwen/posc/analysis/data/ukb_chr22_maf/22.bim
+/u/home/s/shihuwen/python_packages/lib/python2.7/site-packages/pysnptools/snpreader/snpreader.py:622: FutureWarning: Conversion of the second argument of issubdtype from `str` to `str` is deprecated. In future, it will be treated as `np.string_ == np.dtype(str).type`.
+  assert np.issubdtype(self._row.dtype, str) and len(self._row.shape)==2 and self._row.shape[1]==2, "iid should be dtype str, have two dimensions, and the second dimension should be size 2"
+/u/home/s/shihuwen/python_packages/lib/python2.7/site-packages/pysnptools/snpreader/snpreader.py:623: FutureWarning: Conversion of the second argument of issubdtype from `str` to `str` is deprecated. In future, it will be treated as `np.string_ == np.dtype(str).type`.
+  assert np.issubdtype(self._col.dtype, str) and len(self._col.shape)==1, "sid should be of dtype of str and one dimensional"
+[INFO] bed file is open /u/project/pasaniuc/shihuwen/posc/analysis/data/ukb_chr22_maf/22.bed
+[INFO] 2734 SNPs in locus chr22:18296088-19912358
+[INFO] Command finished at: Fri, 11 May 2018 01:01:45
+[INFO] @----------------------------------------------------------@
+       |         HESS       |      v0.5      |    9/October/2017  |
+       |----------------------------------------------------------|
+       |  (C) 2017 Huwenbo Shi, GNU General Public License, v3    |
+       |----------------------------------------------------------|
+       |  For documentation, citation & bug-report instructions:  |
+       |   http://bogdan.bioinformatics.ucla.edu/software/hess/   |
+       @----------------------------------------------------------@
+[INFO] Command started at: Fri, 11 May 2018 01:01:48
+[INFO] Command issued:
+    /u/project/pasaniuc/shihuwen/response/code/hess_test/hess.py \
+        --min-eigval 1e-08 \
+        --prefix /u/project/pasaniuc/shihuwen/response_result/est_insample/est_insample_n_10000_hsq_0.0015_ncau_3/sim_gwas_18296088_19912358_8_step1 \
+        --max-num-eig 3168 \
+        --out /u/project/pasaniuc/shihuwen/response_result/est_insample/est_insample_n_10000_hsq_0.0015_ncau_3/sim_gwas_18296088_19912358_8_step2
+[INFO] Loaded results for 1 loci from step 1
+[INFO] Using 2734 SNPs with average sample size 10000.0
+[INFO] Re-inflate the summary statistics with lambda_gc: 1
+[INFO] Total SNP-heritability estimate: -0.0192 (0.00944)
+[INFO] Command finished at: Fri, 11 May 2018 01:01:48
+[INFO] @----------------------------------------------------------@
+       |         HESS       |      v0.5      |    9/October/2017  |
+       |----------------------------------------------------------|
+       |  (C) 2017 Huwenbo Shi, GNU General Public License, v3    |
+       |----------------------------------------------------------|
+       |  For documentation, citation & bug-report instructions:  |
+       |   http://bogdan.bioinformatics.ucla.edu/software/hess/   |
+       @----------------------------------------------------------@
+[INFO] Command started at: Fri, 11 May 2018 01:01:50
+[INFO] Command issued:
+    /u/project/pasaniuc/shihuwen/response/code/hess_test/hess.py \
+        --bfile /u/project/pasaniuc/shihuwen/posc/analysis/data/ukb_chr22_maf/22 \
+        --partition /u/project/pasaniuc/shihuwen/response/pipeline/regions/chr22_18296088_19912358.bed \
+        --out /u/project/pasaniuc/shihuwen/response_result/est_insample/est_insample_n_10000_hsq_0.0015_ncau_3/sim_gwas_18296088_19912358_9_step1 \
+        --chrom 22 \
+        --local-hsqg /u/project/pasaniuc/shihuwen/response_result/sim_zsc/sim_n_10000_hsq_0.0015_ncau_3/sim_gwas_18296088_19912358_9.txt
+[INFO] Loaded 1 partitions on chromosome 22
+[INFO] Average window size is 1616270
+[INFO] 74708 SNPs read from reference panel
+[INFO] Loaded 3168 SNPs with rs IDs and single-letter alleles on chromosome 22 from the GWAS summary data file
+[INFO] 2734 SNPs left after filtering
+[INFO] Loading fam file /u/project/pasaniuc/shihuwen/posc/analysis/data/ukb_chr22_maf/22.fam
+[INFO] Loading bim file /u/project/pasaniuc/shihuwen/posc/analysis/data/ukb_chr22_maf/22.bim
+/u/home/s/shihuwen/python_packages/lib/python2.7/site-packages/pysnptools/snpreader/snpreader.py:622: FutureWarning: Conversion of the second argument of issubdtype from `str` to `str` is deprecated. In future, it will be treated as `np.string_ == np.dtype(str).type`.
+  assert np.issubdtype(self._row.dtype, str) and len(self._row.shape)==2 and self._row.shape[1]==2, "iid should be dtype str, have two dimensions, and the second dimension should be size 2"
+/u/home/s/shihuwen/python_packages/lib/python2.7/site-packages/pysnptools/snpreader/snpreader.py:623: FutureWarning: Conversion of the second argument of issubdtype from `str` to `str` is deprecated. In future, it will be treated as `np.string_ == np.dtype(str).type`.
+  assert np.issubdtype(self._col.dtype, str) and len(self._col.shape)==1, "sid should be of dtype of str and one dimensional"
+[INFO] bed file is open /u/project/pasaniuc/shihuwen/posc/analysis/data/ukb_chr22_maf/22.bed
+[INFO] 2734 SNPs in locus chr22:18296088-19912358
+[INFO] Command finished at: Fri, 11 May 2018 01:02:25
+[INFO] @----------------------------------------------------------@
+       |         HESS       |      v0.5      |    9/October/2017  |
+       |----------------------------------------------------------|
+       |  (C) 2017 Huwenbo Shi, GNU General Public License, v3    |
+       |----------------------------------------------------------|
+       |  For documentation, citation & bug-report instructions:  |
+       |   http://bogdan.bioinformatics.ucla.edu/software/hess/   |
+       @----------------------------------------------------------@
+[INFO] Command started at: Fri, 11 May 2018 01:02:27
+[INFO] Command issued:
+    /u/project/pasaniuc/shihuwen/response/code/hess_test/hess.py \
+        --min-eigval 1e-08 \
+        --prefix /u/project/pasaniuc/shihuwen/response_result/est_insample/est_insample_n_10000_hsq_0.0015_ncau_3/sim_gwas_18296088_19912358_9_step1 \
+        --max-num-eig 3168 \
+        --out /u/project/pasaniuc/shihuwen/response_result/est_insample/est_insample_n_10000_hsq_0.0015_ncau_3/sim_gwas_18296088_19912358_9_step2
+[INFO] Loaded results for 1 loci from step 1
+[INFO] Using 2734 SNPs with average sample size 10000.0
+[INFO] Re-inflate the summary statistics with lambda_gc: 1
+[INFO] Total SNP-heritability estimate: 0.00665 (0.0102)
+[INFO] Command finished at: Fri, 11 May 2018 01:02:27
+[INFO] @----------------------------------------------------------@
+       |         HESS       |      v0.5      |    9/October/2017  |
+       |----------------------------------------------------------|
+       |  (C) 2017 Huwenbo Shi, GNU General Public License, v3    |
+       |----------------------------------------------------------|
+       |  For documentation, citation & bug-report instructions:  |
+       |   http://bogdan.bioinformatics.ucla.edu/software/hess/   |
+       @----------------------------------------------------------@
+[INFO] Command started at: Fri, 11 May 2018 01:02:29
+[INFO] Command issued:
+    /u/project/pasaniuc/shihuwen/response/code/hess_test/hess.py \
+        --bfile /u/project/pasaniuc/shihuwen/posc/analysis/data/ukb_chr22_maf/22 \
+        --partition /u/project/pasaniuc/shihuwen/response/pipeline/regions/chr22_18296088_19912358.bed \
+        --out /u/project/pasaniuc/shihuwen/response_result/est_insample/est_insample_n_10000_hsq_0.0015_ncau_3/sim_gwas_18296088_19912358_10_step1 \
+        --chrom 22 \
+        --local-hsqg /u/project/pasaniuc/shihuwen/response_result/sim_zsc/sim_n_10000_hsq_0.0015_ncau_3/sim_gwas_18296088_19912358_10.txt
+[INFO] Loaded 1 partitions on chromosome 22
+[INFO] Average window size is 1616270
+[INFO] 74708 SNPs read from reference panel
+[INFO] Loaded 3168 SNPs with rs IDs and single-letter alleles on chromosome 22 from the GWAS summary data file
+[INFO] 2734 SNPs left after filtering
+[INFO] Loading fam file /u/project/pasaniuc/shihuwen/posc/analysis/data/ukb_chr22_maf/22.fam
+[INFO] Loading bim file /u/project/pasaniuc/shihuwen/posc/analysis/data/ukb_chr22_maf/22.bim
+/u/home/s/shihuwen/python_packages/lib/python2.7/site-packages/pysnptools/snpreader/snpreader.py:622: FutureWarning: Conversion of the second argument of issubdtype from `str` to `str` is deprecated. In future, it will be treated as `np.string_ == np.dtype(str).type`.
+  assert np.issubdtype(self._row.dtype, str) and len(self._row.shape)==2 and self._row.shape[1]==2, "iid should be dtype str, have two dimensions, and the second dimension should be size 2"
+/u/home/s/shihuwen/python_packages/lib/python2.7/site-packages/pysnptools/snpreader/snpreader.py:623: FutureWarning: Conversion of the second argument of issubdtype from `str` to `str` is deprecated. In future, it will be treated as `np.string_ == np.dtype(str).type`.
+  assert np.issubdtype(self._col.dtype, str) and len(self._col.shape)==1, "sid should be of dtype of str and one dimensional"
+[INFO] bed file is open /u/project/pasaniuc/shihuwen/posc/analysis/data/ukb_chr22_maf/22.bed
+[INFO] 2734 SNPs in locus chr22:18296088-19912358
+[INFO] Command finished at: Fri, 11 May 2018 01:03:03
+[INFO] @----------------------------------------------------------@
+       |         HESS       |      v0.5      |    9/October/2017  |
+       |----------------------------------------------------------|
+       |  (C) 2017 Huwenbo Shi, GNU General Public License, v3    |
+       |----------------------------------------------------------|
+       |  For documentation, citation & bug-report instructions:  |
+       |   http://bogdan.bioinformatics.ucla.edu/software/hess/   |
+       @----------------------------------------------------------@
+[INFO] Command started at: Fri, 11 May 2018 01:03:06
+[INFO] Command issued:
+    /u/project/pasaniuc/shihuwen/response/code/hess_test/hess.py \
+        --min-eigval 1e-08 \
+        --prefix /u/project/pasaniuc/shihuwen/response_result/est_insample/est_insample_n_10000_hsq_0.0015_ncau_3/sim_gwas_18296088_19912358_10_step1 \
+        --max-num-eig 3168 \
+        --out /u/project/pasaniuc/shihuwen/response_result/est_insample/est_insample_n_10000_hsq_0.0015_ncau_3/sim_gwas_18296088_19912358_10_step2
+[INFO] Loaded results for 1 loci from step 1
+[INFO] Using 2734 SNPs with average sample size 10000.0
+[INFO] Re-inflate the summary statistics with lambda_gc: 1
+[INFO] Total SNP-heritability estimate: -0.0136 (0.00961)
+[INFO] Command finished at: Fri, 11 May 2018 01:03:06
+[INFO] @----------------------------------------------------------@
+       |         HESS       |      v0.5      |    9/October/2017  |
+       |----------------------------------------------------------|
+       |  (C) 2017 Huwenbo Shi, GNU General Public License, v3    |
+       |----------------------------------------------------------|
+       |  For documentation, citation & bug-report instructions:  |
+       |   http://bogdan.bioinformatics.ucla.edu/software/hess/   |
+       @----------------------------------------------------------@
+[INFO] Command started at: Fri, 11 May 2018 01:03:08
+[INFO] Command issued:
+    /u/project/pasaniuc/shihuwen/response/code/hess_test/hess.py \
+        --bfile /u/project/pasaniuc/shihuwen/posc/analysis/data/ukb_chr22_maf/22 \
+        --partition /u/project/pasaniuc/shihuwen/response/pipeline/regions/chr22_18296088_19912358.bed \
+        --out /u/project/pasaniuc/shihuwen/response_result/est_insample/est_insample_n_10000_hsq_0.0015_ncau_3/sim_gwas_18296088_19912358_11_step1 \
+        --chrom 22 \
+        --local-hsqg /u/project/pasaniuc/shihuwen/response_result/sim_zsc/sim_n_10000_hsq_0.0015_ncau_3/sim_gwas_18296088_19912358_11.txt
+[INFO] Loaded 1 partitions on chromosome 22
+[INFO] Average window size is 1616270
+[INFO] 74708 SNPs read from reference panel
+[INFO] Loaded 3168 SNPs with rs IDs and single-letter alleles on chromosome 22 from the GWAS summary data file
+[INFO] 2734 SNPs left after filtering
+[INFO] Loading fam file /u/project/pasaniuc/shihuwen/posc/analysis/data/ukb_chr22_maf/22.fam
+[INFO] Loading bim file /u/project/pasaniuc/shihuwen/posc/analysis/data/ukb_chr22_maf/22.bim
+/u/home/s/shihuwen/python_packages/lib/python2.7/site-packages/pysnptools/snpreader/snpreader.py:622: FutureWarning: Conversion of the second argument of issubdtype from `str` to `str` is deprecated. In future, it will be treated as `np.string_ == np.dtype(str).type`.
+  assert np.issubdtype(self._row.dtype, str) and len(self._row.shape)==2 and self._row.shape[1]==2, "iid should be dtype str, have two dimensions, and the second dimension should be size 2"
+/u/home/s/shihuwen/python_packages/lib/python2.7/site-packages/pysnptools/snpreader/snpreader.py:623: FutureWarning: Conversion of the second argument of issubdtype from `str` to `str` is deprecated. In future, it will be treated as `np.string_ == np.dtype(str).type`.
+  assert np.issubdtype(self._col.dtype, str) and len(self._col.shape)==1, "sid should be of dtype of str and one dimensional"
+[INFO] bed file is open /u/project/pasaniuc/shihuwen/posc/analysis/data/ukb_chr22_maf/22.bed
+[INFO] 2734 SNPs in locus chr22:18296088-19912358
+[INFO] Command finished at: Fri, 11 May 2018 01:03:46
+[INFO] @----------------------------------------------------------@
+       |         HESS       |      v0.5      |    9/October/2017  |
+       |----------------------------------------------------------|
+       |  (C) 2017 Huwenbo Shi, GNU General Public License, v3    |
+       |----------------------------------------------------------|
+       |  For documentation, citation & bug-report instructions:  |
+       |   http://bogdan.bioinformatics.ucla.edu/software/hess/   |
+       @----------------------------------------------------------@
+[INFO] Command started at: Fri, 11 May 2018 01:03:48
+[INFO] Command issued:
+    /u/project/pasaniuc/shihuwen/response/code/hess_test/hess.py \
+        --min-eigval 1e-08 \
+        --prefix /u/project/pasaniuc/shihuwen/response_result/est_insample/est_insample_n_10000_hsq_0.0015_ncau_3/sim_gwas_18296088_19912358_11_step1 \
+        --max-num-eig 3168 \
+        --out /u/project/pasaniuc/shihuwen/response_result/est_insample/est_insample_n_10000_hsq_0.0015_ncau_3/sim_gwas_18296088_19912358_11_step2
+[INFO] Loaded results for 1 loci from step 1
+[INFO] Using 2734 SNPs with average sample size 10000.0
+[INFO] Re-inflate the summary statistics with lambda_gc: 1
+[INFO] Total SNP-heritability estimate: 0.00717 (0.0102)
+[INFO] Command finished at: Fri, 11 May 2018 01:03:48
+[INFO] @----------------------------------------------------------@
+       |         HESS       |      v0.5      |    9/October/2017  |
+       |----------------------------------------------------------|
+       |  (C) 2017 Huwenbo Shi, GNU General Public License, v3    |
+       |----------------------------------------------------------|
+       |  For documentation, citation & bug-report instructions:  |
+       |   http://bogdan.bioinformatics.ucla.edu/software/hess/   |
+       @----------------------------------------------------------@
+[INFO] Command started at: Fri, 11 May 2018 01:03:50
+[INFO] Command issued:
+    /u/project/pasaniuc/shihuwen/response/code/hess_test/hess.py \
+        --bfile /u/project/pasaniuc/shihuwen/posc/analysis/data/ukb_chr22_maf/22 \
+        --partition /u/project/pasaniuc/shihuwen/response/pipeline/regions/chr22_18296088_19912358.bed \
+        --out /u/project/pasaniuc/shihuwen/response_result/est_insample/est_insample_n_10000_hsq_0.0015_ncau_3/sim_gwas_18296088_19912358_12_step1 \
+        --chrom 22 \
+        --local-hsqg /u/project/pasaniuc/shihuwen/response_result/sim_zsc/sim_n_10000_hsq_0.0015_ncau_3/sim_gwas_18296088_19912358_12.txt
+[INFO] Loaded 1 partitions on chromosome 22
+[INFO] Average window size is 1616270
+[INFO] 74708 SNPs read from reference panel
+[INFO] Loaded 3168 SNPs with rs IDs and single-letter alleles on chromosome 22 from the GWAS summary data file
+[INFO] 2734 SNPs left after filtering
+[INFO] Loading fam file /u/project/pasaniuc/shihuwen/posc/analysis/data/ukb_chr22_maf/22.fam
+[INFO] Loading bim file /u/project/pasaniuc/shihuwen/posc/analysis/data/ukb_chr22_maf/22.bim
+/u/home/s/shihuwen/python_packages/lib/python2.7/site-packages/pysnptools/snpreader/snpreader.py:622: FutureWarning: Conversion of the second argument of issubdtype from `str` to `str` is deprecated. In future, it will be treated as `np.string_ == np.dtype(str).type`.
+  assert np.issubdtype(self._row.dtype, str) and len(self._row.shape)==2 and self._row.shape[1]==2, "iid should be dtype str, have two dimensions, and the second dimension should be size 2"
+/u/home/s/shihuwen/python_packages/lib/python2.7/site-packages/pysnptools/snpreader/snpreader.py:623: FutureWarning: Conversion of the second argument of issubdtype from `str` to `str` is deprecated. In future, it will be treated as `np.string_ == np.dtype(str).type`.
+  assert np.issubdtype(self._col.dtype, str) and len(self._col.shape)==1, "sid should be of dtype of str and one dimensional"
+[INFO] bed file is open /u/project/pasaniuc/shihuwen/posc/analysis/data/ukb_chr22_maf/22.bed
+[INFO] 2734 SNPs in locus chr22:18296088-19912358
+[INFO] Command finished at: Fri, 11 May 2018 01:04:28
+[INFO] @----------------------------------------------------------@
+       |         HESS       |      v0.5      |    9/October/2017  |
+       |----------------------------------------------------------|
+       |  (C) 2017 Huwenbo Shi, GNU General Public License, v3    |
+       |----------------------------------------------------------|
+       |  For documentation, citation & bug-report instructions:  |
+       |   http://bogdan.bioinformatics.ucla.edu/software/hess/   |
+       @----------------------------------------------------------@
+[INFO] Command started at: Fri, 11 May 2018 01:04:31
+[INFO] Command issued:
+    /u/project/pasaniuc/shihuwen/response/code/hess_test/hess.py \
+        --min-eigval 1e-08 \
+        --prefix /u/project/pasaniuc/shihuwen/response_result/est_insample/est_insample_n_10000_hsq_0.0015_ncau_3/sim_gwas_18296088_19912358_12_step1 \
+        --max-num-eig 3168 \
+        --out /u/project/pasaniuc/shihuwen/response_result/est_insample/est_insample_n_10000_hsq_0.0015_ncau_3/sim_gwas_18296088_19912358_12_step2
+[INFO] Loaded results for 1 loci from step 1
+[INFO] Using 2734 SNPs with average sample size 10000.0
+[INFO] Re-inflate the summary statistics with lambda_gc: 1
+[INFO] Total SNP-heritability estimate: 0.00856 (0.0102)
+[INFO] Command finished at: Fri, 11 May 2018 01:04:31
+[INFO] @----------------------------------------------------------@
+       |         HESS       |      v0.5      |    9/October/2017  |
+       |----------------------------------------------------------|
+       |  (C) 2017 Huwenbo Shi, GNU General Public License, v3    |
+       |----------------------------------------------------------|
+       |  For documentation, citation & bug-report instructions:  |
+       |   http://bogdan.bioinformatics.ucla.edu/software/hess/   |
+       @----------------------------------------------------------@
+[INFO] Command started at: Fri, 11 May 2018 01:04:34
+[INFO] Command issued:
+    /u/project/pasaniuc/shihuwen/response/code/hess_test/hess.py \
+        --bfile /u/project/pasaniuc/shihuwen/posc/analysis/data/ukb_chr22_maf/22 \
+        --partition /u/project/pasaniuc/shihuwen/response/pipeline/regions/chr22_18296088_19912358.bed \
+        --out /u/project/pasaniuc/shihuwen/response_result/est_insample/est_insample_n_10000_hsq_0.0015_ncau_3/sim_gwas_18296088_19912358_13_step1 \
+        --chrom 22 \
+        --local-hsqg /u/project/pasaniuc/shihuwen/response_result/sim_zsc/sim_n_10000_hsq_0.0015_ncau_3/sim_gwas_18296088_19912358_13.txt
+[INFO] Loaded 1 partitions on chromosome 22
+[INFO] Average window size is 1616270
+[INFO] 74708 SNPs read from reference panel
+[INFO] Loaded 3168 SNPs with rs IDs and single-letter alleles on chromosome 22 from the GWAS summary data file
+[INFO] 2734 SNPs left after filtering
+[INFO] Loading fam file /u/project/pasaniuc/shihuwen/posc/analysis/data/ukb_chr22_maf/22.fam
+[INFO] Loading bim file /u/project/pasaniuc/shihuwen/posc/analysis/data/ukb_chr22_maf/22.bim
+/u/home/s/shihuwen/python_packages/lib/python2.7/site-packages/pysnptools/snpreader/snpreader.py:622: FutureWarning: Conversion of the second argument of issubdtype from `str` to `str` is deprecated. In future, it will be treated as `np.string_ == np.dtype(str).type`.
+  assert np.issubdtype(self._row.dtype, str) and len(self._row.shape)==2 and self._row.shape[1]==2, "iid should be dtype str, have two dimensions, and the second dimension should be size 2"
+/u/home/s/shihuwen/python_packages/lib/python2.7/site-packages/pysnptools/snpreader/snpreader.py:623: FutureWarning: Conversion of the second argument of issubdtype from `str` to `str` is deprecated. In future, it will be treated as `np.string_ == np.dtype(str).type`.
+  assert np.issubdtype(self._col.dtype, str) and len(self._col.shape)==1, "sid should be of dtype of str and one dimensional"
+[INFO] bed file is open /u/project/pasaniuc/shihuwen/posc/analysis/data/ukb_chr22_maf/22.bed
+[INFO] 2734 SNPs in locus chr22:18296088-19912358
+[INFO] Command finished at: Fri, 11 May 2018 01:05:11
+[INFO] @----------------------------------------------------------@
+       |         HESS       |      v0.5      |    9/October/2017  |
+       |----------------------------------------------------------|
+       |  (C) 2017 Huwenbo Shi, GNU General Public License, v3    |
+       |----------------------------------------------------------|
+       |  For documentation, citation & bug-report instructions:  |
+       |   http://bogdan.bioinformatics.ucla.edu/software/hess/   |
+       @----------------------------------------------------------@
+[INFO] Command started at: Fri, 11 May 2018 01:05:13
+[INFO] Command issued:
+    /u/project/pasaniuc/shihuwen/response/code/hess_test/hess.py \
+        --min-eigval 1e-08 \
+        --prefix /u/project/pasaniuc/shihuwen/response_result/est_insample/est_insample_n_10000_hsq_0.0015_ncau_3/sim_gwas_18296088_19912358_13_step1 \
+        --max-num-eig 3168 \
+        --out /u/project/pasaniuc/shihuwen/response_result/est_insample/est_insample_n_10000_hsq_0.0015_ncau_3/sim_gwas_18296088_19912358_13_step2
+[INFO] Loaded results for 1 loci from step 1
+[INFO] Using 2734 SNPs with average sample size 10000.0
+[INFO] Re-inflate the summary statistics with lambda_gc: 1
+[INFO] Total SNP-heritability estimate: -0.0156 (0.00955)
+[INFO] Command finished at: Fri, 11 May 2018 01:05:13
+[INFO] @----------------------------------------------------------@
+       |         HESS       |      v0.5      |    9/October/2017  |
+       |----------------------------------------------------------|
+       |  (C) 2017 Huwenbo Shi, GNU General Public License, v3    |
+       |----------------------------------------------------------|
+       |  For documentation, citation & bug-report instructions:  |
+       |   http://bogdan.bioinformatics.ucla.edu/software/hess/   |
+       @----------------------------------------------------------@
+[INFO] Command started at: Fri, 11 May 2018 01:05:15
+[INFO] Command issued:
+    /u/project/pasaniuc/shihuwen/response/code/hess_test/hess.py \
+        --bfile /u/project/pasaniuc/shihuwen/posc/analysis/data/ukb_chr22_maf/22 \
+        --partition /u/project/pasaniuc/shihuwen/response/pipeline/regions/chr22_18296088_19912358.bed \
+        --out /u/project/pasaniuc/shihuwen/response_result/est_insample/est_insample_n_10000_hsq_0.0015_ncau_3/sim_gwas_18296088_19912358_14_step1 \
+        --chrom 22 \
+        --local-hsqg /u/project/pasaniuc/shihuwen/response_result/sim_zsc/sim_n_10000_hsq_0.0015_ncau_3/sim_gwas_18296088_19912358_14.txt
+[INFO] Loaded 1 partitions on chromosome 22
+[INFO] Average window size is 1616270
+[INFO] 74708 SNPs read from reference panel
+[INFO] Loaded 3168 SNPs with rs IDs and single-letter alleles on chromosome 22 from the GWAS summary data file
+[INFO] 2734 SNPs left after filtering
+[INFO] Loading fam file /u/project/pasaniuc/shihuwen/posc/analysis/data/ukb_chr22_maf/22.fam
+[INFO] Loading bim file /u/project/pasaniuc/shihuwen/posc/analysis/data/ukb_chr22_maf/22.bim
+/u/home/s/shihuwen/python_packages/lib/python2.7/site-packages/pysnptools/snpreader/snpreader.py:622: FutureWarning: Conversion of the second argument of issubdtype from `str` to `str` is deprecated. In future, it will be treated as `np.string_ == np.dtype(str).type`.
+  assert np.issubdtype(self._row.dtype, str) and len(self._row.shape)==2 and self._row.shape[1]==2, "iid should be dtype str, have two dimensions, and the second dimension should be size 2"
+/u/home/s/shihuwen/python_packages/lib/python2.7/site-packages/pysnptools/snpreader/snpreader.py:623: FutureWarning: Conversion of the second argument of issubdtype from `str` to `str` is deprecated. In future, it will be treated as `np.string_ == np.dtype(str).type`.
+  assert np.issubdtype(self._col.dtype, str) and len(self._col.shape)==1, "sid should be of dtype of str and one dimensional"
+[INFO] bed file is open /u/project/pasaniuc/shihuwen/posc/analysis/data/ukb_chr22_maf/22.bed
+[INFO] 2734 SNPs in locus chr22:18296088-19912358
+[INFO] Command finished at: Fri, 11 May 2018 01:05:52
+[INFO] @----------------------------------------------------------@
+       |         HESS       |      v0.5      |    9/October/2017  |
+       |----------------------------------------------------------|
+       |  (C) 2017 Huwenbo Shi, GNU General Public License, v3    |
+       |----------------------------------------------------------|
+       |  For documentation, citation & bug-report instructions:  |
+       |   http://bogdan.bioinformatics.ucla.edu/software/hess/   |
+       @----------------------------------------------------------@
+[INFO] Command started at: Fri, 11 May 2018 01:05:55
+[INFO] Command issued:
+    /u/project/pasaniuc/shihuwen/response/code/hess_test/hess.py \
+        --min-eigval 1e-08 \
+        --prefix /u/project/pasaniuc/shihuwen/response_result/est_insample/est_insample_n_10000_hsq_0.0015_ncau_3/sim_gwas_18296088_19912358_14_step1 \
+        --max-num-eig 3168 \
+        --out /u/project/pasaniuc/shihuwen/response_result/est_insample/est_insample_n_10000_hsq_0.0015_ncau_3/sim_gwas_18296088_19912358_14_step2
+[INFO] Loaded results for 1 loci from step 1
+[INFO] Using 2734 SNPs with average sample size 10000.0
+[INFO] Re-inflate the summary statistics with lambda_gc: 1
+[INFO] Total SNP-heritability estimate: 0.00639 (0.0102)
+[INFO] Command finished at: Fri, 11 May 2018 01:05:57
+[INFO] @----------------------------------------------------------@
+       |         HESS       |      v0.5      |    9/October/2017  |
+       |----------------------------------------------------------|
+       |  (C) 2017 Huwenbo Shi, GNU General Public License, v3    |
+       |----------------------------------------------------------|
+       |  For documentation, citation & bug-report instructions:  |
+       |   http://bogdan.bioinformatics.ucla.edu/software/hess/   |
+       @----------------------------------------------------------@
+[INFO] Command started at: Fri, 11 May 2018 01:05:59
+[INFO] Command issued:
+    /u/project/pasaniuc/shihuwen/response/code/hess_test/hess.py \
+        --bfile /u/project/pasaniuc/shihuwen/posc/analysis/data/ukb_chr22_maf/22 \
+        --partition /u/project/pasaniuc/shihuwen/response/pipeline/regions/chr22_18296088_19912358.bed \
+        --out /u/project/pasaniuc/shihuwen/response_result/est_insample/est_insample_n_10000_hsq_0.0015_ncau_3/sim_gwas_18296088_19912358_15_step1 \
+        --chrom 22 \
+        --local-hsqg /u/project/pasaniuc/shihuwen/response_result/sim_zsc/sim_n_10000_hsq_0.0015_ncau_3/sim_gwas_18296088_19912358_15.txt
+[INFO] Loaded 1 partitions on chromosome 22
+[INFO] Average window size is 1616270
+[INFO] 74708 SNPs read from reference panel
+[INFO] Loaded 3168 SNPs with rs IDs and single-letter alleles on chromosome 22 from the GWAS summary data file
+[INFO] 2734 SNPs left after filtering
+[INFO] Loading fam file /u/project/pasaniuc/shihuwen/posc/analysis/data/ukb_chr22_maf/22.fam
+[INFO] Loading bim file /u/project/pasaniuc/shihuwen/posc/analysis/data/ukb_chr22_maf/22.bim
+/u/home/s/shihuwen/python_packages/lib/python2.7/site-packages/pysnptools/snpreader/snpreader.py:622: FutureWarning: Conversion of the second argument of issubdtype from `str` to `str` is deprecated. In future, it will be treated as `np.string_ == np.dtype(str).type`.
+  assert np.issubdtype(self._row.dtype, str) and len(self._row.shape)==2 and self._row.shape[1]==2, "iid should be dtype str, have two dimensions, and the second dimension should be size 2"
+/u/home/s/shihuwen/python_packages/lib/python2.7/site-packages/pysnptools/snpreader/snpreader.py:623: FutureWarning: Conversion of the second argument of issubdtype from `str` to `str` is deprecated. In future, it will be treated as `np.string_ == np.dtype(str).type`.
+  assert np.issubdtype(self._col.dtype, str) and len(self._col.shape)==1, "sid should be of dtype of str and one dimensional"
+[INFO] bed file is open /u/project/pasaniuc/shihuwen/posc/analysis/data/ukb_chr22_maf/22.bed
+[INFO] 2734 SNPs in locus chr22:18296088-19912358
+[INFO] Command finished at: Fri, 11 May 2018 01:06:33
+[INFO] @----------------------------------------------------------@
+       |         HESS       |      v0.5      |    9/October/2017  |
+       |----------------------------------------------------------|
+       |  (C) 2017 Huwenbo Shi, GNU General Public License, v3    |
+       |----------------------------------------------------------|
+       |  For documentation, citation & bug-report instructions:  |
+       |   http://bogdan.bioinformatics.ucla.edu/software/hess/   |
+       @----------------------------------------------------------@
+[INFO] Command started at: Fri, 11 May 2018 01:06:35
+[INFO] Command issued:
+    /u/project/pasaniuc/shihuwen/response/code/hess_test/hess.py \
+        --min-eigval 1e-08 \
+        --prefix /u/project/pasaniuc/shihuwen/response_result/est_insample/est_insample_n_10000_hsq_0.0015_ncau_3/sim_gwas_18296088_19912358_15_step1 \
+        --max-num-eig 3168 \
+        --out /u/project/pasaniuc/shihuwen/response_result/est_insample/est_insample_n_10000_hsq_0.0015_ncau_3/sim_gwas_18296088_19912358_15_step2
+[INFO] Loaded results for 1 loci from step 1
+[INFO] Using 2734 SNPs with average sample size 10000.0
+[INFO] Re-inflate the summary statistics with lambda_gc: 1
+[INFO] Total SNP-heritability estimate: 0.0111 (0.0103)
+[INFO] Command finished at: Fri, 11 May 2018 01:06:35
+[INFO] @----------------------------------------------------------@
+       |         HESS       |      v0.5      |    9/October/2017  |
+       |----------------------------------------------------------|
+       |  (C) 2017 Huwenbo Shi, GNU General Public License, v3    |
+       |----------------------------------------------------------|
+       |  For documentation, citation & bug-report instructions:  |
+       |   http://bogdan.bioinformatics.ucla.edu/software/hess/   |
+       @----------------------------------------------------------@
+[INFO] Command started at: Fri, 11 May 2018 01:06:37
+[INFO] Command issued:
+    /u/project/pasaniuc/shihuwen/response/code/hess_test/hess.py \
+        --bfile /u/project/pasaniuc/shihuwen/posc/analysis/data/ukb_chr22_maf/22 \
+        --partition /u/project/pasaniuc/shihuwen/response/pipeline/regions/chr22_18296088_19912358.bed \
+        --out /u/project/pasaniuc/shihuwen/response_result/est_insample/est_insample_n_10000_hsq_0.0015_ncau_3/sim_gwas_18296088_19912358_16_step1 \
+        --chrom 22 \
+        --local-hsqg /u/project/pasaniuc/shihuwen/response_result/sim_zsc/sim_n_10000_hsq_0.0015_ncau_3/sim_gwas_18296088_19912358_16.txt
+[INFO] Loaded 1 partitions on chromosome 22
+[INFO] Average window size is 1616270
+[INFO] 74708 SNPs read from reference panel
+[INFO] Loaded 3168 SNPs with rs IDs and single-letter alleles on chromosome 22 from the GWAS summary data file
+[INFO] 2734 SNPs left after filtering
+[INFO] Loading fam file /u/project/pasaniuc/shihuwen/posc/analysis/data/ukb_chr22_maf/22.fam
+[INFO] Loading bim file /u/project/pasaniuc/shihuwen/posc/analysis/data/ukb_chr22_maf/22.bim
+/u/home/s/shihuwen/python_packages/lib/python2.7/site-packages/pysnptools/snpreader/snpreader.py:622: FutureWarning: Conversion of the second argument of issubdtype from `str` to `str` is deprecated. In future, it will be treated as `np.string_ == np.dtype(str).type`.
+  assert np.issubdtype(self._row.dtype, str) and len(self._row.shape)==2 and self._row.shape[1]==2, "iid should be dtype str, have two dimensions, and the second dimension should be size 2"
+/u/home/s/shihuwen/python_packages/lib/python2.7/site-packages/pysnptools/snpreader/snpreader.py:623: FutureWarning: Conversion of the second argument of issubdtype from `str` to `str` is deprecated. In future, it will be treated as `np.string_ == np.dtype(str).type`.
+  assert np.issubdtype(self._col.dtype, str) and len(self._col.shape)==1, "sid should be of dtype of str and one dimensional"
+[INFO] bed file is open /u/project/pasaniuc/shihuwen/posc/analysis/data/ukb_chr22_maf/22.bed
+[INFO] 2734 SNPs in locus chr22:18296088-19912358
+[INFO] Command finished at: Fri, 11 May 2018 01:07:15
+[INFO] @----------------------------------------------------------@
+       |         HESS       |      v0.5      |    9/October/2017  |
+       |----------------------------------------------------------|
+       |  (C) 2017 Huwenbo Shi, GNU General Public License, v3    |
+       |----------------------------------------------------------|
+       |  For documentation, citation & bug-report instructions:  |
+       |   http://bogdan.bioinformatics.ucla.edu/software/hess/   |
+       @----------------------------------------------------------@
+[INFO] Command started at: Fri, 11 May 2018 01:07:18
+[INFO] Command issued:
+    /u/project/pasaniuc/shihuwen/response/code/hess_test/hess.py \
+        --min-eigval 1e-08 \
+        --prefix /u/project/pasaniuc/shihuwen/response_result/est_insample/est_insample_n_10000_hsq_0.0015_ncau_3/sim_gwas_18296088_19912358_16_step1 \
+        --max-num-eig 3168 \
+        --out /u/project/pasaniuc/shihuwen/response_result/est_insample/est_insample_n_10000_hsq_0.0015_ncau_3/sim_gwas_18296088_19912358_16_step2
+[INFO] Loaded results for 1 loci from step 1
+[INFO] Using 2734 SNPs with average sample size 10000.0
+[INFO] Re-inflate the summary statistics with lambda_gc: 1
+[INFO] Total SNP-heritability estimate: -0.00328 (0.0099)
+[INFO] Command finished at: Fri, 11 May 2018 01:07:19
+[INFO] @----------------------------------------------------------@
+       |         HESS       |      v0.5      |    9/October/2017  |
+       |----------------------------------------------------------|
+       |  (C) 2017 Huwenbo Shi, GNU General Public License, v3    |
+       |----------------------------------------------------------|
+       |  For documentation, citation & bug-report instructions:  |
+       |   http://bogdan.bioinformatics.ucla.edu/software/hess/   |
+       @----------------------------------------------------------@
+[INFO] Command started at: Fri, 11 May 2018 01:07:21
+[INFO] Command issued:
+    /u/project/pasaniuc/shihuwen/response/code/hess_test/hess.py \
+        --bfile /u/project/pasaniuc/shihuwen/posc/analysis/data/ukb_chr22_maf/22 \
+        --partition /u/project/pasaniuc/shihuwen/response/pipeline/regions/chr22_18296088_19912358.bed \
+        --out /u/project/pasaniuc/shihuwen/response_result/est_insample/est_insample_n_10000_hsq_0.0015_ncau_3/sim_gwas_18296088_19912358_17_step1 \
+        --chrom 22 \
+        --local-hsqg /u/project/pasaniuc/shihuwen/response_result/sim_zsc/sim_n_10000_hsq_0.0015_ncau_3/sim_gwas_18296088_19912358_17.txt
+[INFO] Loaded 1 partitions on chromosome 22
+[INFO] Average window size is 1616270
+[INFO] 74708 SNPs read from reference panel
+[INFO] Loaded 3168 SNPs with rs IDs and single-letter alleles on chromosome 22 from the GWAS summary data file
+[INFO] 2734 SNPs left after filtering
+[INFO] Loading fam file /u/project/pasaniuc/shihuwen/posc/analysis/data/ukb_chr22_maf/22.fam
+[INFO] Loading bim file /u/project/pasaniuc/shihuwen/posc/analysis/data/ukb_chr22_maf/22.bim
+/u/home/s/shihuwen/python_packages/lib/python2.7/site-packages/pysnptools/snpreader/snpreader.py:622: FutureWarning: Conversion of the second argument of issubdtype from `str` to `str` is deprecated. In future, it will be treated as `np.string_ == np.dtype(str).type`.
+  assert np.issubdtype(self._row.dtype, str) and len(self._row.shape)==2 and self._row.shape[1]==2, "iid should be dtype str, have two dimensions, and the second dimension should be size 2"
+/u/home/s/shihuwen/python_packages/lib/python2.7/site-packages/pysnptools/snpreader/snpreader.py:623: FutureWarning: Conversion of the second argument of issubdtype from `str` to `str` is deprecated. In future, it will be treated as `np.string_ == np.dtype(str).type`.
+  assert np.issubdtype(self._col.dtype, str) and len(self._col.shape)==1, "sid should be of dtype of str and one dimensional"
+[INFO] bed file is open /u/project/pasaniuc/shihuwen/posc/analysis/data/ukb_chr22_maf/22.bed
+[INFO] 2734 SNPs in locus chr22:18296088-19912358
+[INFO] Command finished at: Fri, 11 May 2018 01:07:56
+[INFO] @----------------------------------------------------------@
+       |         HESS       |      v0.5      |    9/October/2017  |
+       |----------------------------------------------------------|
+       |  (C) 2017 Huwenbo Shi, GNU General Public License, v3    |
+       |----------------------------------------------------------|
+       |  For documentation, citation & bug-report instructions:  |
+       |   http://bogdan.bioinformatics.ucla.edu/software/hess/   |
+       @----------------------------------------------------------@
+[INFO] Command started at: Fri, 11 May 2018 01:07:58
+[INFO] Command issued:
+    /u/project/pasaniuc/shihuwen/response/code/hess_test/hess.py \
+        --min-eigval 1e-08 \
+        --prefix /u/project/pasaniuc/shihuwen/response_result/est_insample/est_insample_n_10000_hsq_0.0015_ncau_3/sim_gwas_18296088_19912358_17_step1 \
+        --max-num-eig 3168 \
+        --out /u/project/pasaniuc/shihuwen/response_result/est_insample/est_insample_n_10000_hsq_0.0015_ncau_3/sim_gwas_18296088_19912358_17_step2
+[INFO] Loaded results for 1 loci from step 1
+[INFO] Using 2734 SNPs with average sample size 10000.0
+[INFO] Re-inflate the summary statistics with lambda_gc: 1
+[INFO] Total SNP-heritability estimate: 0.00252 (0.0101)
+[INFO] Command finished at: Fri, 11 May 2018 01:07:58
+[INFO] @----------------------------------------------------------@
+       |         HESS       |      v0.5      |    9/October/2017  |
+       |----------------------------------------------------------|
+       |  (C) 2017 Huwenbo Shi, GNU General Public License, v3    |
+       |----------------------------------------------------------|
+       |  For documentation, citation & bug-report instructions:  |
+       |   http://bogdan.bioinformatics.ucla.edu/software/hess/   |
+       @----------------------------------------------------------@
+[INFO] Command started at: Fri, 11 May 2018 01:08:00
+[INFO] Command issued:
+    /u/project/pasaniuc/shihuwen/response/code/hess_test/hess.py \
+        --bfile /u/project/pasaniuc/shihuwen/posc/analysis/data/ukb_chr22_maf/22 \
+        --partition /u/project/pasaniuc/shihuwen/response/pipeline/regions/chr22_18296088_19912358.bed \
+        --out /u/project/pasaniuc/shihuwen/response_result/est_insample/est_insample_n_10000_hsq_0.0015_ncau_3/sim_gwas_18296088_19912358_18_step1 \
+        --chrom 22 \
+        --local-hsqg /u/project/pasaniuc/shihuwen/response_result/sim_zsc/sim_n_10000_hsq_0.0015_ncau_3/sim_gwas_18296088_19912358_18.txt
+[INFO] Loaded 1 partitions on chromosome 22
+[INFO] Average window size is 1616270
+[INFO] 74708 SNPs read from reference panel
+[INFO] Loaded 3168 SNPs with rs IDs and single-letter alleles on chromosome 22 from the GWAS summary data file
+[INFO] 2734 SNPs left after filtering
+[INFO] Loading fam file /u/project/pasaniuc/shihuwen/posc/analysis/data/ukb_chr22_maf/22.fam
+[INFO] Loading bim file /u/project/pasaniuc/shihuwen/posc/analysis/data/ukb_chr22_maf/22.bim
+/u/home/s/shihuwen/python_packages/lib/python2.7/site-packages/pysnptools/snpreader/snpreader.py:622: FutureWarning: Conversion of the second argument of issubdtype from `str` to `str` is deprecated. In future, it will be treated as `np.string_ == np.dtype(str).type`.
+  assert np.issubdtype(self._row.dtype, str) and len(self._row.shape)==2 and self._row.shape[1]==2, "iid should be dtype str, have two dimensions, and the second dimension should be size 2"
+/u/home/s/shihuwen/python_packages/lib/python2.7/site-packages/pysnptools/snpreader/snpreader.py:623: FutureWarning: Conversion of the second argument of issubdtype from `str` to `str` is deprecated. In future, it will be treated as `np.string_ == np.dtype(str).type`.
+  assert np.issubdtype(self._col.dtype, str) and len(self._col.shape)==1, "sid should be of dtype of str and one dimensional"
+[INFO] bed file is open /u/project/pasaniuc/shihuwen/posc/analysis/data/ukb_chr22_maf/22.bed
+[INFO] 2734 SNPs in locus chr22:18296088-19912358
+[INFO] Command finished at: Fri, 11 May 2018 01:08:35
+[INFO] @----------------------------------------------------------@
+       |         HESS       |      v0.5      |    9/October/2017  |
+       |----------------------------------------------------------|
+       |  (C) 2017 Huwenbo Shi, GNU General Public License, v3    |
+       |----------------------------------------------------------|
+       |  For documentation, citation & bug-report instructions:  |
+       |   http://bogdan.bioinformatics.ucla.edu/software/hess/   |
+       @----------------------------------------------------------@
+[INFO] Command started at: Fri, 11 May 2018 01:08:38
+[INFO] Command issued:
+    /u/project/pasaniuc/shihuwen/response/code/hess_test/hess.py \
+        --min-eigval 1e-08 \
+        --prefix /u/project/pasaniuc/shihuwen/response_result/est_insample/est_insample_n_10000_hsq_0.0015_ncau_3/sim_gwas_18296088_19912358_18_step1 \
+        --max-num-eig 3168 \
+        --out /u/project/pasaniuc/shihuwen/response_result/est_insample/est_insample_n_10000_hsq_0.0015_ncau_3/sim_gwas_18296088_19912358_18_step2
+[INFO] Loaded results for 1 loci from step 1
+[INFO] Using 2734 SNPs with average sample size 10000.0
+[INFO] Re-inflate the summary statistics with lambda_gc: 1
+[INFO] Total SNP-heritability estimate: 0.00244 (0.0101)
+[INFO] Command finished at: Fri, 11 May 2018 01:08:38
+[INFO] @----------------------------------------------------------@
+       |         HESS       |      v0.5      |    9/October/2017  |
+       |----------------------------------------------------------|
+       |  (C) 2017 Huwenbo Shi, GNU General Public License, v3    |
+       |----------------------------------------------------------|
+       |  For documentation, citation & bug-report instructions:  |
+       |   http://bogdan.bioinformatics.ucla.edu/software/hess/   |
+       @----------------------------------------------------------@
+[INFO] Command started at: Fri, 11 May 2018 01:08:40
+[INFO] Command issued:
+    /u/project/pasaniuc/shihuwen/response/code/hess_test/hess.py \
+        --bfile /u/project/pasaniuc/shihuwen/posc/analysis/data/ukb_chr22_maf/22 \
+        --partition /u/project/pasaniuc/shihuwen/response/pipeline/regions/chr22_18296088_19912358.bed \
+        --out /u/project/pasaniuc/shihuwen/response_result/est_insample/est_insample_n_10000_hsq_0.0015_ncau_3/sim_gwas_18296088_19912358_19_step1 \
+        --chrom 22 \
+        --local-hsqg /u/project/pasaniuc/shihuwen/response_result/sim_zsc/sim_n_10000_hsq_0.0015_ncau_3/sim_gwas_18296088_19912358_19.txt
+[INFO] Loaded 1 partitions on chromosome 22
+[INFO] Average window size is 1616270
+[INFO] 74708 SNPs read from reference panel
+[INFO] Loaded 3168 SNPs with rs IDs and single-letter alleles on chromosome 22 from the GWAS summary data file
+[INFO] 2734 SNPs left after filtering
+[INFO] Loading fam file /u/project/pasaniuc/shihuwen/posc/analysis/data/ukb_chr22_maf/22.fam
+[INFO] Loading bim file /u/project/pasaniuc/shihuwen/posc/analysis/data/ukb_chr22_maf/22.bim
+/u/home/s/shihuwen/python_packages/lib/python2.7/site-packages/pysnptools/snpreader/snpreader.py:622: FutureWarning: Conversion of the second argument of issubdtype from `str` to `str` is deprecated. In future, it will be treated as `np.string_ == np.dtype(str).type`.
+  assert np.issubdtype(self._row.dtype, str) and len(self._row.shape)==2 and self._row.shape[1]==2, "iid should be dtype str, have two dimensions, and the second dimension should be size 2"
+/u/home/s/shihuwen/python_packages/lib/python2.7/site-packages/pysnptools/snpreader/snpreader.py:623: FutureWarning: Conversion of the second argument of issubdtype from `str` to `str` is deprecated. In future, it will be treated as `np.string_ == np.dtype(str).type`.
+  assert np.issubdtype(self._col.dtype, str) and len(self._col.shape)==1, "sid should be of dtype of str and one dimensional"
+[INFO] bed file is open /u/project/pasaniuc/shihuwen/posc/analysis/data/ukb_chr22_maf/22.bed
+[INFO] 2734 SNPs in locus chr22:18296088-19912358
+[INFO] Command finished at: Fri, 11 May 2018 01:09:18
+[INFO] @----------------------------------------------------------@
+       |         HESS       |      v0.5      |    9/October/2017  |
+       |----------------------------------------------------------|
+       |  (C) 2017 Huwenbo Shi, GNU General Public License, v3    |
+       |----------------------------------------------------------|
+       |  For documentation, citation & bug-report instructions:  |
+       |   http://bogdan.bioinformatics.ucla.edu/software/hess/   |
+       @----------------------------------------------------------@
+[INFO] Command started at: Fri, 11 May 2018 01:09:20
+[INFO] Command issued:
+    /u/project/pasaniuc/shihuwen/response/code/hess_test/hess.py \
+        --min-eigval 1e-08 \
+        --prefix /u/project/pasaniuc/shihuwen/response_result/est_insample/est_insample_n_10000_hsq_0.0015_ncau_3/sim_gwas_18296088_19912358_19_step1 \
+        --max-num-eig 3168 \
+        --out /u/project/pasaniuc/shihuwen/response_result/est_insample/est_insample_n_10000_hsq_0.0015_ncau_3/sim_gwas_18296088_19912358_19_step2
+[INFO] Loaded results for 1 loci from step 1
+[INFO] Using 2734 SNPs with average sample size 10000.0
+[INFO] Re-inflate the summary statistics with lambda_gc: 1
+[INFO] Total SNP-heritability estimate: -0.000334 (0.00998)
+[INFO] Command finished at: Fri, 11 May 2018 01:09:20
+[INFO] @----------------------------------------------------------@
+       |         HESS       |      v0.5      |    9/October/2017  |
+       |----------------------------------------------------------|
+       |  (C) 2017 Huwenbo Shi, GNU General Public License, v3    |
+       |----------------------------------------------------------|
+       |  For documentation, citation & bug-report instructions:  |
+       |   http://bogdan.bioinformatics.ucla.edu/software/hess/   |
+       @----------------------------------------------------------@
+[INFO] Command started at: Fri, 11 May 2018 01:09:22
+[INFO] Command issued:
+    /u/project/pasaniuc/shihuwen/response/code/hess_test/hess.py \
+        --bfile /u/project/pasaniuc/shihuwen/posc/analysis/data/ukb_chr22_maf/22 \
+        --partition /u/project/pasaniuc/shihuwen/response/pipeline/regions/chr22_18296088_19912358.bed \
+        --out /u/project/pasaniuc/shihuwen/response_result/est_insample/est_insample_n_10000_hsq_0.0015_ncau_3/sim_gwas_18296088_19912358_20_step1 \
+        --chrom 22 \
+        --local-hsqg /u/project/pasaniuc/shihuwen/response_result/sim_zsc/sim_n_10000_hsq_0.0015_ncau_3/sim_gwas_18296088_19912358_20.txt
+[INFO] Loaded 1 partitions on chromosome 22
+[INFO] Average window size is 1616270
+[INFO] 74708 SNPs read from reference panel
+[INFO] Loaded 3168 SNPs with rs IDs and single-letter alleles on chromosome 22 from the GWAS summary data file
+[INFO] 2734 SNPs left after filtering
+[INFO] Loading fam file /u/project/pasaniuc/shihuwen/posc/analysis/data/ukb_chr22_maf/22.fam
+[INFO] Loading bim file /u/project/pasaniuc/shihuwen/posc/analysis/data/ukb_chr22_maf/22.bim
+/u/home/s/shihuwen/python_packages/lib/python2.7/site-packages/pysnptools/snpreader/snpreader.py:622: FutureWarning: Conversion of the second argument of issubdtype from `str` to `str` is deprecated. In future, it will be treated as `np.string_ == np.dtype(str).type`.
+  assert np.issubdtype(self._row.dtype, str) and len(self._row.shape)==2 and self._row.shape[1]==2, "iid should be dtype str, have two dimensions, and the second dimension should be size 2"
+/u/home/s/shihuwen/python_packages/lib/python2.7/site-packages/pysnptools/snpreader/snpreader.py:623: FutureWarning: Conversion of the second argument of issubdtype from `str` to `str` is deprecated. In future, it will be treated as `np.string_ == np.dtype(str).type`.
+  assert np.issubdtype(self._col.dtype, str) and len(self._col.shape)==1, "sid should be of dtype of str and one dimensional"
+[INFO] bed file is open /u/project/pasaniuc/shihuwen/posc/analysis/data/ukb_chr22_maf/22.bed
+[INFO] 2734 SNPs in locus chr22:18296088-19912358
+[INFO] Command finished at: Fri, 11 May 2018 01:10:01
+[INFO] @----------------------------------------------------------@
+       |         HESS       |      v0.5      |    9/October/2017  |
+       |----------------------------------------------------------|
+       |  (C) 2017 Huwenbo Shi, GNU General Public License, v3    |
+       |----------------------------------------------------------|
+       |  For documentation, citation & bug-report instructions:  |
+       |   http://bogdan.bioinformatics.ucla.edu/software/hess/   |
+       @----------------------------------------------------------@
+[INFO] Command started at: Fri, 11 May 2018 01:10:05
+[INFO] Command issued:
+    /u/project/pasaniuc/shihuwen/response/code/hess_test/hess.py \
+        --min-eigval 1e-08 \
+        --prefix /u/project/pasaniuc/shihuwen/response_result/est_insample/est_insample_n_10000_hsq_0.0015_ncau_3/sim_gwas_18296088_19912358_20_step1 \
+        --max-num-eig 3168 \
+        --out /u/project/pasaniuc/shihuwen/response_result/est_insample/est_insample_n_10000_hsq_0.0015_ncau_3/sim_gwas_18296088_19912358_20_step2
+[INFO] Loaded results for 1 loci from step 1
+[INFO] Using 2734 SNPs with average sample size 10000.0
+[INFO] Re-inflate the summary statistics with lambda_gc: 1
+[INFO] Total SNP-heritability estimate: 0.0232 (0.0106)
+[INFO] Command finished at: Fri, 11 May 2018 01:10:05
+[INFO] @----------------------------------------------------------@
+       |         HESS       |      v0.5      |    9/October/2017  |
+       |----------------------------------------------------------|
+       |  (C) 2017 Huwenbo Shi, GNU General Public License, v3    |
+       |----------------------------------------------------------|
+       |  For documentation, citation & bug-report instructions:  |
+       |   http://bogdan.bioinformatics.ucla.edu/software/hess/   |
+       @----------------------------------------------------------@
+[INFO] Command started at: Fri, 11 May 2018 01:10:07
+[INFO] Command issued:
+    /u/project/pasaniuc/shihuwen/response/code/hess_test/hess.py \
+        --bfile /u/project/pasaniuc/shihuwen/posc/analysis/data/ukb_chr22_maf/22 \
+        --partition /u/project/pasaniuc/shihuwen/response/pipeline/regions/chr22_18296088_19912358.bed \
+        --out /u/project/pasaniuc/shihuwen/response_result/est_insample/est_insample_n_10000_hsq_0.0015_ncau_3/sim_gwas_18296088_19912358_21_step1 \
+        --chrom 22 \
+        --local-hsqg /u/project/pasaniuc/shihuwen/response_result/sim_zsc/sim_n_10000_hsq_0.0015_ncau_3/sim_gwas_18296088_19912358_21.txt
+[INFO] Loaded 1 partitions on chromosome 22
+[INFO] Average window size is 1616270
+[INFO] 74708 SNPs read from reference panel
+[INFO] Loaded 3168 SNPs with rs IDs and single-letter alleles on chromosome 22 from the GWAS summary data file
+[INFO] 2734 SNPs left after filtering
+[INFO] Loading fam file /u/project/pasaniuc/shihuwen/posc/analysis/data/ukb_chr22_maf/22.fam
+[INFO] Loading bim file /u/project/pasaniuc/shihuwen/posc/analysis/data/ukb_chr22_maf/22.bim
+/u/home/s/shihuwen/python_packages/lib/python2.7/site-packages/pysnptools/snpreader/snpreader.py:622: FutureWarning: Conversion of the second argument of issubdtype from `str` to `str` is deprecated. In future, it will be treated as `np.string_ == np.dtype(str).type`.
+  assert np.issubdtype(self._row.dtype, str) and len(self._row.shape)==2 and self._row.shape[1]==2, "iid should be dtype str, have two dimensions, and the second dimension should be size 2"
+/u/home/s/shihuwen/python_packages/lib/python2.7/site-packages/pysnptools/snpreader/snpreader.py:623: FutureWarning: Conversion of the second argument of issubdtype from `str` to `str` is deprecated. In future, it will be treated as `np.string_ == np.dtype(str).type`.
+  assert np.issubdtype(self._col.dtype, str) and len(self._col.shape)==1, "sid should be of dtype of str and one dimensional"
+[INFO] bed file is open /u/project/pasaniuc/shihuwen/posc/analysis/data/ukb_chr22_maf/22.bed
+[INFO] 2734 SNPs in locus chr22:18296088-19912358
+[INFO] Command finished at: Fri, 11 May 2018 01:10:44
+[INFO] @----------------------------------------------------------@
+       |         HESS       |      v0.5      |    9/October/2017  |
+       |----------------------------------------------------------|
+       |  (C) 2017 Huwenbo Shi, GNU General Public License, v3    |
+       |----------------------------------------------------------|
+       |  For documentation, citation & bug-report instructions:  |
+       |   http://bogdan.bioinformatics.ucla.edu/software/hess/   |
+       @----------------------------------------------------------@
+[INFO] Command started at: Fri, 11 May 2018 01:10:46
+[INFO] Command issued:
+    /u/project/pasaniuc/shihuwen/response/code/hess_test/hess.py \
+        --min-eigval 1e-08 \
+        --prefix /u/project/pasaniuc/shihuwen/response_result/est_insample/est_insample_n_10000_hsq_0.0015_ncau_3/sim_gwas_18296088_19912358_21_step1 \
+        --max-num-eig 3168 \
+        --out /u/project/pasaniuc/shihuwen/response_result/est_insample/est_insample_n_10000_hsq_0.0015_ncau_3/sim_gwas_18296088_19912358_21_step2
+[INFO] Loaded results for 1 loci from step 1
+[INFO] Using 2734 SNPs with average sample size 10000.0
+[INFO] Re-inflate the summary statistics with lambda_gc: 1
+[INFO] Total SNP-heritability estimate: 0.00988 (0.0103)
+[INFO] Command finished at: Fri, 11 May 2018 01:10:46
+[INFO] @----------------------------------------------------------@
+       |         HESS       |      v0.5      |    9/October/2017  |
+       |----------------------------------------------------------|
+       |  (C) 2017 Huwenbo Shi, GNU General Public License, v3    |
+       |----------------------------------------------------------|
+       |  For documentation, citation & bug-report instructions:  |
+       |   http://bogdan.bioinformatics.ucla.edu/software/hess/   |
+       @----------------------------------------------------------@
+[INFO] Command started at: Fri, 11 May 2018 01:10:48
+[INFO] Command issued:
+    /u/project/pasaniuc/shihuwen/response/code/hess_test/hess.py \
+        --bfile /u/project/pasaniuc/shihuwen/posc/analysis/data/ukb_chr22_maf/22 \
+        --partition /u/project/pasaniuc/shihuwen/response/pipeline/regions/chr22_18296088_19912358.bed \
+        --out /u/project/pasaniuc/shihuwen/response_result/est_insample/est_insample_n_10000_hsq_0.0015_ncau_3/sim_gwas_18296088_19912358_22_step1 \
+        --chrom 22 \
+        --local-hsqg /u/project/pasaniuc/shihuwen/response_result/sim_zsc/sim_n_10000_hsq_0.0015_ncau_3/sim_gwas_18296088_19912358_22.txt
+[INFO] Loaded 1 partitions on chromosome 22
+[INFO] Average window size is 1616270
+[INFO] 74708 SNPs read from reference panel
+[INFO] Loaded 3168 SNPs with rs IDs and single-letter alleles on chromosome 22 from the GWAS summary data file
+[INFO] 2734 SNPs left after filtering
+[INFO] Loading fam file /u/project/pasaniuc/shihuwen/posc/analysis/data/ukb_chr22_maf/22.fam
+[INFO] Loading bim file /u/project/pasaniuc/shihuwen/posc/analysis/data/ukb_chr22_maf/22.bim
+/u/home/s/shihuwen/python_packages/lib/python2.7/site-packages/pysnptools/snpreader/snpreader.py:622: FutureWarning: Conversion of the second argument of issubdtype from `str` to `str` is deprecated. In future, it will be treated as `np.string_ == np.dtype(str).type`.
+  assert np.issubdtype(self._row.dtype, str) and len(self._row.shape)==2 and self._row.shape[1]==2, "iid should be dtype str, have two dimensions, and the second dimension should be size 2"
+/u/home/s/shihuwen/python_packages/lib/python2.7/site-packages/pysnptools/snpreader/snpreader.py:623: FutureWarning: Conversion of the second argument of issubdtype from `str` to `str` is deprecated. In future, it will be treated as `np.string_ == np.dtype(str).type`.
+  assert np.issubdtype(self._col.dtype, str) and len(self._col.shape)==1, "sid should be of dtype of str and one dimensional"
+[INFO] bed file is open /u/project/pasaniuc/shihuwen/posc/analysis/data/ukb_chr22_maf/22.bed
+[INFO] 2734 SNPs in locus chr22:18296088-19912358
+[INFO] Command finished at: Fri, 11 May 2018 01:11:23
+[INFO] @----------------------------------------------------------@
+       |         HESS       |      v0.5      |    9/October/2017  |
+       |----------------------------------------------------------|
+       |  (C) 2017 Huwenbo Shi, GNU General Public License, v3    |
+       |----------------------------------------------------------|
+       |  For documentation, citation & bug-report instructions:  |
+       |   http://bogdan.bioinformatics.ucla.edu/software/hess/   |
+       @----------------------------------------------------------@
+[INFO] Command started at: Fri, 11 May 2018 01:11:26
+[INFO] Command issued:
+    /u/project/pasaniuc/shihuwen/response/code/hess_test/hess.py \
+        --min-eigval 1e-08 \
+        --prefix /u/project/pasaniuc/shihuwen/response_result/est_insample/est_insample_n_10000_hsq_0.0015_ncau_3/sim_gwas_18296088_19912358_22_step1 \
+        --max-num-eig 3168 \
+        --out /u/project/pasaniuc/shihuwen/response_result/est_insample/est_insample_n_10000_hsq_0.0015_ncau_3/sim_gwas_18296088_19912358_22_step2
+[INFO] Loaded results for 1 loci from step 1
+[INFO] Using 2734 SNPs with average sample size 10000.0
+[INFO] Re-inflate the summary statistics with lambda_gc: 1
+[INFO] Total SNP-heritability estimate: 0.00102 (0.01)
+[INFO] Command finished at: Fri, 11 May 2018 01:11:26
+[INFO] @----------------------------------------------------------@
+       |         HESS       |      v0.5      |    9/October/2017  |
+       |----------------------------------------------------------|
+       |  (C) 2017 Huwenbo Shi, GNU General Public License, v3    |
+       |----------------------------------------------------------|
+       |  For documentation, citation & bug-report instructions:  |
+       |   http://bogdan.bioinformatics.ucla.edu/software/hess/   |
+       @----------------------------------------------------------@
+[INFO] Command started at: Fri, 11 May 2018 01:11:28
+[INFO] Command issued:
+    /u/project/pasaniuc/shihuwen/response/code/hess_test/hess.py \
+        --bfile /u/project/pasaniuc/shihuwen/posc/analysis/data/ukb_chr22_maf/22 \
+        --partition /u/project/pasaniuc/shihuwen/response/pipeline/regions/chr22_18296088_19912358.bed \
+        --out /u/project/pasaniuc/shihuwen/response_result/est_insample/est_insample_n_10000_hsq_0.0015_ncau_3/sim_gwas_18296088_19912358_23_step1 \
+        --chrom 22 \
+        --local-hsqg /u/project/pasaniuc/shihuwen/response_result/sim_zsc/sim_n_10000_hsq_0.0015_ncau_3/sim_gwas_18296088_19912358_23.txt
+[INFO] Loaded 1 partitions on chromosome 22
+[INFO] Average window size is 1616270
+[INFO] 74708 SNPs read from reference panel
+[INFO] Loaded 3168 SNPs with rs IDs and single-letter alleles on chromosome 22 from the GWAS summary data file
+[INFO] 2734 SNPs left after filtering
+[INFO] Loading fam file /u/project/pasaniuc/shihuwen/posc/analysis/data/ukb_chr22_maf/22.fam
+[INFO] Loading bim file /u/project/pasaniuc/shihuwen/posc/analysis/data/ukb_chr22_maf/22.bim
+/u/home/s/shihuwen/python_packages/lib/python2.7/site-packages/pysnptools/snpreader/snpreader.py:622: FutureWarning: Conversion of the second argument of issubdtype from `str` to `str` is deprecated. In future, it will be treated as `np.string_ == np.dtype(str).type`.
+  assert np.issubdtype(self._row.dtype, str) and len(self._row.shape)==2 and self._row.shape[1]==2, "iid should be dtype str, have two dimensions, and the second dimension should be size 2"
+/u/home/s/shihuwen/python_packages/lib/python2.7/site-packages/pysnptools/snpreader/snpreader.py:623: FutureWarning: Conversion of the second argument of issubdtype from `str` to `str` is deprecated. In future, it will be treated as `np.string_ == np.dtype(str).type`.
+  assert np.issubdtype(self._col.dtype, str) and len(self._col.shape)==1, "sid should be of dtype of str and one dimensional"
+[INFO] bed file is open /u/project/pasaniuc/shihuwen/posc/analysis/data/ukb_chr22_maf/22.bed
+[INFO] 2734 SNPs in locus chr22:18296088-19912358
+[INFO] Command finished at: Fri, 11 May 2018 01:12:05
+[INFO] @----------------------------------------------------------@
+       |         HESS       |      v0.5      |    9/October/2017  |
+       |----------------------------------------------------------|
+       |  (C) 2017 Huwenbo Shi, GNU General Public License, v3    |
+       |----------------------------------------------------------|
+       |  For documentation, citation & bug-report instructions:  |
+       |   http://bogdan.bioinformatics.ucla.edu/software/hess/   |
+       @----------------------------------------------------------@
+[INFO] Command started at: Fri, 11 May 2018 01:12:07
+[INFO] Command issued:
+    /u/project/pasaniuc/shihuwen/response/code/hess_test/hess.py \
+        --min-eigval 1e-08 \
+        --prefix /u/project/pasaniuc/shihuwen/response_result/est_insample/est_insample_n_10000_hsq_0.0015_ncau_3/sim_gwas_18296088_19912358_23_step1 \
+        --max-num-eig 3168 \
+        --out /u/project/pasaniuc/shihuwen/response_result/est_insample/est_insample_n_10000_hsq_0.0015_ncau_3/sim_gwas_18296088_19912358_23_step2
+[INFO] Loaded results for 1 loci from step 1
+[INFO] Using 2734 SNPs with average sample size 10000.0
+[INFO] Re-inflate the summary statistics with lambda_gc: 1
+[INFO] Total SNP-heritability estimate: 0.0118 (0.0103)
+[INFO] Command finished at: Fri, 11 May 2018 01:12:07
+[INFO] @----------------------------------------------------------@
+       |         HESS       |      v0.5      |    9/October/2017  |
+       |----------------------------------------------------------|
+       |  (C) 2017 Huwenbo Shi, GNU General Public License, v3    |
+       |----------------------------------------------------------|
+       |  For documentation, citation & bug-report instructions:  |
+       |   http://bogdan.bioinformatics.ucla.edu/software/hess/   |
+       @----------------------------------------------------------@
+[INFO] Command started at: Fri, 11 May 2018 01:12:09
+[INFO] Command issued:
+    /u/project/pasaniuc/shihuwen/response/code/hess_test/hess.py \
+        --bfile /u/project/pasaniuc/shihuwen/posc/analysis/data/ukb_chr22_maf/22 \
+        --partition /u/project/pasaniuc/shihuwen/response/pipeline/regions/chr22_18296088_19912358.bed \
+        --out /u/project/pasaniuc/shihuwen/response_result/est_insample/est_insample_n_10000_hsq_0.0015_ncau_3/sim_gwas_18296088_19912358_24_step1 \
+        --chrom 22 \
+        --local-hsqg /u/project/pasaniuc/shihuwen/response_result/sim_zsc/sim_n_10000_hsq_0.0015_ncau_3/sim_gwas_18296088_19912358_24.txt
+[INFO] Loaded 1 partitions on chromosome 22
+[INFO] Average window size is 1616270
+[INFO] 74708 SNPs read from reference panel
+[INFO] Loaded 3168 SNPs with rs IDs and single-letter alleles on chromosome 22 from the GWAS summary data file
+[INFO] 2734 SNPs left after filtering
+[INFO] Loading fam file /u/project/pasaniuc/shihuwen/posc/analysis/data/ukb_chr22_maf/22.fam
+[INFO] Loading bim file /u/project/pasaniuc/shihuwen/posc/analysis/data/ukb_chr22_maf/22.bim
+/u/home/s/shihuwen/python_packages/lib/python2.7/site-packages/pysnptools/snpreader/snpreader.py:622: FutureWarning: Conversion of the second argument of issubdtype from `str` to `str` is deprecated. In future, it will be treated as `np.string_ == np.dtype(str).type`.
+  assert np.issubdtype(self._row.dtype, str) and len(self._row.shape)==2 and self._row.shape[1]==2, "iid should be dtype str, have two dimensions, and the second dimension should be size 2"
+/u/home/s/shihuwen/python_packages/lib/python2.7/site-packages/pysnptools/snpreader/snpreader.py:623: FutureWarning: Conversion of the second argument of issubdtype from `str` to `str` is deprecated. In future, it will be treated as `np.string_ == np.dtype(str).type`.
+  assert np.issubdtype(self._col.dtype, str) and len(self._col.shape)==1, "sid should be of dtype of str and one dimensional"
+[INFO] bed file is open /u/project/pasaniuc/shihuwen/posc/analysis/data/ukb_chr22_maf/22.bed
+[INFO] 2734 SNPs in locus chr22:18296088-19912358
+[INFO] Command finished at: Fri, 11 May 2018 01:12:44
+[INFO] @----------------------------------------------------------@
+       |         HESS       |      v0.5      |    9/October/2017  |
+       |----------------------------------------------------------|
+       |  (C) 2017 Huwenbo Shi, GNU General Public License, v3    |
+       |----------------------------------------------------------|
+       |  For documentation, citation & bug-report instructions:  |
+       |   http://bogdan.bioinformatics.ucla.edu/software/hess/   |
+       @----------------------------------------------------------@
+[INFO] Command started at: Fri, 11 May 2018 01:12:47
+[INFO] Command issued:
+    /u/project/pasaniuc/shihuwen/response/code/hess_test/hess.py \
+        --min-eigval 1e-08 \
+        --prefix /u/project/pasaniuc/shihuwen/response_result/est_insample/est_insample_n_10000_hsq_0.0015_ncau_3/sim_gwas_18296088_19912358_24_step1 \
+        --max-num-eig 3168 \
+        --out /u/project/pasaniuc/shihuwen/response_result/est_insample/est_insample_n_10000_hsq_0.0015_ncau_3/sim_gwas_18296088_19912358_24_step2
+[INFO] Loaded results for 1 loci from step 1
+[INFO] Using 2734 SNPs with average sample size 10000.0
+[INFO] Re-inflate the summary statistics with lambda_gc: 1
+[INFO] Total SNP-heritability estimate: 0.00775 (0.0102)
+[INFO] Command finished at: Fri, 11 May 2018 01:12:47
+[INFO] @----------------------------------------------------------@
+       |         HESS       |      v0.5      |    9/October/2017  |
+       |----------------------------------------------------------|
+       |  (C) 2017 Huwenbo Shi, GNU General Public License, v3    |
+       |----------------------------------------------------------|
+       |  For documentation, citation & bug-report instructions:  |
+       |   http://bogdan.bioinformatics.ucla.edu/software/hess/   |
+       @----------------------------------------------------------@
+[INFO] Command started at: Fri, 11 May 2018 01:12:49
+[INFO] Command issued:
+    /u/project/pasaniuc/shihuwen/response/code/hess_test/hess.py \
+        --bfile /u/project/pasaniuc/shihuwen/posc/analysis/data/ukb_chr22_maf/22 \
+        --partition /u/project/pasaniuc/shihuwen/response/pipeline/regions/chr22_18296088_19912358.bed \
+        --out /u/project/pasaniuc/shihuwen/response_result/est_insample/est_insample_n_10000_hsq_0.0015_ncau_3/sim_gwas_18296088_19912358_25_step1 \
+        --chrom 22 \
+        --local-hsqg /u/project/pasaniuc/shihuwen/response_result/sim_zsc/sim_n_10000_hsq_0.0015_ncau_3/sim_gwas_18296088_19912358_25.txt
+[INFO] Loaded 1 partitions on chromosome 22
+[INFO] Average window size is 1616270
+[INFO] 74708 SNPs read from reference panel
+[INFO] Loaded 3168 SNPs with rs IDs and single-letter alleles on chromosome 22 from the GWAS summary data file
+[INFO] 2734 SNPs left after filtering
+[INFO] Loading fam file /u/project/pasaniuc/shihuwen/posc/analysis/data/ukb_chr22_maf/22.fam
+[INFO] Loading bim file /u/project/pasaniuc/shihuwen/posc/analysis/data/ukb_chr22_maf/22.bim
+/u/home/s/shihuwen/python_packages/lib/python2.7/site-packages/pysnptools/snpreader/snpreader.py:622: FutureWarning: Conversion of the second argument of issubdtype from `str` to `str` is deprecated. In future, it will be treated as `np.string_ == np.dtype(str).type`.
+  assert np.issubdtype(self._row.dtype, str) and len(self._row.shape)==2 and self._row.shape[1]==2, "iid should be dtype str, have two dimensions, and the second dimension should be size 2"
+/u/home/s/shihuwen/python_packages/lib/python2.7/site-packages/pysnptools/snpreader/snpreader.py:623: FutureWarning: Conversion of the second argument of issubdtype from `str` to `str` is deprecated. In future, it will be treated as `np.string_ == np.dtype(str).type`.
+  assert np.issubdtype(self._col.dtype, str) and len(self._col.shape)==1, "sid should be of dtype of str and one dimensional"
+[INFO] bed file is open /u/project/pasaniuc/shihuwen/posc/analysis/data/ukb_chr22_maf/22.bed
+[INFO] 2734 SNPs in locus chr22:18296088-19912358
+[INFO] Command finished at: Fri, 11 May 2018 01:13:27
+[INFO] @----------------------------------------------------------@
+       |         HESS       |      v0.5      |    9/October/2017  |
+       |----------------------------------------------------------|
+       |  (C) 2017 Huwenbo Shi, GNU General Public License, v3    |
+       |----------------------------------------------------------|
+       |  For documentation, citation & bug-report instructions:  |
+       |   http://bogdan.bioinformatics.ucla.edu/software/hess/   |
+       @----------------------------------------------------------@
+[INFO] Command started at: Fri, 11 May 2018 01:13:29
+[INFO] Command issued:
+    /u/project/pasaniuc/shihuwen/response/code/hess_test/hess.py \
+        --min-eigval 1e-08 \
+        --prefix /u/project/pasaniuc/shihuwen/response_result/est_insample/est_insample_n_10000_hsq_0.0015_ncau_3/sim_gwas_18296088_19912358_25_step1 \
+        --max-num-eig 3168 \
+        --out /u/project/pasaniuc/shihuwen/response_result/est_insample/est_insample_n_10000_hsq_0.0015_ncau_3/sim_gwas_18296088_19912358_25_step2
+[INFO] Loaded results for 1 loci from step 1
+[INFO] Using 2734 SNPs with average sample size 10000.0
+[INFO] Re-inflate the summary statistics with lambda_gc: 1
+[INFO] Total SNP-heritability estimate: 0.0114 (0.0103)
+[INFO] Command finished at: Fri, 11 May 2018 01:13:29
+[INFO] @----------------------------------------------------------@
+       |         HESS       |      v0.5      |    9/October/2017  |
+       |----------------------------------------------------------|
+       |  (C) 2017 Huwenbo Shi, GNU General Public License, v3    |
+       |----------------------------------------------------------|
+       |  For documentation, citation & bug-report instructions:  |
+       |   http://bogdan.bioinformatics.ucla.edu/software/hess/   |
+       @----------------------------------------------------------@
+[INFO] Command started at: Fri, 11 May 2018 01:13:31
+[INFO] Command issued:
+    /u/project/pasaniuc/shihuwen/response/code/hess_test/hess.py \
+        --bfile /u/project/pasaniuc/shihuwen/posc/analysis/data/ukb_chr22_maf/22 \
+        --partition /u/project/pasaniuc/shihuwen/response/pipeline/regions/chr22_18296088_19912358.bed \
+        --out /u/project/pasaniuc/shihuwen/response_result/est_insample/est_insample_n_10000_hsq_0.0015_ncau_3/sim_gwas_18296088_19912358_26_step1 \
+        --chrom 22 \
+        --local-hsqg /u/project/pasaniuc/shihuwen/response_result/sim_zsc/sim_n_10000_hsq_0.0015_ncau_3/sim_gwas_18296088_19912358_26.txt
+[INFO] Loaded 1 partitions on chromosome 22
+[INFO] Average window size is 1616270
+[INFO] 74708 SNPs read from reference panel
+[INFO] Loaded 3168 SNPs with rs IDs and single-letter alleles on chromosome 22 from the GWAS summary data file
+[INFO] 2734 SNPs left after filtering
+[INFO] Loading fam file /u/project/pasaniuc/shihuwen/posc/analysis/data/ukb_chr22_maf/22.fam
+[INFO] Loading bim file /u/project/pasaniuc/shihuwen/posc/analysis/data/ukb_chr22_maf/22.bim
+/u/home/s/shihuwen/python_packages/lib/python2.7/site-packages/pysnptools/snpreader/snpreader.py:622: FutureWarning: Conversion of the second argument of issubdtype from `str` to `str` is deprecated. In future, it will be treated as `np.string_ == np.dtype(str).type`.
+  assert np.issubdtype(self._row.dtype, str) and len(self._row.shape)==2 and self._row.shape[1]==2, "iid should be dtype str, have two dimensions, and the second dimension should be size 2"
+/u/home/s/shihuwen/python_packages/lib/python2.7/site-packages/pysnptools/snpreader/snpreader.py:623: FutureWarning: Conversion of the second argument of issubdtype from `str` to `str` is deprecated. In future, it will be treated as `np.string_ == np.dtype(str).type`.
+  assert np.issubdtype(self._col.dtype, str) and len(self._col.shape)==1, "sid should be of dtype of str and one dimensional"
+[INFO] bed file is open /u/project/pasaniuc/shihuwen/posc/analysis/data/ukb_chr22_maf/22.bed
+[INFO] 2734 SNPs in locus chr22:18296088-19912358
+[INFO] Command finished at: Fri, 11 May 2018 01:14:06
+[INFO] @----------------------------------------------------------@
+       |         HESS       |      v0.5      |    9/October/2017  |
+       |----------------------------------------------------------|
+       |  (C) 2017 Huwenbo Shi, GNU General Public License, v3    |
+       |----------------------------------------------------------|
+       |  For documentation, citation & bug-report instructions:  |
+       |   http://bogdan.bioinformatics.ucla.edu/software/hess/   |
+       @----------------------------------------------------------@
+[INFO] Command started at: Fri, 11 May 2018 01:14:09
+[INFO] Command issued:
+    /u/project/pasaniuc/shihuwen/response/code/hess_test/hess.py \
+        --min-eigval 1e-08 \
+        --prefix /u/project/pasaniuc/shihuwen/response_result/est_insample/est_insample_n_10000_hsq_0.0015_ncau_3/sim_gwas_18296088_19912358_26_step1 \
+        --max-num-eig 3168 \
+        --out /u/project/pasaniuc/shihuwen/response_result/est_insample/est_insample_n_10000_hsq_0.0015_ncau_3/sim_gwas_18296088_19912358_26_step2
+[INFO] Loaded results for 1 loci from step 1
+[INFO] Using 2734 SNPs with average sample size 10000.0
+[INFO] Re-inflate the summary statistics with lambda_gc: 1
+[INFO] Total SNP-heritability estimate: 0.0114 (0.0103)
+[INFO] Command finished at: Fri, 11 May 2018 01:14:09
+[INFO] @----------------------------------------------------------@
+       |         HESS       |      v0.5      |    9/October/2017  |
+       |----------------------------------------------------------|
+       |  (C) 2017 Huwenbo Shi, GNU General Public License, v3    |
+       |----------------------------------------------------------|
+       |  For documentation, citation & bug-report instructions:  |
+       |   http://bogdan.bioinformatics.ucla.edu/software/hess/   |
+       @----------------------------------------------------------@
+[INFO] Command started at: Fri, 11 May 2018 01:14:11
+[INFO] Command issued:
+    /u/project/pasaniuc/shihuwen/response/code/hess_test/hess.py \
+        --bfile /u/project/pasaniuc/shihuwen/posc/analysis/data/ukb_chr22_maf/22 \
+        --partition /u/project/pasaniuc/shihuwen/response/pipeline/regions/chr22_18296088_19912358.bed \
+        --out /u/project/pasaniuc/shihuwen/response_result/est_insample/est_insample_n_10000_hsq_0.0015_ncau_3/sim_gwas_18296088_19912358_27_step1 \
+        --chrom 22 \
+        --local-hsqg /u/project/pasaniuc/shihuwen/response_result/sim_zsc/sim_n_10000_hsq_0.0015_ncau_3/sim_gwas_18296088_19912358_27.txt
+[INFO] Loaded 1 partitions on chromosome 22
+[INFO] Average window size is 1616270
+[INFO] 74708 SNPs read from reference panel
+[INFO] Loaded 3168 SNPs with rs IDs and single-letter alleles on chromosome 22 from the GWAS summary data file
+[INFO] 2734 SNPs left after filtering
+[INFO] Loading fam file /u/project/pasaniuc/shihuwen/posc/analysis/data/ukb_chr22_maf/22.fam
+[INFO] Loading bim file /u/project/pasaniuc/shihuwen/posc/analysis/data/ukb_chr22_maf/22.bim
+/u/home/s/shihuwen/python_packages/lib/python2.7/site-packages/pysnptools/snpreader/snpreader.py:622: FutureWarning: Conversion of the second argument of issubdtype from `str` to `str` is deprecated. In future, it will be treated as `np.string_ == np.dtype(str).type`.
+  assert np.issubdtype(self._row.dtype, str) and len(self._row.shape)==2 and self._row.shape[1]==2, "iid should be dtype str, have two dimensions, and the second dimension should be size 2"
+/u/home/s/shihuwen/python_packages/lib/python2.7/site-packages/pysnptools/snpreader/snpreader.py:623: FutureWarning: Conversion of the second argument of issubdtype from `str` to `str` is deprecated. In future, it will be treated as `np.string_ == np.dtype(str).type`.
+  assert np.issubdtype(self._col.dtype, str) and len(self._col.shape)==1, "sid should be of dtype of str and one dimensional"
+[INFO] bed file is open /u/project/pasaniuc/shihuwen/posc/analysis/data/ukb_chr22_maf/22.bed
+[INFO] 2734 SNPs in locus chr22:18296088-19912358
+[INFO] Command finished at: Fri, 11 May 2018 01:14:48
+[INFO] @----------------------------------------------------------@
+       |         HESS       |      v0.5      |    9/October/2017  |
+       |----------------------------------------------------------|
+       |  (C) 2017 Huwenbo Shi, GNU General Public License, v3    |
+       |----------------------------------------------------------|
+       |  For documentation, citation & bug-report instructions:  |
+       |   http://bogdan.bioinformatics.ucla.edu/software/hess/   |
+       @----------------------------------------------------------@
+[INFO] Command started at: Fri, 11 May 2018 01:14:51
+[INFO] Command issued:
+    /u/project/pasaniuc/shihuwen/response/code/hess_test/hess.py \
+        --min-eigval 1e-08 \
+        --prefix /u/project/pasaniuc/shihuwen/response_result/est_insample/est_insample_n_10000_hsq_0.0015_ncau_3/sim_gwas_18296088_19912358_27_step1 \
+        --max-num-eig 3168 \
+        --out /u/project/pasaniuc/shihuwen/response_result/est_insample/est_insample_n_10000_hsq_0.0015_ncau_3/sim_gwas_18296088_19912358_27_step2
+[INFO] Loaded results for 1 loci from step 1
+[INFO] Using 2734 SNPs with average sample size 10000.0
+[INFO] Re-inflate the summary statistics with lambda_gc: 1
+[INFO] Total SNP-heritability estimate: 0.0175 (0.0105)
+[INFO] Command finished at: Fri, 11 May 2018 01:14:51
+[INFO] @----------------------------------------------------------@
+       |         HESS       |      v0.5      |    9/October/2017  |
+       |----------------------------------------------------------|
+       |  (C) 2017 Huwenbo Shi, GNU General Public License, v3    |
+       |----------------------------------------------------------|
+       |  For documentation, citation & bug-report instructions:  |
+       |   http://bogdan.bioinformatics.ucla.edu/software/hess/   |
+       @----------------------------------------------------------@
+[INFO] Command started at: Fri, 11 May 2018 01:14:53
+[INFO] Command issued:
+    /u/project/pasaniuc/shihuwen/response/code/hess_test/hess.py \
+        --bfile /u/project/pasaniuc/shihuwen/posc/analysis/data/ukb_chr22_maf/22 \
+        --partition /u/project/pasaniuc/shihuwen/response/pipeline/regions/chr22_18296088_19912358.bed \
+        --out /u/project/pasaniuc/shihuwen/response_result/est_insample/est_insample_n_10000_hsq_0.0015_ncau_3/sim_gwas_18296088_19912358_28_step1 \
+        --chrom 22 \
+        --local-hsqg /u/project/pasaniuc/shihuwen/response_result/sim_zsc/sim_n_10000_hsq_0.0015_ncau_3/sim_gwas_18296088_19912358_28.txt
+[INFO] Loaded 1 partitions on chromosome 22
+[INFO] Average window size is 1616270
+[INFO] 74708 SNPs read from reference panel
+[INFO] Loaded 3168 SNPs with rs IDs and single-letter alleles on chromosome 22 from the GWAS summary data file
+[INFO] 2734 SNPs left after filtering
+[INFO] Loading fam file /u/project/pasaniuc/shihuwen/posc/analysis/data/ukb_chr22_maf/22.fam
+[INFO] Loading bim file /u/project/pasaniuc/shihuwen/posc/analysis/data/ukb_chr22_maf/22.bim
+/u/home/s/shihuwen/python_packages/lib/python2.7/site-packages/pysnptools/snpreader/snpreader.py:622: FutureWarning: Conversion of the second argument of issubdtype from `str` to `str` is deprecated. In future, it will be treated as `np.string_ == np.dtype(str).type`.
+  assert np.issubdtype(self._row.dtype, str) and len(self._row.shape)==2 and self._row.shape[1]==2, "iid should be dtype str, have two dimensions, and the second dimension should be size 2"
+/u/home/s/shihuwen/python_packages/lib/python2.7/site-packages/pysnptools/snpreader/snpreader.py:623: FutureWarning: Conversion of the second argument of issubdtype from `str` to `str` is deprecated. In future, it will be treated as `np.string_ == np.dtype(str).type`.
+  assert np.issubdtype(self._col.dtype, str) and len(self._col.shape)==1, "sid should be of dtype of str and one dimensional"
+[INFO] bed file is open /u/project/pasaniuc/shihuwen/posc/analysis/data/ukb_chr22_maf/22.bed
+[INFO] 2734 SNPs in locus chr22:18296088-19912358
+[INFO] Command finished at: Fri, 11 May 2018 01:15:29
+[INFO] @----------------------------------------------------------@
+       |         HESS       |      v0.5      |    9/October/2017  |
+       |----------------------------------------------------------|
+       |  (C) 2017 Huwenbo Shi, GNU General Public License, v3    |
+       |----------------------------------------------------------|
+       |  For documentation, citation & bug-report instructions:  |
+       |   http://bogdan.bioinformatics.ucla.edu/software/hess/   |
+       @----------------------------------------------------------@
+[INFO] Command started at: Fri, 11 May 2018 01:15:32
+[INFO] Command issued:
+    /u/project/pasaniuc/shihuwen/response/code/hess_test/hess.py \
+        --min-eigval 1e-08 \
+        --prefix /u/project/pasaniuc/shihuwen/response_result/est_insample/est_insample_n_10000_hsq_0.0015_ncau_3/sim_gwas_18296088_19912358_28_step1 \
+        --max-num-eig 3168 \
+        --out /u/project/pasaniuc/shihuwen/response_result/est_insample/est_insample_n_10000_hsq_0.0015_ncau_3/sim_gwas_18296088_19912358_28_step2
+[INFO] Loaded results for 1 loci from step 1
+[INFO] Using 2734 SNPs with average sample size 10000.0
+[INFO] Re-inflate the summary statistics with lambda_gc: 1
+[INFO] Total SNP-heritability estimate: 0.00377 (0.0101)
+[INFO] Command finished at: Fri, 11 May 2018 01:15:32
+[INFO] @----------------------------------------------------------@
+       |         HESS       |      v0.5      |    9/October/2017  |
+       |----------------------------------------------------------|
+       |  (C) 2017 Huwenbo Shi, GNU General Public License, v3    |
+       |----------------------------------------------------------|
+       |  For documentation, citation & bug-report instructions:  |
+       |   http://bogdan.bioinformatics.ucla.edu/software/hess/   |
+       @----------------------------------------------------------@
+[INFO] Command started at: Fri, 11 May 2018 01:15:35
+[INFO] Command issued:
+    /u/project/pasaniuc/shihuwen/response/code/hess_test/hess.py \
+        --bfile /u/project/pasaniuc/shihuwen/posc/analysis/data/ukb_chr22_maf/22 \
+        --partition /u/project/pasaniuc/shihuwen/response/pipeline/regions/chr22_18296088_19912358.bed \
+        --out /u/project/pasaniuc/shihuwen/response_result/est_insample/est_insample_n_10000_hsq_0.0015_ncau_3/sim_gwas_18296088_19912358_29_step1 \
+        --chrom 22 \
+        --local-hsqg /u/project/pasaniuc/shihuwen/response_result/sim_zsc/sim_n_10000_hsq_0.0015_ncau_3/sim_gwas_18296088_19912358_29.txt
+[INFO] Loaded 1 partitions on chromosome 22
+[INFO] Average window size is 1616270
+[INFO] 74708 SNPs read from reference panel
+[INFO] Loaded 3168 SNPs with rs IDs and single-letter alleles on chromosome 22 from the GWAS summary data file
+[INFO] 2734 SNPs left after filtering
+[INFO] Loading fam file /u/project/pasaniuc/shihuwen/posc/analysis/data/ukb_chr22_maf/22.fam
+[INFO] Loading bim file /u/project/pasaniuc/shihuwen/posc/analysis/data/ukb_chr22_maf/22.bim
+/u/home/s/shihuwen/python_packages/lib/python2.7/site-packages/pysnptools/snpreader/snpreader.py:622: FutureWarning: Conversion of the second argument of issubdtype from `str` to `str` is deprecated. In future, it will be treated as `np.string_ == np.dtype(str).type`.
+  assert np.issubdtype(self._row.dtype, str) and len(self._row.shape)==2 and self._row.shape[1]==2, "iid should be dtype str, have two dimensions, and the second dimension should be size 2"
+/u/home/s/shihuwen/python_packages/lib/python2.7/site-packages/pysnptools/snpreader/snpreader.py:623: FutureWarning: Conversion of the second argument of issubdtype from `str` to `str` is deprecated. In future, it will be treated as `np.string_ == np.dtype(str).type`.
+  assert np.issubdtype(self._col.dtype, str) and len(self._col.shape)==1, "sid should be of dtype of str and one dimensional"
+[INFO] bed file is open /u/project/pasaniuc/shihuwen/posc/analysis/data/ukb_chr22_maf/22.bed
+[INFO] 2734 SNPs in locus chr22:18296088-19912358
+[INFO] Command finished at: Fri, 11 May 2018 01:16:11
+[INFO] @----------------------------------------------------------@
+       |         HESS       |      v0.5      |    9/October/2017  |
+       |----------------------------------------------------------|
+       |  (C) 2017 Huwenbo Shi, GNU General Public License, v3    |
+       |----------------------------------------------------------|
+       |  For documentation, citation & bug-report instructions:  |
+       |   http://bogdan.bioinformatics.ucla.edu/software/hess/   |
+       @----------------------------------------------------------@
+[INFO] Command started at: Fri, 11 May 2018 01:16:13
+[INFO] Command issued:
+    /u/project/pasaniuc/shihuwen/response/code/hess_test/hess.py \
+        --min-eigval 1e-08 \
+        --prefix /u/project/pasaniuc/shihuwen/response_result/est_insample/est_insample_n_10000_hsq_0.0015_ncau_3/sim_gwas_18296088_19912358_29_step1 \
+        --max-num-eig 3168 \
+        --out /u/project/pasaniuc/shihuwen/response_result/est_insample/est_insample_n_10000_hsq_0.0015_ncau_3/sim_gwas_18296088_19912358_29_step2
+[INFO] Loaded results for 1 loci from step 1
+[INFO] Using 2734 SNPs with average sample size 10000.0
+[INFO] Re-inflate the summary statistics with lambda_gc: 1
+[INFO] Total SNP-heritability estimate: 0.00426 (0.0101)
+[INFO] Command finished at: Fri, 11 May 2018 01:16:13
+[INFO] @----------------------------------------------------------@
+       |         HESS       |      v0.5      |    9/October/2017  |
+       |----------------------------------------------------------|
+       |  (C) 2017 Huwenbo Shi, GNU General Public License, v3    |
+       |----------------------------------------------------------|
+       |  For documentation, citation & bug-report instructions:  |
+       |   http://bogdan.bioinformatics.ucla.edu/software/hess/   |
+       @----------------------------------------------------------@
+[INFO] Command started at: Fri, 11 May 2018 01:16:15
+[INFO] Command issued:
+    /u/project/pasaniuc/shihuwen/response/code/hess_test/hess.py \
+        --bfile /u/project/pasaniuc/shihuwen/posc/analysis/data/ukb_chr22_maf/22 \
+        --partition /u/project/pasaniuc/shihuwen/response/pipeline/regions/chr22_18296088_19912358.bed \
+        --out /u/project/pasaniuc/shihuwen/response_result/est_insample/est_insample_n_10000_hsq_0.0015_ncau_3/sim_gwas_18296088_19912358_30_step1 \
+        --chrom 22 \
+        --local-hsqg /u/project/pasaniuc/shihuwen/response_result/sim_zsc/sim_n_10000_hsq_0.0015_ncau_3/sim_gwas_18296088_19912358_30.txt
+[INFO] Loaded 1 partitions on chromosome 22
+[INFO] Average window size is 1616270
+[INFO] 74708 SNPs read from reference panel
+[INFO] Loaded 3168 SNPs with rs IDs and single-letter alleles on chromosome 22 from the GWAS summary data file
+[INFO] 2734 SNPs left after filtering
+[INFO] Loading fam file /u/project/pasaniuc/shihuwen/posc/analysis/data/ukb_chr22_maf/22.fam
+[INFO] Loading bim file /u/project/pasaniuc/shihuwen/posc/analysis/data/ukb_chr22_maf/22.bim
+/u/home/s/shihuwen/python_packages/lib/python2.7/site-packages/pysnptools/snpreader/snpreader.py:622: FutureWarning: Conversion of the second argument of issubdtype from `str` to `str` is deprecated. In future, it will be treated as `np.string_ == np.dtype(str).type`.
+  assert np.issubdtype(self._row.dtype, str) and len(self._row.shape)==2 and self._row.shape[1]==2, "iid should be dtype str, have two dimensions, and the second dimension should be size 2"
+/u/home/s/shihuwen/python_packages/lib/python2.7/site-packages/pysnptools/snpreader/snpreader.py:623: FutureWarning: Conversion of the second argument of issubdtype from `str` to `str` is deprecated. In future, it will be treated as `np.string_ == np.dtype(str).type`.
+  assert np.issubdtype(self._col.dtype, str) and len(self._col.shape)==1, "sid should be of dtype of str and one dimensional"
+[INFO] bed file is open /u/project/pasaniuc/shihuwen/posc/analysis/data/ukb_chr22_maf/22.bed
+[INFO] 2734 SNPs in locus chr22:18296088-19912358
+[INFO] Command finished at: Fri, 11 May 2018 01:16:49
+[INFO] @----------------------------------------------------------@
+       |         HESS       |      v0.5      |    9/October/2017  |
+       |----------------------------------------------------------|
+       |  (C) 2017 Huwenbo Shi, GNU General Public License, v3    |
+       |----------------------------------------------------------|
+       |  For documentation, citation & bug-report instructions:  |
+       |   http://bogdan.bioinformatics.ucla.edu/software/hess/   |
+       @----------------------------------------------------------@
+[INFO] Command started at: Fri, 11 May 2018 01:16:53
+[INFO] Command issued:
+    /u/project/pasaniuc/shihuwen/response/code/hess_test/hess.py \
+        --min-eigval 1e-08 \
+        --prefix /u/project/pasaniuc/shihuwen/response_result/est_insample/est_insample_n_10000_hsq_0.0015_ncau_3/sim_gwas_18296088_19912358_30_step1 \
+        --max-num-eig 3168 \
+        --out /u/project/pasaniuc/shihuwen/response_result/est_insample/est_insample_n_10000_hsq_0.0015_ncau_3/sim_gwas_18296088_19912358_30_step2
+[INFO] Loaded results for 1 loci from step 1
+[INFO] Using 2734 SNPs with average sample size 10000.0
+[INFO] Re-inflate the summary statistics with lambda_gc: 1
+[INFO] Total SNP-heritability estimate: 0.0449 (0.0111)
+[INFO] Command finished at: Fri, 11 May 2018 01:16:53
+[INFO] @----------------------------------------------------------@
+       |         HESS       |      v0.5      |    9/October/2017  |
+       |----------------------------------------------------------|
+       |  (C) 2017 Huwenbo Shi, GNU General Public License, v3    |
+       |----------------------------------------------------------|
+       |  For documentation, citation & bug-report instructions:  |
+       |   http://bogdan.bioinformatics.ucla.edu/software/hess/   |
+       @----------------------------------------------------------@
+[INFO] Command started at: Fri, 11 May 2018 01:16:55
+[INFO] Command issued:
+    /u/project/pasaniuc/shihuwen/response/code/hess_test/hess.py \
+        --bfile /u/project/pasaniuc/shihuwen/posc/analysis/data/ukb_chr22_maf/22 \
+        --partition /u/project/pasaniuc/shihuwen/response/pipeline/regions/chr22_18296088_19912358.bed \
+        --out /u/project/pasaniuc/shihuwen/response_result/est_insample/est_insample_n_10000_hsq_0.0015_ncau_3/sim_gwas_18296088_19912358_31_step1 \
+        --chrom 22 \
+        --local-hsqg /u/project/pasaniuc/shihuwen/response_result/sim_zsc/sim_n_10000_hsq_0.0015_ncau_3/sim_gwas_18296088_19912358_31.txt
+[INFO] Loaded 1 partitions on chromosome 22
+[INFO] Average window size is 1616270
+[INFO] 74708 SNPs read from reference panel
+[INFO] Loaded 3168 SNPs with rs IDs and single-letter alleles on chromosome 22 from the GWAS summary data file
+[INFO] 2734 SNPs left after filtering
+[INFO] Loading fam file /u/project/pasaniuc/shihuwen/posc/analysis/data/ukb_chr22_maf/22.fam
+[INFO] Loading bim file /u/project/pasaniuc/shihuwen/posc/analysis/data/ukb_chr22_maf/22.bim
+/u/home/s/shihuwen/python_packages/lib/python2.7/site-packages/pysnptools/snpreader/snpreader.py:622: FutureWarning: Conversion of the second argument of issubdtype from `str` to `str` is deprecated. In future, it will be treated as `np.string_ == np.dtype(str).type`.
+  assert np.issubdtype(self._row.dtype, str) and len(self._row.shape)==2 and self._row.shape[1]==2, "iid should be dtype str, have two dimensions, and the second dimension should be size 2"
+/u/home/s/shihuwen/python_packages/lib/python2.7/site-packages/pysnptools/snpreader/snpreader.py:623: FutureWarning: Conversion of the second argument of issubdtype from `str` to `str` is deprecated. In future, it will be treated as `np.string_ == np.dtype(str).type`.
+  assert np.issubdtype(self._col.dtype, str) and len(self._col.shape)==1, "sid should be of dtype of str and one dimensional"
+[INFO] bed file is open /u/project/pasaniuc/shihuwen/posc/analysis/data/ukb_chr22_maf/22.bed
+[INFO] 2734 SNPs in locus chr22:18296088-19912358
+[INFO] Command finished at: Fri, 11 May 2018 01:17:31
+[INFO] @----------------------------------------------------------@
+       |         HESS       |      v0.5      |    9/October/2017  |
+       |----------------------------------------------------------|
+       |  (C) 2017 Huwenbo Shi, GNU General Public License, v3    |
+       |----------------------------------------------------------|
+       |  For documentation, citation & bug-report instructions:  |
+       |   http://bogdan.bioinformatics.ucla.edu/software/hess/   |
+       @----------------------------------------------------------@
+[INFO] Command started at: Fri, 11 May 2018 01:17:33
+[INFO] Command issued:
+    /u/project/pasaniuc/shihuwen/response/code/hess_test/hess.py \
+        --min-eigval 1e-08 \
+        --prefix /u/project/pasaniuc/shihuwen/response_result/est_insample/est_insample_n_10000_hsq_0.0015_ncau_3/sim_gwas_18296088_19912358_31_step1 \
+        --max-num-eig 3168 \
+        --out /u/project/pasaniuc/shihuwen/response_result/est_insample/est_insample_n_10000_hsq_0.0015_ncau_3/sim_gwas_18296088_19912358_31_step2
+[INFO] Loaded results for 1 loci from step 1
+[INFO] Using 2734 SNPs with average sample size 10000.0
+[INFO] Re-inflate the summary statistics with lambda_gc: 1
+[INFO] Total SNP-heritability estimate: 0.00397 (0.0101)
+[INFO] Command finished at: Fri, 11 May 2018 01:17:33
+[INFO] @----------------------------------------------------------@
+       |         HESS       |      v0.5      |    9/October/2017  |
+       |----------------------------------------------------------|
+       |  (C) 2017 Huwenbo Shi, GNU General Public License, v3    |
+       |----------------------------------------------------------|
+       |  For documentation, citation & bug-report instructions:  |
+       |   http://bogdan.bioinformatics.ucla.edu/software/hess/   |
+       @----------------------------------------------------------@
+[INFO] Command started at: Fri, 11 May 2018 01:17:35
+[INFO] Command issued:
+    /u/project/pasaniuc/shihuwen/response/code/hess_test/hess.py \
+        --bfile /u/project/pasaniuc/shihuwen/posc/analysis/data/ukb_chr22_maf/22 \
+        --partition /u/project/pasaniuc/shihuwen/response/pipeline/regions/chr22_18296088_19912358.bed \
+        --out /u/project/pasaniuc/shihuwen/response_result/est_insample/est_insample_n_10000_hsq_0.0015_ncau_3/sim_gwas_18296088_19912358_32_step1 \
+        --chrom 22 \
+        --local-hsqg /u/project/pasaniuc/shihuwen/response_result/sim_zsc/sim_n_10000_hsq_0.0015_ncau_3/sim_gwas_18296088_19912358_32.txt
+[INFO] Loaded 1 partitions on chromosome 22
+[INFO] Average window size is 1616270
+[INFO] 74708 SNPs read from reference panel
+[INFO] Loaded 3168 SNPs with rs IDs and single-letter alleles on chromosome 22 from the GWAS summary data file
+[INFO] 2734 SNPs left after filtering
+[INFO] Loading fam file /u/project/pasaniuc/shihuwen/posc/analysis/data/ukb_chr22_maf/22.fam
+[INFO] Loading bim file /u/project/pasaniuc/shihuwen/posc/analysis/data/ukb_chr22_maf/22.bim
+/u/home/s/shihuwen/python_packages/lib/python2.7/site-packages/pysnptools/snpreader/snpreader.py:622: FutureWarning: Conversion of the second argument of issubdtype from `str` to `str` is deprecated. In future, it will be treated as `np.string_ == np.dtype(str).type`.
+  assert np.issubdtype(self._row.dtype, str) and len(self._row.shape)==2 and self._row.shape[1]==2, "iid should be dtype str, have two dimensions, and the second dimension should be size 2"
+/u/home/s/shihuwen/python_packages/lib/python2.7/site-packages/pysnptools/snpreader/snpreader.py:623: FutureWarning: Conversion of the second argument of issubdtype from `str` to `str` is deprecated. In future, it will be treated as `np.string_ == np.dtype(str).type`.
+  assert np.issubdtype(self._col.dtype, str) and len(self._col.shape)==1, "sid should be of dtype of str and one dimensional"
+[INFO] bed file is open /u/project/pasaniuc/shihuwen/posc/analysis/data/ukb_chr22_maf/22.bed
+[INFO] 2734 SNPs in locus chr22:18296088-19912358
+[INFO] Command finished at: Fri, 11 May 2018 01:18:11
+[INFO] @----------------------------------------------------------@
+       |         HESS       |      v0.5      |    9/October/2017  |
+       |----------------------------------------------------------|
+       |  (C) 2017 Huwenbo Shi, GNU General Public License, v3    |
+       |----------------------------------------------------------|
+       |  For documentation, citation & bug-report instructions:  |
+       |   http://bogdan.bioinformatics.ucla.edu/software/hess/   |
+       @----------------------------------------------------------@
+[INFO] Command started at: Fri, 11 May 2018 01:18:14
+[INFO] Command issued:
+    /u/project/pasaniuc/shihuwen/response/code/hess_test/hess.py \
+        --min-eigval 1e-08 \
+        --prefix /u/project/pasaniuc/shihuwen/response_result/est_insample/est_insample_n_10000_hsq_0.0015_ncau_3/sim_gwas_18296088_19912358_32_step1 \
+        --max-num-eig 3168 \
+        --out /u/project/pasaniuc/shihuwen/response_result/est_insample/est_insample_n_10000_hsq_0.0015_ncau_3/sim_gwas_18296088_19912358_32_step2
+[INFO] Loaded results for 1 loci from step 1
+[INFO] Using 2734 SNPs with average sample size 10000.0
+[INFO] Re-inflate the summary statistics with lambda_gc: 1
+[INFO] Total SNP-heritability estimate: 0.0168 (0.0104)
+[INFO] Command finished at: Fri, 11 May 2018 01:18:14
+[INFO] @----------------------------------------------------------@
+       |         HESS       |      v0.5      |    9/October/2017  |
+       |----------------------------------------------------------|
+       |  (C) 2017 Huwenbo Shi, GNU General Public License, v3    |
+       |----------------------------------------------------------|
+       |  For documentation, citation & bug-report instructions:  |
+       |   http://bogdan.bioinformatics.ucla.edu/software/hess/   |
+       @----------------------------------------------------------@
+[INFO] Command started at: Fri, 11 May 2018 01:18:16
+[INFO] Command issued:
+    /u/project/pasaniuc/shihuwen/response/code/hess_test/hess.py \
+        --bfile /u/project/pasaniuc/shihuwen/posc/analysis/data/ukb_chr22_maf/22 \
+        --partition /u/project/pasaniuc/shihuwen/response/pipeline/regions/chr22_18296088_19912358.bed \
+        --out /u/project/pasaniuc/shihuwen/response_result/est_insample/est_insample_n_10000_hsq_0.0015_ncau_3/sim_gwas_18296088_19912358_33_step1 \
+        --chrom 22 \
+        --local-hsqg /u/project/pasaniuc/shihuwen/response_result/sim_zsc/sim_n_10000_hsq_0.0015_ncau_3/sim_gwas_18296088_19912358_33.txt
+[INFO] Loaded 1 partitions on chromosome 22
+[INFO] Average window size is 1616270
+[INFO] 74708 SNPs read from reference panel
+[INFO] Loaded 3168 SNPs with rs IDs and single-letter alleles on chromosome 22 from the GWAS summary data file
+[INFO] 2734 SNPs left after filtering
+[INFO] Loading fam file /u/project/pasaniuc/shihuwen/posc/analysis/data/ukb_chr22_maf/22.fam
+[INFO] Loading bim file /u/project/pasaniuc/shihuwen/posc/analysis/data/ukb_chr22_maf/22.bim
+/u/home/s/shihuwen/python_packages/lib/python2.7/site-packages/pysnptools/snpreader/snpreader.py:622: FutureWarning: Conversion of the second argument of issubdtype from `str` to `str` is deprecated. In future, it will be treated as `np.string_ == np.dtype(str).type`.
+  assert np.issubdtype(self._row.dtype, str) and len(self._row.shape)==2 and self._row.shape[1]==2, "iid should be dtype str, have two dimensions, and the second dimension should be size 2"
+/u/home/s/shihuwen/python_packages/lib/python2.7/site-packages/pysnptools/snpreader/snpreader.py:623: FutureWarning: Conversion of the second argument of issubdtype from `str` to `str` is deprecated. In future, it will be treated as `np.string_ == np.dtype(str).type`.
+  assert np.issubdtype(self._col.dtype, str) and len(self._col.shape)==1, "sid should be of dtype of str and one dimensional"
+[INFO] bed file is open /u/project/pasaniuc/shihuwen/posc/analysis/data/ukb_chr22_maf/22.bed
+[INFO] 2734 SNPs in locus chr22:18296088-19912358
+[INFO] Command finished at: Fri, 11 May 2018 01:18:54
+[INFO] @----------------------------------------------------------@
+       |         HESS       |      v0.5      |    9/October/2017  |
+       |----------------------------------------------------------|
+       |  (C) 2017 Huwenbo Shi, GNU General Public License, v3    |
+       |----------------------------------------------------------|
+       |  For documentation, citation & bug-report instructions:  |
+       |   http://bogdan.bioinformatics.ucla.edu/software/hess/   |
+       @----------------------------------------------------------@
+[INFO] Command started at: Fri, 11 May 2018 01:18:56
+[INFO] Command issued:
+    /u/project/pasaniuc/shihuwen/response/code/hess_test/hess.py \
+        --min-eigval 1e-08 \
+        --prefix /u/project/pasaniuc/shihuwen/response_result/est_insample/est_insample_n_10000_hsq_0.0015_ncau_3/sim_gwas_18296088_19912358_33_step1 \
+        --max-num-eig 3168 \
+        --out /u/project/pasaniuc/shihuwen/response_result/est_insample/est_insample_n_10000_hsq_0.0015_ncau_3/sim_gwas_18296088_19912358_33_step2
+[INFO] Loaded results for 1 loci from step 1
+[INFO] Using 2734 SNPs with average sample size 10000.0
+[INFO] Re-inflate the summary statistics with lambda_gc: 1
+[INFO] Total SNP-heritability estimate: 0.00234 (0.0101)
+[INFO] Command finished at: Fri, 11 May 2018 01:18:56
+[INFO] @----------------------------------------------------------@
+       |         HESS       |      v0.5      |    9/October/2017  |
+       |----------------------------------------------------------|
+       |  (C) 2017 Huwenbo Shi, GNU General Public License, v3    |
+       |----------------------------------------------------------|
+       |  For documentation, citation & bug-report instructions:  |
+       |   http://bogdan.bioinformatics.ucla.edu/software/hess/   |
+       @----------------------------------------------------------@
+[INFO] Command started at: Fri, 11 May 2018 01:18:58
+[INFO] Command issued:
+    /u/project/pasaniuc/shihuwen/response/code/hess_test/hess.py \
+        --bfile /u/project/pasaniuc/shihuwen/posc/analysis/data/ukb_chr22_maf/22 \
+        --partition /u/project/pasaniuc/shihuwen/response/pipeline/regions/chr22_18296088_19912358.bed \
+        --out /u/project/pasaniuc/shihuwen/response_result/est_insample/est_insample_n_10000_hsq_0.0015_ncau_3/sim_gwas_18296088_19912358_34_step1 \
+        --chrom 22 \
+        --local-hsqg /u/project/pasaniuc/shihuwen/response_result/sim_zsc/sim_n_10000_hsq_0.0015_ncau_3/sim_gwas_18296088_19912358_34.txt
+[INFO] Loaded 1 partitions on chromosome 22
+[INFO] Average window size is 1616270
+[INFO] 74708 SNPs read from reference panel
+[INFO] Loaded 3168 SNPs with rs IDs and single-letter alleles on chromosome 22 from the GWAS summary data file
+[INFO] 2734 SNPs left after filtering
+[INFO] Loading fam file /u/project/pasaniuc/shihuwen/posc/analysis/data/ukb_chr22_maf/22.fam
+[INFO] Loading bim file /u/project/pasaniuc/shihuwen/posc/analysis/data/ukb_chr22_maf/22.bim
+/u/home/s/shihuwen/python_packages/lib/python2.7/site-packages/pysnptools/snpreader/snpreader.py:622: FutureWarning: Conversion of the second argument of issubdtype from `str` to `str` is deprecated. In future, it will be treated as `np.string_ == np.dtype(str).type`.
+  assert np.issubdtype(self._row.dtype, str) and len(self._row.shape)==2 and self._row.shape[1]==2, "iid should be dtype str, have two dimensions, and the second dimension should be size 2"
+/u/home/s/shihuwen/python_packages/lib/python2.7/site-packages/pysnptools/snpreader/snpreader.py:623: FutureWarning: Conversion of the second argument of issubdtype from `str` to `str` is deprecated. In future, it will be treated as `np.string_ == np.dtype(str).type`.
+  assert np.issubdtype(self._col.dtype, str) and len(self._col.shape)==1, "sid should be of dtype of str and one dimensional"
+[INFO] bed file is open /u/project/pasaniuc/shihuwen/posc/analysis/data/ukb_chr22_maf/22.bed
+[INFO] 2734 SNPs in locus chr22:18296088-19912358
+[INFO] Command finished at: Fri, 11 May 2018 01:19:34
+[INFO] @----------------------------------------------------------@
+       |         HESS       |      v0.5      |    9/October/2017  |
+       |----------------------------------------------------------|
+       |  (C) 2017 Huwenbo Shi, GNU General Public License, v3    |
+       |----------------------------------------------------------|
+       |  For documentation, citation & bug-report instructions:  |
+       |   http://bogdan.bioinformatics.ucla.edu/software/hess/   |
+       @----------------------------------------------------------@
+[INFO] Command started at: Fri, 11 May 2018 01:19:38
+[INFO] Command issued:
+    /u/project/pasaniuc/shihuwen/response/code/hess_test/hess.py \
+        --min-eigval 1e-08 \
+        --prefix /u/project/pasaniuc/shihuwen/response_result/est_insample/est_insample_n_10000_hsq_0.0015_ncau_3/sim_gwas_18296088_19912358_34_step1 \
+        --max-num-eig 3168 \
+        --out /u/project/pasaniuc/shihuwen/response_result/est_insample/est_insample_n_10000_hsq_0.0015_ncau_3/sim_gwas_18296088_19912358_34_step2
+[INFO] Loaded results for 1 loci from step 1
+[INFO] Using 2734 SNPs with average sample size 10000.0
+[INFO] Re-inflate the summary statistics with lambda_gc: 1
+[INFO] Total SNP-heritability estimate: -0.0144 (0.00958)
+[INFO] Command finished at: Fri, 11 May 2018 01:19:38
+[INFO] @----------------------------------------------------------@
+       |         HESS       |      v0.5      |    9/October/2017  |
+       |----------------------------------------------------------|
+       |  (C) 2017 Huwenbo Shi, GNU General Public License, v3    |
+       |----------------------------------------------------------|
+       |  For documentation, citation & bug-report instructions:  |
+       |   http://bogdan.bioinformatics.ucla.edu/software/hess/   |
+       @----------------------------------------------------------@
+[INFO] Command started at: Fri, 11 May 2018 01:19:39
+[INFO] Command issued:
+    /u/project/pasaniuc/shihuwen/response/code/hess_test/hess.py \
+        --bfile /u/project/pasaniuc/shihuwen/posc/analysis/data/ukb_chr22_maf/22 \
+        --partition /u/project/pasaniuc/shihuwen/response/pipeline/regions/chr22_18296088_19912358.bed \
+        --out /u/project/pasaniuc/shihuwen/response_result/est_insample/est_insample_n_10000_hsq_0.0015_ncau_3/sim_gwas_18296088_19912358_35_step1 \
+        --chrom 22 \
+        --local-hsqg /u/project/pasaniuc/shihuwen/response_result/sim_zsc/sim_n_10000_hsq_0.0015_ncau_3/sim_gwas_18296088_19912358_35.txt
+[INFO] Loaded 1 partitions on chromosome 22
+[INFO] Average window size is 1616270
+[INFO] 74708 SNPs read from reference panel
+[INFO] Loaded 3168 SNPs with rs IDs and single-letter alleles on chromosome 22 from the GWAS summary data file
+[INFO] 2734 SNPs left after filtering
+[INFO] Loading fam file /u/project/pasaniuc/shihuwen/posc/analysis/data/ukb_chr22_maf/22.fam
+[INFO] Loading bim file /u/project/pasaniuc/shihuwen/posc/analysis/data/ukb_chr22_maf/22.bim
+/u/home/s/shihuwen/python_packages/lib/python2.7/site-packages/pysnptools/snpreader/snpreader.py:622: FutureWarning: Conversion of the second argument of issubdtype from `str` to `str` is deprecated. In future, it will be treated as `np.string_ == np.dtype(str).type`.
+  assert np.issubdtype(self._row.dtype, str) and len(self._row.shape)==2 and self._row.shape[1]==2, "iid should be dtype str, have two dimensions, and the second dimension should be size 2"
+/u/home/s/shihuwen/python_packages/lib/python2.7/site-packages/pysnptools/snpreader/snpreader.py:623: FutureWarning: Conversion of the second argument of issubdtype from `str` to `str` is deprecated. In future, it will be treated as `np.string_ == np.dtype(str).type`.
+  assert np.issubdtype(self._col.dtype, str) and len(self._col.shape)==1, "sid should be of dtype of str and one dimensional"
+[INFO] bed file is open /u/project/pasaniuc/shihuwen/posc/analysis/data/ukb_chr22_maf/22.bed
+[INFO] 2734 SNPs in locus chr22:18296088-19912358
+[INFO] Command finished at: Fri, 11 May 2018 01:20:16
+[INFO] @----------------------------------------------------------@
+       |         HESS       |      v0.5      |    9/October/2017  |
+       |----------------------------------------------------------|
+       |  (C) 2017 Huwenbo Shi, GNU General Public License, v3    |
+       |----------------------------------------------------------|
+       |  For documentation, citation & bug-report instructions:  |
+       |   http://bogdan.bioinformatics.ucla.edu/software/hess/   |
+       @----------------------------------------------------------@
+[INFO] Command started at: Fri, 11 May 2018 01:20:18
+[INFO] Command issued:
+    /u/project/pasaniuc/shihuwen/response/code/hess_test/hess.py \
+        --min-eigval 1e-08 \
+        --prefix /u/project/pasaniuc/shihuwen/response_result/est_insample/est_insample_n_10000_hsq_0.0015_ncau_3/sim_gwas_18296088_19912358_35_step1 \
+        --max-num-eig 3168 \
+        --out /u/project/pasaniuc/shihuwen/response_result/est_insample/est_insample_n_10000_hsq_0.0015_ncau_3/sim_gwas_18296088_19912358_35_step2
+[INFO] Loaded results for 1 loci from step 1
+[INFO] Using 2734 SNPs with average sample size 10000.0
+[INFO] Re-inflate the summary statistics with lambda_gc: 1
+[INFO] Total SNP-heritability estimate: 0.0108 (0.0103)
+[INFO] Command finished at: Fri, 11 May 2018 01:20:18
+[INFO] @----------------------------------------------------------@
+       |         HESS       |      v0.5      |    9/October/2017  |
+       |----------------------------------------------------------|
+       |  (C) 2017 Huwenbo Shi, GNU General Public License, v3    |
+       |----------------------------------------------------------|
+       |  For documentation, citation & bug-report instructions:  |
+       |   http://bogdan.bioinformatics.ucla.edu/software/hess/   |
+       @----------------------------------------------------------@
+[INFO] Command started at: Fri, 11 May 2018 01:20:20
+[INFO] Command issued:
+    /u/project/pasaniuc/shihuwen/response/code/hess_test/hess.py \
+        --bfile /u/project/pasaniuc/shihuwen/posc/analysis/data/ukb_chr22_maf/22 \
+        --partition /u/project/pasaniuc/shihuwen/response/pipeline/regions/chr22_18296088_19912358.bed \
+        --out /u/project/pasaniuc/shihuwen/response_result/est_insample/est_insample_n_10000_hsq_0.0015_ncau_3/sim_gwas_18296088_19912358_36_step1 \
+        --chrom 22 \
+        --local-hsqg /u/project/pasaniuc/shihuwen/response_result/sim_zsc/sim_n_10000_hsq_0.0015_ncau_3/sim_gwas_18296088_19912358_36.txt
+[INFO] Loaded 1 partitions on chromosome 22
+[INFO] Average window size is 1616270
+[INFO] 74708 SNPs read from reference panel
+[INFO] Loaded 3168 SNPs with rs IDs and single-letter alleles on chromosome 22 from the GWAS summary data file
+[INFO] 2734 SNPs left after filtering
+[INFO] Loading fam file /u/project/pasaniuc/shihuwen/posc/analysis/data/ukb_chr22_maf/22.fam
+[INFO] Loading bim file /u/project/pasaniuc/shihuwen/posc/analysis/data/ukb_chr22_maf/22.bim
+/u/home/s/shihuwen/python_packages/lib/python2.7/site-packages/pysnptools/snpreader/snpreader.py:622: FutureWarning: Conversion of the second argument of issubdtype from `str` to `str` is deprecated. In future, it will be treated as `np.string_ == np.dtype(str).type`.
+  assert np.issubdtype(self._row.dtype, str) and len(self._row.shape)==2 and self._row.shape[1]==2, "iid should be dtype str, have two dimensions, and the second dimension should be size 2"
+/u/home/s/shihuwen/python_packages/lib/python2.7/site-packages/pysnptools/snpreader/snpreader.py:623: FutureWarning: Conversion of the second argument of issubdtype from `str` to `str` is deprecated. In future, it will be treated as `np.string_ == np.dtype(str).type`.
+  assert np.issubdtype(self._col.dtype, str) and len(self._col.shape)==1, "sid should be of dtype of str and one dimensional"
+[INFO] bed file is open /u/project/pasaniuc/shihuwen/posc/analysis/data/ukb_chr22_maf/22.bed
+[INFO] 2734 SNPs in locus chr22:18296088-19912358
+[INFO] Command finished at: Fri, 11 May 2018 01:20:53
+[INFO] @----------------------------------------------------------@
+       |         HESS       |      v0.5      |    9/October/2017  |
+       |----------------------------------------------------------|
+       |  (C) 2017 Huwenbo Shi, GNU General Public License, v3    |
+       |----------------------------------------------------------|
+       |  For documentation, citation & bug-report instructions:  |
+       |   http://bogdan.bioinformatics.ucla.edu/software/hess/   |
+       @----------------------------------------------------------@
+[INFO] Command started at: Fri, 11 May 2018 01:20:56
+[INFO] Command issued:
+    /u/project/pasaniuc/shihuwen/response/code/hess_test/hess.py \
+        --min-eigval 1e-08 \
+        --prefix /u/project/pasaniuc/shihuwen/response_result/est_insample/est_insample_n_10000_hsq_0.0015_ncau_3/sim_gwas_18296088_19912358_36_step1 \
+        --max-num-eig 3168 \
+        --out /u/project/pasaniuc/shihuwen/response_result/est_insample/est_insample_n_10000_hsq_0.0015_ncau_3/sim_gwas_18296088_19912358_36_step2
+[INFO] Loaded results for 1 loci from step 1
+[INFO] Using 2734 SNPs with average sample size 10000.0
+[INFO] Re-inflate the summary statistics with lambda_gc: 1
+[INFO] Total SNP-heritability estimate: -0.00555 (0.00984)
+[INFO] Command finished at: Fri, 11 May 2018 01:20:56
+[INFO] @----------------------------------------------------------@
+       |         HESS       |      v0.5      |    9/October/2017  |
+       |----------------------------------------------------------|
+       |  (C) 2017 Huwenbo Shi, GNU General Public License, v3    |
+       |----------------------------------------------------------|
+       |  For documentation, citation & bug-report instructions:  |
+       |   http://bogdan.bioinformatics.ucla.edu/software/hess/   |
+       @----------------------------------------------------------@
+[INFO] Command started at: Fri, 11 May 2018 01:20:58
+[INFO] Command issued:
+    /u/project/pasaniuc/shihuwen/response/code/hess_test/hess.py \
+        --bfile /u/project/pasaniuc/shihuwen/posc/analysis/data/ukb_chr22_maf/22 \
+        --partition /u/project/pasaniuc/shihuwen/response/pipeline/regions/chr22_18296088_19912358.bed \
+        --out /u/project/pasaniuc/shihuwen/response_result/est_insample/est_insample_n_10000_hsq_0.0015_ncau_3/sim_gwas_18296088_19912358_37_step1 \
+        --chrom 22 \
+        --local-hsqg /u/project/pasaniuc/shihuwen/response_result/sim_zsc/sim_n_10000_hsq_0.0015_ncau_3/sim_gwas_18296088_19912358_37.txt
+[INFO] Loaded 1 partitions on chromosome 22
+[INFO] Average window size is 1616270
+[INFO] 74708 SNPs read from reference panel
+[INFO] Loaded 3168 SNPs with rs IDs and single-letter alleles on chromosome 22 from the GWAS summary data file
+[INFO] 2734 SNPs left after filtering
+[INFO] Loading fam file /u/project/pasaniuc/shihuwen/posc/analysis/data/ukb_chr22_maf/22.fam
+[INFO] Loading bim file /u/project/pasaniuc/shihuwen/posc/analysis/data/ukb_chr22_maf/22.bim
+/u/home/s/shihuwen/python_packages/lib/python2.7/site-packages/pysnptools/snpreader/snpreader.py:622: FutureWarning: Conversion of the second argument of issubdtype from `str` to `str` is deprecated. In future, it will be treated as `np.string_ == np.dtype(str).type`.
+  assert np.issubdtype(self._row.dtype, str) and len(self._row.shape)==2 and self._row.shape[1]==2, "iid should be dtype str, have two dimensions, and the second dimension should be size 2"
+/u/home/s/shihuwen/python_packages/lib/python2.7/site-packages/pysnptools/snpreader/snpreader.py:623: FutureWarning: Conversion of the second argument of issubdtype from `str` to `str` is deprecated. In future, it will be treated as `np.string_ == np.dtype(str).type`.
+  assert np.issubdtype(self._col.dtype, str) and len(self._col.shape)==1, "sid should be of dtype of str and one dimensional"
+[INFO] bed file is open /u/project/pasaniuc/shihuwen/posc/analysis/data/ukb_chr22_maf/22.bed
+[INFO] 2734 SNPs in locus chr22:18296088-19912358
+[INFO] Command finished at: Fri, 11 May 2018 01:21:33
+[INFO] @----------------------------------------------------------@
+       |         HESS       |      v0.5      |    9/October/2017  |
+       |----------------------------------------------------------|
+       |  (C) 2017 Huwenbo Shi, GNU General Public License, v3    |
+       |----------------------------------------------------------|
+       |  For documentation, citation & bug-report instructions:  |
+       |   http://bogdan.bioinformatics.ucla.edu/software/hess/   |
+       @----------------------------------------------------------@
+[INFO] Command started at: Fri, 11 May 2018 01:21:35
+[INFO] Command issued:
+    /u/project/pasaniuc/shihuwen/response/code/hess_test/hess.py \
+        --min-eigval 1e-08 \
+        --prefix /u/project/pasaniuc/shihuwen/response_result/est_insample/est_insample_n_10000_hsq_0.0015_ncau_3/sim_gwas_18296088_19912358_37_step1 \
+        --max-num-eig 3168 \
+        --out /u/project/pasaniuc/shihuwen/response_result/est_insample/est_insample_n_10000_hsq_0.0015_ncau_3/sim_gwas_18296088_19912358_37_step2
+[INFO] Loaded results for 1 loci from step 1
+[INFO] Using 2734 SNPs with average sample size 10000.0
+[INFO] Re-inflate the summary statistics with lambda_gc: 1
+[INFO] Total SNP-heritability estimate: 0.000167 (0.01)
+[INFO] Command finished at: Fri, 11 May 2018 01:21:35
+[INFO] @----------------------------------------------------------@
+       |         HESS       |      v0.5      |    9/October/2017  |
+       |----------------------------------------------------------|
+       |  (C) 2017 Huwenbo Shi, GNU General Public License, v3    |
+       |----------------------------------------------------------|
+       |  For documentation, citation & bug-report instructions:  |
+       |   http://bogdan.bioinformatics.ucla.edu/software/hess/   |
+       @----------------------------------------------------------@
+[INFO] Command started at: Fri, 11 May 2018 01:21:37
+[INFO] Command issued:
+    /u/project/pasaniuc/shihuwen/response/code/hess_test/hess.py \
+        --bfile /u/project/pasaniuc/shihuwen/posc/analysis/data/ukb_chr22_maf/22 \
+        --partition /u/project/pasaniuc/shihuwen/response/pipeline/regions/chr22_18296088_19912358.bed \
+        --out /u/project/pasaniuc/shihuwen/response_result/est_insample/est_insample_n_10000_hsq_0.0015_ncau_3/sim_gwas_18296088_19912358_38_step1 \
+        --chrom 22 \
+        --local-hsqg /u/project/pasaniuc/shihuwen/response_result/sim_zsc/sim_n_10000_hsq_0.0015_ncau_3/sim_gwas_18296088_19912358_38.txt
+[INFO] Loaded 1 partitions on chromosome 22
+[INFO] Average window size is 1616270
+[INFO] 74708 SNPs read from reference panel
+[INFO] Loaded 3168 SNPs with rs IDs and single-letter alleles on chromosome 22 from the GWAS summary data file
+[INFO] 2734 SNPs left after filtering
+[INFO] Loading fam file /u/project/pasaniuc/shihuwen/posc/analysis/data/ukb_chr22_maf/22.fam
+[INFO] Loading bim file /u/project/pasaniuc/shihuwen/posc/analysis/data/ukb_chr22_maf/22.bim
+/u/home/s/shihuwen/python_packages/lib/python2.7/site-packages/pysnptools/snpreader/snpreader.py:622: FutureWarning: Conversion of the second argument of issubdtype from `str` to `str` is deprecated. In future, it will be treated as `np.string_ == np.dtype(str).type`.
+  assert np.issubdtype(self._row.dtype, str) and len(self._row.shape)==2 and self._row.shape[1]==2, "iid should be dtype str, have two dimensions, and the second dimension should be size 2"
+/u/home/s/shihuwen/python_packages/lib/python2.7/site-packages/pysnptools/snpreader/snpreader.py:623: FutureWarning: Conversion of the second argument of issubdtype from `str` to `str` is deprecated. In future, it will be treated as `np.string_ == np.dtype(str).type`.
+  assert np.issubdtype(self._col.dtype, str) and len(self._col.shape)==1, "sid should be of dtype of str and one dimensional"
+[INFO] bed file is open /u/project/pasaniuc/shihuwen/posc/analysis/data/ukb_chr22_maf/22.bed
+[INFO] 2734 SNPs in locus chr22:18296088-19912358
+[INFO] Command finished at: Fri, 11 May 2018 01:22:14
+[INFO] @----------------------------------------------------------@
+       |         HESS       |      v0.5      |    9/October/2017  |
+       |----------------------------------------------------------|
+       |  (C) 2017 Huwenbo Shi, GNU General Public License, v3    |
+       |----------------------------------------------------------|
+       |  For documentation, citation & bug-report instructions:  |
+       |   http://bogdan.bioinformatics.ucla.edu/software/hess/   |
+       @----------------------------------------------------------@
+[INFO] Command started at: Fri, 11 May 2018 01:22:17
+[INFO] Command issued:
+    /u/project/pasaniuc/shihuwen/response/code/hess_test/hess.py \
+        --min-eigval 1e-08 \
+        --prefix /u/project/pasaniuc/shihuwen/response_result/est_insample/est_insample_n_10000_hsq_0.0015_ncau_3/sim_gwas_18296088_19912358_38_step1 \
+        --max-num-eig 3168 \
+        --out /u/project/pasaniuc/shihuwen/response_result/est_insample/est_insample_n_10000_hsq_0.0015_ncau_3/sim_gwas_18296088_19912358_38_step2
+[INFO] Loaded results for 1 loci from step 1
+[INFO] Using 2734 SNPs with average sample size 10000.0
+[INFO] Re-inflate the summary statistics with lambda_gc: 1
+[INFO] Total SNP-heritability estimate: -0.00993 (0.00971)
+[INFO] Command finished at: Fri, 11 May 2018 01:22:17
+[INFO] @----------------------------------------------------------@
+       |         HESS       |      v0.5      |    9/October/2017  |
+       |----------------------------------------------------------|
+       |  (C) 2017 Huwenbo Shi, GNU General Public License, v3    |
+       |----------------------------------------------------------|
+       |  For documentation, citation & bug-report instructions:  |
+       |   http://bogdan.bioinformatics.ucla.edu/software/hess/   |
+       @----------------------------------------------------------@
+[INFO] Command started at: Fri, 11 May 2018 01:22:19
+[INFO] Command issued:
+    /u/project/pasaniuc/shihuwen/response/code/hess_test/hess.py \
+        --bfile /u/project/pasaniuc/shihuwen/posc/analysis/data/ukb_chr22_maf/22 \
+        --partition /u/project/pasaniuc/shihuwen/response/pipeline/regions/chr22_18296088_19912358.bed \
+        --out /u/project/pasaniuc/shihuwen/response_result/est_insample/est_insample_n_10000_hsq_0.0015_ncau_3/sim_gwas_18296088_19912358_39_step1 \
+        --chrom 22 \
+        --local-hsqg /u/project/pasaniuc/shihuwen/response_result/sim_zsc/sim_n_10000_hsq_0.0015_ncau_3/sim_gwas_18296088_19912358_39.txt
+[INFO] Loaded 1 partitions on chromosome 22
+[INFO] Average window size is 1616270
+[INFO] 74708 SNPs read from reference panel
+[INFO] Loaded 3168 SNPs with rs IDs and single-letter alleles on chromosome 22 from the GWAS summary data file
+[INFO] 2734 SNPs left after filtering
+[INFO] Loading fam file /u/project/pasaniuc/shihuwen/posc/analysis/data/ukb_chr22_maf/22.fam
+[INFO] Loading bim file /u/project/pasaniuc/shihuwen/posc/analysis/data/ukb_chr22_maf/22.bim
+/u/home/s/shihuwen/python_packages/lib/python2.7/site-packages/pysnptools/snpreader/snpreader.py:622: FutureWarning: Conversion of the second argument of issubdtype from `str` to `str` is deprecated. In future, it will be treated as `np.string_ == np.dtype(str).type`.
+  assert np.issubdtype(self._row.dtype, str) and len(self._row.shape)==2 and self._row.shape[1]==2, "iid should be dtype str, have two dimensions, and the second dimension should be size 2"
+/u/home/s/shihuwen/python_packages/lib/python2.7/site-packages/pysnptools/snpreader/snpreader.py:623: FutureWarning: Conversion of the second argument of issubdtype from `str` to `str` is deprecated. In future, it will be treated as `np.string_ == np.dtype(str).type`.
+  assert np.issubdtype(self._col.dtype, str) and len(self._col.shape)==1, "sid should be of dtype of str and one dimensional"
+[INFO] bed file is open /u/project/pasaniuc/shihuwen/posc/analysis/data/ukb_chr22_maf/22.bed
+[INFO] 2734 SNPs in locus chr22:18296088-19912358
+[INFO] Command finished at: Fri, 11 May 2018 01:22:59
+[INFO] @----------------------------------------------------------@
+       |         HESS       |      v0.5      |    9/October/2017  |
+       |----------------------------------------------------------|
+       |  (C) 2017 Huwenbo Shi, GNU General Public License, v3    |
+       |----------------------------------------------------------|
+       |  For documentation, citation & bug-report instructions:  |
+       |   http://bogdan.bioinformatics.ucla.edu/software/hess/   |
+       @----------------------------------------------------------@
+[INFO] Command started at: Fri, 11 May 2018 01:23:00
+[INFO] Command issued:
+    /u/project/pasaniuc/shihuwen/response/code/hess_test/hess.py \
+        --min-eigval 1e-08 \
+        --prefix /u/project/pasaniuc/shihuwen/response_result/est_insample/est_insample_n_10000_hsq_0.0015_ncau_3/sim_gwas_18296088_19912358_39_step1 \
+        --max-num-eig 3168 \
+        --out /u/project/pasaniuc/shihuwen/response_result/est_insample/est_insample_n_10000_hsq_0.0015_ncau_3/sim_gwas_18296088_19912358_39_step2
+[INFO] Loaded results for 1 loci from step 1
+[INFO] Using 2734 SNPs with average sample size 10000.0
+[INFO] Re-inflate the summary statistics with lambda_gc: 1
+[INFO] Total SNP-heritability estimate: 0.00279 (0.0101)
+[INFO] Command finished at: Fri, 11 May 2018 01:23:01
+[INFO] @----------------------------------------------------------@
+       |         HESS       |      v0.5      |    9/October/2017  |
+       |----------------------------------------------------------|
+       |  (C) 2017 Huwenbo Shi, GNU General Public License, v3    |
+       |----------------------------------------------------------|
+       |  For documentation, citation & bug-report instructions:  |
+       |   http://bogdan.bioinformatics.ucla.edu/software/hess/   |
+       @----------------------------------------------------------@
+[INFO] Command started at: Fri, 11 May 2018 01:23:02
+[INFO] Command issued:
+    /u/project/pasaniuc/shihuwen/response/code/hess_test/hess.py \
+        --bfile /u/project/pasaniuc/shihuwen/posc/analysis/data/ukb_chr22_maf/22 \
+        --partition /u/project/pasaniuc/shihuwen/response/pipeline/regions/chr22_18296088_19912358.bed \
+        --out /u/project/pasaniuc/shihuwen/response_result/est_insample/est_insample_n_10000_hsq_0.0015_ncau_3/sim_gwas_18296088_19912358_40_step1 \
+        --chrom 22 \
+        --local-hsqg /u/project/pasaniuc/shihuwen/response_result/sim_zsc/sim_n_10000_hsq_0.0015_ncau_3/sim_gwas_18296088_19912358_40.txt
+[INFO] Loaded 1 partitions on chromosome 22
+[INFO] Average window size is 1616270
+[INFO] 74708 SNPs read from reference panel
+[INFO] Loaded 3168 SNPs with rs IDs and single-letter alleles on chromosome 22 from the GWAS summary data file
+[INFO] 2734 SNPs left after filtering
+[INFO] Loading fam file /u/project/pasaniuc/shihuwen/posc/analysis/data/ukb_chr22_maf/22.fam
+[INFO] Loading bim file /u/project/pasaniuc/shihuwen/posc/analysis/data/ukb_chr22_maf/22.bim
+/u/home/s/shihuwen/python_packages/lib/python2.7/site-packages/pysnptools/snpreader/snpreader.py:622: FutureWarning: Conversion of the second argument of issubdtype from `str` to `str` is deprecated. In future, it will be treated as `np.string_ == np.dtype(str).type`.
+  assert np.issubdtype(self._row.dtype, str) and len(self._row.shape)==2 and self._row.shape[1]==2, "iid should be dtype str, have two dimensions, and the second dimension should be size 2"
+/u/home/s/shihuwen/python_packages/lib/python2.7/site-packages/pysnptools/snpreader/snpreader.py:623: FutureWarning: Conversion of the second argument of issubdtype from `str` to `str` is deprecated. In future, it will be treated as `np.string_ == np.dtype(str).type`.
+  assert np.issubdtype(self._col.dtype, str) and len(self._col.shape)==1, "sid should be of dtype of str and one dimensional"
+[INFO] bed file is open /u/project/pasaniuc/shihuwen/posc/analysis/data/ukb_chr22_maf/22.bed
+[INFO] 2734 SNPs in locus chr22:18296088-19912358
+[INFO] Command finished at: Fri, 11 May 2018 01:23:50
+[INFO] @----------------------------------------------------------@
+       |         HESS       |      v0.5      |    9/October/2017  |
+       |----------------------------------------------------------|
+       |  (C) 2017 Huwenbo Shi, GNU General Public License, v3    |
+       |----------------------------------------------------------|
+       |  For documentation, citation & bug-report instructions:  |
+       |   http://bogdan.bioinformatics.ucla.edu/software/hess/   |
+       @----------------------------------------------------------@
+[INFO] Command started at: Fri, 11 May 2018 01:23:54
+[INFO] Command issued:
+    /u/project/pasaniuc/shihuwen/response/code/hess_test/hess.py \
+        --min-eigval 1e-08 \
+        --prefix /u/project/pasaniuc/shihuwen/response_result/est_insample/est_insample_n_10000_hsq_0.0015_ncau_3/sim_gwas_18296088_19912358_40_step1 \
+        --max-num-eig 3168 \
+        --out /u/project/pasaniuc/shihuwen/response_result/est_insample/est_insample_n_10000_hsq_0.0015_ncau_3/sim_gwas_18296088_19912358_40_step2
+[INFO] Loaded results for 1 loci from step 1
+[INFO] Using 2734 SNPs with average sample size 10000.0
+[INFO] Re-inflate the summary statistics with lambda_gc: 1
+[INFO] Total SNP-heritability estimate: 0.0135 (0.0103)
+[INFO] Command finished at: Fri, 11 May 2018 01:23:54
+[INFO] @----------------------------------------------------------@
+       |         HESS       |      v0.5      |    9/October/2017  |
+       |----------------------------------------------------------|
+       |  (C) 2017 Huwenbo Shi, GNU General Public License, v3    |
+       |----------------------------------------------------------|
+       |  For documentation, citation & bug-report instructions:  |
+       |   http://bogdan.bioinformatics.ucla.edu/software/hess/   |
+       @----------------------------------------------------------@
+[INFO] Command started at: Fri, 11 May 2018 01:23:56
+[INFO] Command issued:
+    /u/project/pasaniuc/shihuwen/response/code/hess_test/hess.py \
+        --bfile /u/project/pasaniuc/shihuwen/posc/analysis/data/ukb_chr22_maf/22 \
+        --partition /u/project/pasaniuc/shihuwen/response/pipeline/regions/chr22_18296088_19912358.bed \
+        --out /u/project/pasaniuc/shihuwen/response_result/est_insample/est_insample_n_10000_hsq_0.0015_ncau_3/sim_gwas_18296088_19912358_41_step1 \
+        --chrom 22 \
+        --local-hsqg /u/project/pasaniuc/shihuwen/response_result/sim_zsc/sim_n_10000_hsq_0.0015_ncau_3/sim_gwas_18296088_19912358_41.txt
+[INFO] Loaded 1 partitions on chromosome 22
+[INFO] Average window size is 1616270
+[INFO] 74708 SNPs read from reference panel
+[INFO] Loaded 3168 SNPs with rs IDs and single-letter alleles on chromosome 22 from the GWAS summary data file
+[INFO] 2734 SNPs left after filtering
+[INFO] Loading fam file /u/project/pasaniuc/shihuwen/posc/analysis/data/ukb_chr22_maf/22.fam
+[INFO] Loading bim file /u/project/pasaniuc/shihuwen/posc/analysis/data/ukb_chr22_maf/22.bim
+/u/home/s/shihuwen/python_packages/lib/python2.7/site-packages/pysnptools/snpreader/snpreader.py:622: FutureWarning: Conversion of the second argument of issubdtype from `str` to `str` is deprecated. In future, it will be treated as `np.string_ == np.dtype(str).type`.
+  assert np.issubdtype(self._row.dtype, str) and len(self._row.shape)==2 and self._row.shape[1]==2, "iid should be dtype str, have two dimensions, and the second dimension should be size 2"
+/u/home/s/shihuwen/python_packages/lib/python2.7/site-packages/pysnptools/snpreader/snpreader.py:623: FutureWarning: Conversion of the second argument of issubdtype from `str` to `str` is deprecated. In future, it will be treated as `np.string_ == np.dtype(str).type`.
+  assert np.issubdtype(self._col.dtype, str) and len(self._col.shape)==1, "sid should be of dtype of str and one dimensional"
+[INFO] bed file is open /u/project/pasaniuc/shihuwen/posc/analysis/data/ukb_chr22_maf/22.bed
+[INFO] 2734 SNPs in locus chr22:18296088-19912358
+[INFO] Command finished at: Fri, 11 May 2018 01:24:40
+[INFO] @----------------------------------------------------------@
+       |         HESS       |      v0.5      |    9/October/2017  |
+       |----------------------------------------------------------|
+       |  (C) 2017 Huwenbo Shi, GNU General Public License, v3    |
+       |----------------------------------------------------------|
+       |  For documentation, citation & bug-report instructions:  |
+       |   http://bogdan.bioinformatics.ucla.edu/software/hess/   |
+       @----------------------------------------------------------@
+[INFO] Command started at: Fri, 11 May 2018 01:24:42
+[INFO] Command issued:
+    /u/project/pasaniuc/shihuwen/response/code/hess_test/hess.py \
+        --min-eigval 1e-08 \
+        --prefix /u/project/pasaniuc/shihuwen/response_result/est_insample/est_insample_n_10000_hsq_0.0015_ncau_3/sim_gwas_18296088_19912358_41_step1 \
+        --max-num-eig 3168 \
+        --out /u/project/pasaniuc/shihuwen/response_result/est_insample/est_insample_n_10000_hsq_0.0015_ncau_3/sim_gwas_18296088_19912358_41_step2
+[INFO] Loaded results for 1 loci from step 1
+[INFO] Using 2734 SNPs with average sample size 10000.0
+[INFO] Re-inflate the summary statistics with lambda_gc: 1
+[INFO] Total SNP-heritability estimate: -0.0155 (0.00955)
+[INFO] Command finished at: Fri, 11 May 2018 01:24:42
+[INFO] @----------------------------------------------------------@
+       |         HESS       |      v0.5      |    9/October/2017  |
+       |----------------------------------------------------------|
+       |  (C) 2017 Huwenbo Shi, GNU General Public License, v3    |
+       |----------------------------------------------------------|
+       |  For documentation, citation & bug-report instructions:  |
+       |   http://bogdan.bioinformatics.ucla.edu/software/hess/   |
+       @----------------------------------------------------------@
+[INFO] Command started at: Fri, 11 May 2018 01:24:45
+[INFO] Command issued:
+    /u/project/pasaniuc/shihuwen/response/code/hess_test/hess.py \
+        --bfile /u/project/pasaniuc/shihuwen/posc/analysis/data/ukb_chr22_maf/22 \
+        --partition /u/project/pasaniuc/shihuwen/response/pipeline/regions/chr22_18296088_19912358.bed \
+        --out /u/project/pasaniuc/shihuwen/response_result/est_insample/est_insample_n_10000_hsq_0.0015_ncau_3/sim_gwas_18296088_19912358_42_step1 \
+        --chrom 22 \
+        --local-hsqg /u/project/pasaniuc/shihuwen/response_result/sim_zsc/sim_n_10000_hsq_0.0015_ncau_3/sim_gwas_18296088_19912358_42.txt
+[INFO] Loaded 1 partitions on chromosome 22
+[INFO] Average window size is 1616270
+[INFO] 74708 SNPs read from reference panel
+[INFO] Loaded 3168 SNPs with rs IDs and single-letter alleles on chromosome 22 from the GWAS summary data file
+[INFO] 2734 SNPs left after filtering
+[INFO] Loading fam file /u/project/pasaniuc/shihuwen/posc/analysis/data/ukb_chr22_maf/22.fam
+[INFO] Loading bim file /u/project/pasaniuc/shihuwen/posc/analysis/data/ukb_chr22_maf/22.bim
+/u/home/s/shihuwen/python_packages/lib/python2.7/site-packages/pysnptools/snpreader/snpreader.py:622: FutureWarning: Conversion of the second argument of issubdtype from `str` to `str` is deprecated. In future, it will be treated as `np.string_ == np.dtype(str).type`.
+  assert np.issubdtype(self._row.dtype, str) and len(self._row.shape)==2 and self._row.shape[1]==2, "iid should be dtype str, have two dimensions, and the second dimension should be size 2"
+/u/home/s/shihuwen/python_packages/lib/python2.7/site-packages/pysnptools/snpreader/snpreader.py:623: FutureWarning: Conversion of the second argument of issubdtype from `str` to `str` is deprecated. In future, it will be treated as `np.string_ == np.dtype(str).type`.
+  assert np.issubdtype(self._col.dtype, str) and len(self._col.shape)==1, "sid should be of dtype of str and one dimensional"
+[INFO] bed file is open /u/project/pasaniuc/shihuwen/posc/analysis/data/ukb_chr22_maf/22.bed
+[INFO] 2734 SNPs in locus chr22:18296088-19912358
+[INFO] Command finished at: Fri, 11 May 2018 01:25:31

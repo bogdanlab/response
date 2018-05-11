@@ -3,7 +3,7 @@
 #$ -cwd 
 #$ -m beas
 #$ -M shihuwen@mail
-#$ -l h_data=24G,h_rt=12:00:00
+#$ -l h_data=8G,h_rt=12:00:00,highp
 #$ -j y
 #$ -o ./job_out
 
@@ -33,13 +33,13 @@ for idx in $(seq 50)
 do
     $mypython $src/hess.py \
         --local-hsqg /u/project/pasaniuc/shihuwen/response_result/sim_zsc/sim_n_"$n"_hsq_"$hsq"_ncau_"$ncau"/sim_gwas_"$region_start"_"$region_stop"_"$idx".txt --chrom 22 \
-        --bfile /u/project/pasaniuc/shihuwen/posc/analysis/data/1000GP/EUR/1000GP_EUR_chr22 \
-        --out /u/project/pasaniuc/shihuwen/response_result/est_reference/est_reference_n_"$n"_hsq_"$hsq"_ncau_"$ncau"/sim_gwas_"$region_start"_"$region_stop"_"$idx"_step1 \
+        --bfile /u/project/pasaniuc/pasaniucdata/DATA/UK10KPlink/chr22 \
+        --out /u/project/pasaniuc/shihuwen/response_result/est_uk10k/est_uk10k_n_"$n"_hsq_"$hsq"_ncau_"$ncau"/sim_gwas_"$region_start"_"$region_stop"_"$idx"_step1 \
         --partition /u/project/pasaniuc/shihuwen/response/pipeline/regions/chr22_"$region_start"_"$region_stop".bed
         
     $mypython $src/hess.py \
-        --prefix /u/project/pasaniuc/shihuwen/response_result/est_reference/est_reference_n_"$n"_hsq_"$hsq"_ncau_"$ncau"/sim_gwas_"$region_start"_"$region_stop"_"$idx"_step1 \
-        --out /u/project/pasaniuc/shihuwen/response_result/est_reference/est_reference_n_"$n"_hsq_"$hsq"_ncau_"$ncau"/sim_gwas_"$region_start"_"$region_stop"_"$idx"_step2
+        --prefix /u/project/pasaniuc/shihuwen/response_result/est_uk10k/est_uk10k_n_"$n"_hsq_"$hsq"_ncau_"$ncau"/sim_gwas_"$region_start"_"$region_stop"_"$idx"_step1 \
+        --out /u/project/pasaniuc/shihuwen/response_result/est_uk10k/est_uk10k_n_"$n"_hsq_"$hsq"_ncau_"$ncau"/sim_gwas_"$region_start"_"$region_stop"_"$idx"_step2
         
-    rm /u/project/pasaniuc/shihuwen/response_result/est_reference/est_reference_n_"$n"_hsq_"$hsq"_ncau_"$ncau"/sim_gwas_"$region_start"_"$region_stop"_"$idx"*.gz
+    rm /u/project/pasaniuc/shihuwen/response_result/est_uk10k/est_uk10k_n_"$n"_hsq_"$hsq"_ncau_"$ncau"/sim_gwas_"$region_start"_"$region_stop"_"$idx"*.gz
 done
