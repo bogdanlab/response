@@ -1,15 +1,18 @@
-export PYTHONPATH=/u/home/s/shihuwen/.local/lib/python3.6/site-packages:/u/project/pasaniuc/shihuwen/software/ldetect/lib/python3.6/site-packages:/u/project/pasaniuc/shihuwen/software/commanderline-0.2/lib/python3.6/site-packages
-export LD_LIBRARY_PATH=/u/local/apps/python/3.1.2/lib:/u/local/apps/python/3.6.1/lib
-
 src=/u/project/pasaniuc/shihuwen/response/code/sim
+params=/u/project/pasaniuc/shihuwen/response/pipeline/sim_zscore/params.txt
 
-n=5000
-hsq=0.05
-ncau=3
+while read line
+do
+    n=$(echo $line | awk '{print $1}')
+    hsq=$(echo $line | awk '{print $2}')
+    ncau=$(echo $line | awk '{print $3}')
+    region_start=$(echo $line | awk '{print $4}')
+    region_stop=$(echo $line | awk '{print $5}')
 
-python3 $src/sim_gwas_pop_chrom_ukb_cvg.py \
-    --n $n --hsq $hsq --num_sim 100 \
-    --legend /u/project/pasaniuc/shihuwen/posc/analysis/data/ukb/22.bim \
-    --bfile /u/project/pasaniuc/shihuwen/posc/analysis/data/ukb/22 \
-    --out $out_dir/sim_gwas
-
+    python $src/sim_gwas_pop_chrom_ukb_cvg.py \
+        --n $n --hsq $hsq --num_sim 50 --ncau $ncau \
+        --region $region_start $region_stop \
+        --legend /u/project/pasaniuc/shihuwen/posc/analysis/data/ukb/22.bim \
+        --bfile /u/project/pasaniuc/shihuwen/posc/analysis/data/ukb/22 \
+        --out /u/project/pasaniuc/shihuwen/response_result/sim_n_"$n"_hsq_"$hsq"_ncau_"$ncau"/sim_gwas_"$region_start"_"$region_stop"__
+done < $params

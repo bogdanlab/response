@@ -21,21 +21,21 @@ def main():
 
     # find the index of the genotypes
     incl_snps_idx = legend[(legend['BP']>=args.region[0]) & \
-                           (legend['BP']<args.region[1])]
-
-    print(incl_snps_idx)
-
-    sys.exit(0)
+                           (legend['BP']<args.region[1])].index
 
     # load genotype data
     genotype = Bed(args.bfile, count_A1=False)
-    genotype = genotype.read().val
+    genotype = genotype[:,incl_snps_idx].read().val
 
     # impute missing data using sample average
     nanidx = np.where(np.isnan(genotype))
     mean_geno = np.nanmean(genotype, axis=0)
     genotype[nanidx] = mean_geno[nanidx[1]] 
-    genotype = genotype1[0:args.n, ]
+    genotype = genotype[0:args.n, :]
+
+    print genotype.shape
+
+    sys.exit(0)
 
     # standardize genotypes
     geno_std = std_geno(genotype)
@@ -56,7 +56,7 @@ def main():
         zsc = sim_zsc(geno_std, phe)
 
         # write out result
-        write_zsc(legend, zsc, args.n1, '%s%d.pop1'.format(args.out, i+1))
+        write_zsc(legend, zsc, args.n1, '%s%d.txt'.format(args.out, i+1))
 
 # standardize genotypes
 def std_geno(geno):
@@ -137,14 +137,11 @@ def get_command_line():
     parser.add_argument('--hsq', dest='hsq', type=float,
         help='heritability of the trait', required=True)
 
-    parser.add_argument('--n', dest='n', type=float,
+    parser.add_argument('--n', dest='n', type=int,
         help='sample size of the gwas', required=True)
 
     parser.add_argument('--region', dest='region', type=int, nargs=2,
         help='start and stop position of the region', required=True)
-
-    parser.add_argument('--snps', dest='snps', type=str,
-        help='a list of snps to include', required=True)
 
     parser.add_argument('--num_sim', dest='num_sim', type=int,
         help='number of replications to generate', required=True)
