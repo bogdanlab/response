@@ -1,0 +1,10 @@
+[INFO] Command started at: Tue, 03 Oct 2017 10:32:45
+[INFO] Command issued:
+    /u/project/pasaniuc/shihuwen/software/hess/hess.py \
+        --prefix ./output/disease_DERMATOLOGY/disease_DERMATOLOGY \
+        --out ./output/disease_DERMATOLOGY/disease_DERMATOLOGY
+[INFO] Loaded results for 1703 loci from step 1
+[INFO] Using 4381459 SNPs with average sample size 459324.0
+[INFO] Re-inflate the summary statistics with lambda_gc: 1
+[INFO] Total SNP-heritability estimate: 0.0179 (0.00494)
+[INFO] Command finished at: Tue, 03 Oct 2017 10:32:57

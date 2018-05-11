@@ -1,0 +1,10 @@
+[INFO] Command started at: Tue, 03 Oct 2017 10:24:00
+[INFO] Command issued:
+    /u/project/pasaniuc/shihuwen/software/hess/hess.py \
+        --prefix ./output/blood_HIGH_LIGHT_SCATTER_RETICULOCYTE_COUNT/blood_HIGH_LIGHT_SCATTER_RETICULOCYTE_COUNT \
+        --out ./output/blood_HIGH_LIGHT_SCATTER_RETICULOCYTE_COUNT/blood_HIGH_LIGHT_SCATTER_RETICULOCYTE_COUNT
+[INFO] Loaded results for 1703 loci from step 1
+[INFO] Using 4381460 SNPs with average sample size 437490.0
+[INFO] Re-inflate the summary statistics with lambda_gc: 1
+[INFO] Total SNP-heritability estimate: 0.314 (0.00386)
+[INFO] Command finished at: Tue, 03 Oct 2017 10:24:12

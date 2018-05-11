@@ -1,0 +1,19 @@
+[INFO] @----------------------------------------------------------@
+       |         HESS       |      v0.5      |    9/October/2017  |
+       |----------------------------------------------------------|
+       |  (C) 2017 Huwenbo Shi, GNU General Public License, v3    |
+       |----------------------------------------------------------|
+       |  For documentation, citation & bug-report instructions:  |
+       |   http://bogdan.bioinformatics.ucla.edu/software/hess/   |
+       @----------------------------------------------------------@
+[INFO] Command started at: Wed, 11 Oct 2017 18:25:19
+[INFO] Command issued:
+    /u/project/pasaniuc/shihuwen/software/hess/hess.py \
+        --tot-hsqg 0.28 0.004 \
+        --prefix ./output/blood_EOSINOPHIL_COUNT/blood_EOSINOPHIL_COUNT \
+        --out ./output/blood_EOSINOPHIL_COUNT/blood_EOSINOPHIL_COUNT
+[INFO] Loaded results for 1703 loci from step 1
+[INFO] Using 4381458 SNPs with average sample size 439938.0
+[INFO] Re-inflate the summary statistics with lambda_gc: 1
+[INFO] Total SNP-heritability estimate: 0.28 (0.00558)
+[INFO] Command finished at: Wed, 11 Oct 2017 18:25:22

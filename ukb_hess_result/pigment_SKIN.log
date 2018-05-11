@@ -1,0 +1,10 @@
+[INFO] Command started at: Tue, 03 Oct 2017 10:44:08
+[INFO] Command issued:
+    /u/project/pasaniuc/shihuwen/software/hess/hess.py \
+        --prefix ./output/pigment_SKIN/pigment_SKIN \
+        --out ./output/pigment_SKIN/pigment_SKIN
+[INFO] Loaded results for 1703 loci from step 1
+[INFO] Using 4381459 SNPs with average sample size 453609.0
+[INFO] Re-inflate the summary statistics with lambda_gc: 1
+[INFO] Total SNP-heritability estimate: 0.215 (0.00416)
+[INFO] Command finished at: Tue, 03 Oct 2017 10:44:21

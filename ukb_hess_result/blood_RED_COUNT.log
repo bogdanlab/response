@@ -1,0 +1,10 @@
+[INFO] Command started at: Tue, 03 Oct 2017 10:27:10
+[INFO] Command issued:
+    /u/project/pasaniuc/shihuwen/software/hess/hess.py \
+        --prefix ./output/blood_RED_COUNT/blood_RED_COUNT \
+        --out ./output/blood_RED_COUNT/blood_RED_COUNT
+[INFO] Loaded results for 1703 loci from step 1
+[INFO] Using 4381458 SNPs with average sample size 445174.0
+[INFO] Re-inflate the summary statistics with lambda_gc: 1
+[INFO] Total SNP-heritability estimate: 0.335 (0.00371)
+[INFO] Command finished at: Tue, 03 Oct 2017 10:27:21

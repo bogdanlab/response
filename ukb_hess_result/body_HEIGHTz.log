@@ -1,0 +1,10 @@
+[INFO] Command started at: Tue, 03 Oct 2017 10:29:04
+[INFO] Command issued:
+    /u/project/pasaniuc/shihuwen/software/hess/hess.py \
+        --prefix ./output/body_HEIGHTz/body_HEIGHTz \
+        --out ./output/body_HEIGHTz/body_HEIGHTz
+[INFO] Loaded results for 1703 loci from step 1
+[INFO] Using 4381459 SNPs with average sample size 458303.0
+[INFO] Re-inflate the summary statistics with lambda_gc: 1
+[INFO] Total SNP-heritability estimate: 0.832 (0.00138)
+[INFO] Command finished at: Tue, 03 Oct 2017 10:29:16

@@ -1,0 +1,10 @@
+[INFO] Command started at: Tue, 03 Oct 2017 10:44:50
+[INFO] Command issued:
+    /u/project/pasaniuc/shihuwen/software/hess/hess.py \
+        --prefix ./output/pigment_TANNING/pigment_TANNING \
+        --out ./output/pigment_TANNING/pigment_TANNING
+[INFO] Loaded results for 1703 loci from step 1
+[INFO] Using 4381458 SNPs with average sample size 449984.0
+[INFO] Re-inflate the summary statistics with lambda_gc: 1
+[INFO] Total SNP-heritability estimate: 0.213 (0.0042)
+[INFO] Command finished at: Tue, 03 Oct 2017 10:45:02

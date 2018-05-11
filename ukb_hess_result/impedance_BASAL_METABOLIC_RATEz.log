@@ -1,0 +1,10 @@
+[INFO] Command started at: Tue, 03 Oct 2017 10:41:34
+[INFO] Command issued:
+    /u/project/pasaniuc/shihuwen/software/hess/hess.py \
+        --prefix ./output/impedance_BASAL_METABOLIC_RATEz/impedance_BASAL_METABOLIC_RATEz \
+        --out ./output/impedance_BASAL_METABOLIC_RATEz/impedance_BASAL_METABOLIC_RATEz
+[INFO] Loaded results for 1703 loci from step 1
+[INFO] Using 4381458 SNPs with average sample size 451316.0
+[INFO] Re-inflate the summary statistics with lambda_gc: 1
+[INFO] Total SNP-heritability estimate: 0.426 (0.00327)
+[INFO] Command finished at: Tue, 03 Oct 2017 10:41:46

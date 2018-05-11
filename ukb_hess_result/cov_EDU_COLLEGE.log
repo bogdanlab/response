@@ -1,0 +1,10 @@
+[INFO] Command started at: Tue, 03 Oct 2017 10:30:28
+[INFO] Command issued:
+    /u/project/pasaniuc/shihuwen/software/hess/hess.py \
+        --prefix ./output/cov_EDU_COLLEGE/cov_EDU_COLLEGE \
+        --out ./output/cov_EDU_COLLEGE/cov_EDU_COLLEGE
+[INFO] Loaded results for 1703 loci from step 1
+[INFO] Using 4381458 SNPs with average sample size 454813.0
+[INFO] Re-inflate the summary statistics with lambda_gc: 1
+[INFO] Total SNP-heritability estimate: 0.177 (0.00431)
+[INFO] Command finished at: Tue, 03 Oct 2017 10:30:41

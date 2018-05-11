@@ -1,0 +1,10 @@
+[INFO] Command started at: Tue, 03 Oct 2017 10:26:08
+[INFO] Command issued:
+    /u/project/pasaniuc/shihuwen/software/hess/hess.py \
+        --prefix ./output/blood_PLATELET_COUNT/blood_PLATELET_COUNT \
+        --out ./output/blood_PLATELET_COUNT/blood_PLATELET_COUNT
+[INFO] Loaded results for 1703 loci from step 1
+[INFO] Using 4381460 SNPs with average sample size 444382.0
+[INFO] Re-inflate the summary statistics with lambda_gc: 1
+[INFO] Total SNP-heritability estimate: 0.479 (0.00308)
+[INFO] Command finished at: Tue, 03 Oct 2017 10:26:20

@@ -1,0 +1,10 @@
+[INFO] Command started at: Tue, 03 Oct 2017 10:41:00
+[INFO] Command issued:
+    /u/project/pasaniuc/shihuwen/software/hess/hess.py \
+        --prefix ./output/disease_RESPIRATORY_ENT/disease_RESPIRATORY_ENT \
+        --out ./output/disease_RESPIRATORY_ENT/disease_RESPIRATORY_ENT
+[INFO] Loaded results for 1703 loci from step 1
+[INFO] Using 4381459 SNPs with average sample size 459324.0
+[INFO] Re-inflate the summary statistics with lambda_gc: 1
+[INFO] Total SNP-heritability estimate: 0.0666 (0.00474)
+[INFO] Command finished at: Tue, 03 Oct 2017 10:41:12
