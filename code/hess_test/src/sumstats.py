@@ -112,7 +112,7 @@ class SumStats(object):
             for name in required:
                 idx = idx_map[name]; val = cols[idx]
                 if name == 'CHR' and val != chrom: break
-                #if name == 'SNP' and val[0:2] != 'rs': break
+                if name == 'SNP' and val[0:2] != 'rs': break
                 if (name == 'A1' or name == 'A2') and len(val) != 1: break
                 if name == 'BP' or name == 'Z' or name == 'N': val = float(val)
                 tmp[name] = val
