@@ -23,6 +23,11 @@ def main():
     incl_snps_idx = legend[(legend['BP']>=args.region[0]) & \
                            (legend['BP']<args.region[1])].index
 
+    # update index
+    legend = legend[(legend['BP']>=args.region[0]) & \
+                    (legend['BP']<args.region[1])]
+    legend = legend.reset_index(drop=True)
+
     # load genotype data
     genotype = Bed(args.bfile, count_A1=False)
     genotype = genotype[:,incl_snps_idx].read().val
