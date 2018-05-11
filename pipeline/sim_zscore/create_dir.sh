@@ -1,4 +1,4 @@
-out_dir=/u/project/pasaniuc/shihuwen/response_result
+out_dir=/u/project/pasaniuc/shihuwen/response_result/sim_zsc
 while read line
 do
     n=$(echo $line | awk '{print $1}') 

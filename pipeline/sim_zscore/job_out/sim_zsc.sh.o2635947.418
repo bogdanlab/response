@@ -1,0 +1,318 @@
+
+The 'gcc/4.7.2' module is being loaded
+
+7500 0.0015 3 49824534 51243298
+/u/home/s/shihuwen/python_packages/lib/python2.7/site-packages/pysnptools/snpreader/snpreader.py:622: FutureWarning: Conversion of the second argument of issubdtype from `str` to `str` is deprecated. In future, it will be treated as `np.string_ == np.dtype(str).type`.
+  assert np.issubdtype(self._row.dtype, str) and len(self._row.shape)==2 and self._row.shape[1]==2, "iid should be dtype str, have two dimensions, and the second dimension should be size 2"
+/u/home/s/shihuwen/python_packages/lib/python2.7/site-packages/pysnptools/snpreader/snpreader.py:623: FutureWarning: Conversion of the second argument of issubdtype from `str` to `str` is deprecated. In future, it will be treated as `np.string_ == np.dtype(str).type`.
+  assert np.issubdtype(self._col.dtype, str) and len(self._col.shape)==1, "sid should be of dtype of str and one dimensional"
+[3226  113 1831] 3504 3
+/u/project/pasaniuc/shihuwen/response_result/sim_zsc/sim_n_7500_hsq_0.0015_ncau_3/sim_gwas_49824534_51243298_1.txt
+[ 496  699 2061] 3504 3
+/u/project/pasaniuc/shihuwen/response_result/sim_zsc/sim_n_7500_hsq_0.0015_ncau_3/sim_gwas_49824534_51243298_2.txt
+[1522  637 2779] 3504 3
+/u/project/pasaniuc/shihuwen/response_result/sim_zsc/sim_n_7500_hsq_0.0015_ncau_3/sim_gwas_49824534_51243298_3.txt
+[ 996 1854 1037] 3504 3
+/u/project/pasaniuc/shihuwen/response_result/sim_zsc/sim_n_7500_hsq_0.0015_ncau_3/sim_gwas_49824534_51243298_4.txt
+[2306 3491 3360] 3504 3
+/u/project/pasaniuc/shihuwen/response_result/sim_zsc/sim_n_7500_hsq_0.0015_ncau_3/sim_gwas_49824534_51243298_5.txt
+[2395 2319 1987] 3504 3
+/u/project/pasaniuc/shihuwen/response_result/sim_zsc/sim_n_7500_hsq_0.0015_ncau_3/sim_gwas_49824534_51243298_6.txt
+[2387  835 2743] 3504 3
+/u/project/pasaniuc/shihuwen/response_result/sim_zsc/sim_n_7500_hsq_0.0015_ncau_3/sim_gwas_49824534_51243298_7.txt
+[1164 2250 1345] 3504 3
+/u/project/pasaniuc/shihuwen/response_result/sim_zsc/sim_n_7500_hsq_0.0015_ncau_3/sim_gwas_49824534_51243298_8.txt
+[387 372 365] 3504 3
+/u/project/pasaniuc/shihuwen/response_result/sim_zsc/sim_n_7500_hsq_0.0015_ncau_3/sim_gwas_49824534_51243298_9.txt
+[  21  384 1685] 3504 3
+/u/project/pasaniuc/shihuwen/response_result/sim_zsc/sim_n_7500_hsq_0.0015_ncau_3/sim_gwas_49824534_51243298_10.txt
+[2068 1816  495] 3504 3
+/u/project/pasaniuc/shihuwen/response_result/sim_zsc/sim_n_7500_hsq_0.0015_ncau_3/sim_gwas_49824534_51243298_11.txt
+[2491 1769 2704] 3504 3
+/u/project/pasaniuc/shihuwen/response_result/sim_zsc/sim_n_7500_hsq_0.0015_ncau_3/sim_gwas_49824534_51243298_12.txt
+[ 575 2922 1442] 3504 3
+/u/project/pasaniuc/shihuwen/response_result/sim_zsc/sim_n_7500_hsq_0.0015_ncau_3/sim_gwas_49824534_51243298_13.txt
+[1982  563 3137] 3504 3
+/u/project/pasaniuc/shihuwen/response_result/sim_zsc/sim_n_7500_hsq_0.0015_ncau_3/sim_gwas_49824534_51243298_14.txt
+[1291  469 2511] 3504 3
+/u/project/pasaniuc/shihuwen/response_result/sim_zsc/sim_n_7500_hsq_0.0015_ncau_3/sim_gwas_49824534_51243298_15.txt
+[2472 1744  511] 3504 3
+/u/project/pasaniuc/shihuwen/response_result/sim_zsc/sim_n_7500_hsq_0.0015_ncau_3/sim_gwas_49824534_51243298_16.txt
+[3469 3358 3021] 3504 3
+/u/project/pasaniuc/shihuwen/response_result/sim_zsc/sim_n_7500_hsq_0.0015_ncau_3/sim_gwas_49824534_51243298_17.txt
+[ 125 2352 1571] 3504 3
+/u/project/pasaniuc/shihuwen/response_result/sim_zsc/sim_n_7500_hsq_0.0015_ncau_3/sim_gwas_49824534_51243298_18.txt
+[1443 1388 1389] 3504 3
+/u/project/pasaniuc/shihuwen/response_result/sim_zsc/sim_n_7500_hsq_0.0015_ncau_3/sim_gwas_49824534_51243298_19.txt
+[ 266  935 3151] 3504 3
+/u/project/pasaniuc/shihuwen/response_result/sim_zsc/sim_n_7500_hsq_0.0015_ncau_3/sim_gwas_49824534_51243298_20.txt
+[2134  163  546] 3504 3
+/u/project/pasaniuc/shihuwen/response_result/sim_zsc/sim_n_7500_hsq_0.0015_ncau_3/sim_gwas_49824534_51243298_21.txt
+[1411  176  791] 3504 3
+/u/project/pasaniuc/shihuwen/response_result/sim_zsc/sim_n_7500_hsq_0.0015_ncau_3/sim_gwas_49824534_51243298_22.txt
+[1094 3492 2575] 3504 3
+/u/project/pasaniuc/shihuwen/response_result/sim_zsc/sim_n_7500_hsq_0.0015_ncau_3/sim_gwas_49824534_51243298_23.txt
+[2103 3167 3258] 3504 3
+/u/project/pasaniuc/shihuwen/response_result/sim_zsc/sim_n_7500_hsq_0.0015_ncau_3/sim_gwas_49824534_51243298_24.txt
+[1317 3321  757] 3504 3
+/u/project/pasaniuc/shihuwen/response_result/sim_zsc/sim_n_7500_hsq_0.0015_ncau_3/sim_gwas_49824534_51243298_25.txt
+[3256   93 1857] 3504 3
+/u/project/pasaniuc/shihuwen/response_result/sim_zsc/sim_n_7500_hsq_0.0015_ncau_3/sim_gwas_49824534_51243298_26.txt
+[2479 2082  706] 3504 3
+/u/project/pasaniuc/shihuwen/response_result/sim_zsc/sim_n_7500_hsq_0.0015_ncau_3/sim_gwas_49824534_51243298_27.txt
+[3503 1702  438] 3504 3
+/u/project/pasaniuc/shihuwen/response_result/sim_zsc/sim_n_7500_hsq_0.0015_ncau_3/sim_gwas_49824534_51243298_28.txt
+[ 848 1803 1412] 3504 3
+/u/project/pasaniuc/shihuwen/response_result/sim_zsc/sim_n_7500_hsq_0.0015_ncau_3/sim_gwas_49824534_51243298_29.txt
+[3277  203 1774] 3504 3
+/u/project/pasaniuc/shihuwen/response_result/sim_zsc/sim_n_7500_hsq_0.0015_ncau_3/sim_gwas_49824534_51243298_30.txt
+[2895  342 1639] 3504 3
+/u/project/pasaniuc/shihuwen/response_result/sim_zsc/sim_n_7500_hsq_0.0015_ncau_3/sim_gwas_49824534_51243298_31.txt
+[ 562 3077 3222] 3504 3
+/u/project/pasaniuc/shihuwen/response_result/sim_zsc/sim_n_7500_hsq_0.0015_ncau_3/sim_gwas_49824534_51243298_32.txt
+[1637 2017 1540] 3504 3
+/u/project/pasaniuc/shihuwen/response_result/sim_zsc/sim_n_7500_hsq_0.0015_ncau_3/sim_gwas_49824534_51243298_33.txt
+[ 461 2416   15] 3504 3
+/u/project/pasaniuc/shihuwen/response_result/sim_zsc/sim_n_7500_hsq_0.0015_ncau_3/sim_gwas_49824534_51243298_34.txt
+[1107  800 2869] 3504 3
+/u/project/pasaniuc/shihuwen/response_result/sim_zsc/sim_n_7500_hsq_0.0015_ncau_3/sim_gwas_49824534_51243298_35.txt
+[1399 3453 2289] 3504 3
+/u/project/pasaniuc/shihuwen/response_result/sim_zsc/sim_n_7500_hsq_0.0015_ncau_3/sim_gwas_49824534_51243298_36.txt
+[ 47 698 930] 3504 3
+/u/project/pasaniuc/shihuwen/response_result/sim_zsc/sim_n_7500_hsq_0.0015_ncau_3/sim_gwas_49824534_51243298_37.txt
+[1351  659 2613] 3504 3
+/u/project/pasaniuc/shihuwen/response_result/sim_zsc/sim_n_7500_hsq_0.0015_ncau_3/sim_gwas_49824534_51243298_38.txt
+[1115 1443 2840] 3504 3
+/u/project/pasaniuc/shihuwen/response_result/sim_zsc/sim_n_7500_hsq_0.0015_ncau_3/sim_gwas_49824534_51243298_39.txt
+[1707 2821   41] 3504 3
+/u/project/pasaniuc/shihuwen/response_result/sim_zsc/sim_n_7500_hsq_0.0015_ncau_3/sim_gwas_49824534_51243298_40.txt
+[1389 2913 2207] 3504 3
+/u/project/pasaniuc/shihuwen/response_result/sim_zsc/sim_n_7500_hsq_0.0015_ncau_3/sim_gwas_49824534_51243298_41.txt
+[3014  323 2816] 3504 3
+/u/project/pasaniuc/shihuwen/response_result/sim_zsc/sim_n_7500_hsq_0.0015_ncau_3/sim_gwas_49824534_51243298_42.txt
+[ 589 1430 1050] 3504 3
+/u/project/pasaniuc/shihuwen/response_result/sim_zsc/sim_n_7500_hsq_0.0015_ncau_3/sim_gwas_49824534_51243298_43.txt
+[1848 2392   81] 3504 3
+/u/project/pasaniuc/shihuwen/response_result/sim_zsc/sim_n_7500_hsq_0.0015_ncau_3/sim_gwas_49824534_51243298_44.txt
+[2795 2570 3034] 3504 3
+/u/project/pasaniuc/shihuwen/response_result/sim_zsc/sim_n_7500_hsq_0.0015_ncau_3/sim_gwas_49824534_51243298_45.txt
+[ 931 1365 1968] 3504 3
+/u/project/pasaniuc/shihuwen/response_result/sim_zsc/sim_n_7500_hsq_0.0015_ncau_3/sim_gwas_49824534_51243298_46.txt
+[ 542  156 3276] 3504 3
+/u/project/pasaniuc/shihuwen/response_result/sim_zsc/sim_n_7500_hsq_0.0015_ncau_3/sim_gwas_49824534_51243298_47.txt
+[2489 2636 2341] 3504 3
+/u/project/pasaniuc/shihuwen/response_result/sim_zsc/sim_n_7500_hsq_0.0015_ncau_3/sim_gwas_49824534_51243298_48.txt
+[1371  895 2790] 3504 3
+/u/project/pasaniuc/shihuwen/response_result/sim_zsc/sim_n_7500_hsq_0.0015_ncau_3/sim_gwas_49824534_51243298_49.txt
+[1702  234 1882] 3504 3
+/u/project/pasaniuc/shihuwen/response_result/sim_zsc/sim_n_7500_hsq_0.0015_ncau_3/sim_gwas_49824534_51243298_50.txt
+7500 0.05 3 49824534 51243298
+/u/home/s/shihuwen/python_packages/lib/python2.7/site-packages/pysnptools/snpreader/snpreader.py:622: FutureWarning: Conversion of the second argument of issubdtype from `str` to `str` is deprecated. In future, it will be treated as `np.string_ == np.dtype(str).type`.
+  assert np.issubdtype(self._row.dtype, str) and len(self._row.shape)==2 and self._row.shape[1]==2, "iid should be dtype str, have two dimensions, and the second dimension should be size 2"
+/u/home/s/shihuwen/python_packages/lib/python2.7/site-packages/pysnptools/snpreader/snpreader.py:623: FutureWarning: Conversion of the second argument of issubdtype from `str` to `str` is deprecated. In future, it will be treated as `np.string_ == np.dtype(str).type`.
+  assert np.issubdtype(self._col.dtype, str) and len(self._col.shape)==1, "sid should be of dtype of str and one dimensional"
+[2762 3494  898] 3504 3
+/u/project/pasaniuc/shihuwen/response_result/sim_zsc/sim_n_7500_hsq_0.05_ncau_3/sim_gwas_49824534_51243298_1.txt
+[3007 1205 3048] 3504 3
+/u/project/pasaniuc/shihuwen/response_result/sim_zsc/sim_n_7500_hsq_0.05_ncau_3/sim_gwas_49824534_51243298_2.txt
+[ 414  989 2452] 3504 3
+/u/project/pasaniuc/shihuwen/response_result/sim_zsc/sim_n_7500_hsq_0.05_ncau_3/sim_gwas_49824534_51243298_3.txt
+[185 732 866] 3504 3
+/u/project/pasaniuc/shihuwen/response_result/sim_zsc/sim_n_7500_hsq_0.05_ncau_3/sim_gwas_49824534_51243298_4.txt
+[3099 3166 1312] 3504 3
+/u/project/pasaniuc/shihuwen/response_result/sim_zsc/sim_n_7500_hsq_0.05_ncau_3/sim_gwas_49824534_51243298_5.txt
+[1256 2047  294] 3504 3
+/u/project/pasaniuc/shihuwen/response_result/sim_zsc/sim_n_7500_hsq_0.05_ncau_3/sim_gwas_49824534_51243298_6.txt
+[2363   15  568] 3504 3
+/u/project/pasaniuc/shihuwen/response_result/sim_zsc/sim_n_7500_hsq_0.05_ncau_3/sim_gwas_49824534_51243298_7.txt
+[2867 2046 1612] 3504 3
+/u/project/pasaniuc/shihuwen/response_result/sim_zsc/sim_n_7500_hsq_0.05_ncau_3/sim_gwas_49824534_51243298_8.txt
+[2346  357  783] 3504 3
+/u/project/pasaniuc/shihuwen/response_result/sim_zsc/sim_n_7500_hsq_0.05_ncau_3/sim_gwas_49824534_51243298_9.txt
+[3368 3220  415] 3504 3
+/u/project/pasaniuc/shihuwen/response_result/sim_zsc/sim_n_7500_hsq_0.05_ncau_3/sim_gwas_49824534_51243298_10.txt
+[1412 2650 2910] 3504 3
+/u/project/pasaniuc/shihuwen/response_result/sim_zsc/sim_n_7500_hsq_0.05_ncau_3/sim_gwas_49824534_51243298_11.txt
+[1654 1443 2744] 3504 3
+/u/project/pasaniuc/shihuwen/response_result/sim_zsc/sim_n_7500_hsq_0.05_ncau_3/sim_gwas_49824534_51243298_12.txt
+[3364  751  709] 3504 3
+/u/project/pasaniuc/shihuwen/response_result/sim_zsc/sim_n_7500_hsq_0.05_ncau_3/sim_gwas_49824534_51243298_13.txt
+[1313  724  770] 3504 3
+/u/project/pasaniuc/shihuwen/response_result/sim_zsc/sim_n_7500_hsq_0.05_ncau_3/sim_gwas_49824534_51243298_14.txt
+[1786 1420 2709] 3504 3
+/u/project/pasaniuc/shihuwen/response_result/sim_zsc/sim_n_7500_hsq_0.05_ncau_3/sim_gwas_49824534_51243298_15.txt
+[1042 3235 3124] 3504 3
+/u/project/pasaniuc/shihuwen/response_result/sim_zsc/sim_n_7500_hsq_0.05_ncau_3/sim_gwas_49824534_51243298_16.txt
+[3433 2565 1382] 3504 3
+/u/project/pasaniuc/shihuwen/response_result/sim_zsc/sim_n_7500_hsq_0.05_ncau_3/sim_gwas_49824534_51243298_17.txt
+[934 245 645] 3504 3
+/u/project/pasaniuc/shihuwen/response_result/sim_zsc/sim_n_7500_hsq_0.05_ncau_3/sim_gwas_49824534_51243298_18.txt
+[3269 1401 3301] 3504 3
+/u/project/pasaniuc/shihuwen/response_result/sim_zsc/sim_n_7500_hsq_0.05_ncau_3/sim_gwas_49824534_51243298_19.txt
+[2343 1209  502] 3504 3
+/u/project/pasaniuc/shihuwen/response_result/sim_zsc/sim_n_7500_hsq_0.05_ncau_3/sim_gwas_49824534_51243298_20.txt
+[2567  774  910] 3504 3
+/u/project/pasaniuc/shihuwen/response_result/sim_zsc/sim_n_7500_hsq_0.05_ncau_3/sim_gwas_49824534_51243298_21.txt
+[1792  709 1540] 3504 3
+/u/project/pasaniuc/shihuwen/response_result/sim_zsc/sim_n_7500_hsq_0.05_ncau_3/sim_gwas_49824534_51243298_22.txt
+[3191 1712 2376] 3504 3
+/u/project/pasaniuc/shihuwen/response_result/sim_zsc/sim_n_7500_hsq_0.05_ncau_3/sim_gwas_49824534_51243298_23.txt
+[1170  760  256] 3504 3
+/u/project/pasaniuc/shihuwen/response_result/sim_zsc/sim_n_7500_hsq_0.05_ncau_3/sim_gwas_49824534_51243298_24.txt
+[ 524  472 2214] 3504 3
+/u/project/pasaniuc/shihuwen/response_result/sim_zsc/sim_n_7500_hsq_0.05_ncau_3/sim_gwas_49824534_51243298_25.txt
+[2478 3494    8] 3504 3
+/u/project/pasaniuc/shihuwen/response_result/sim_zsc/sim_n_7500_hsq_0.05_ncau_3/sim_gwas_49824534_51243298_26.txt
+[2975   98 3157] 3504 3
+/u/project/pasaniuc/shihuwen/response_result/sim_zsc/sim_n_7500_hsq_0.05_ncau_3/sim_gwas_49824534_51243298_27.txt
+[1520   15 3000] 3504 3
+/u/project/pasaniuc/shihuwen/response_result/sim_zsc/sim_n_7500_hsq_0.05_ncau_3/sim_gwas_49824534_51243298_28.txt
+[2092 2459 2293] 3504 3
+/u/project/pasaniuc/shihuwen/response_result/sim_zsc/sim_n_7500_hsq_0.05_ncau_3/sim_gwas_49824534_51243298_29.txt
+[612  90 113] 3504 3
+/u/project/pasaniuc/shihuwen/response_result/sim_zsc/sim_n_7500_hsq_0.05_ncau_3/sim_gwas_49824534_51243298_30.txt
+[1571 1728 3219] 3504 3
+/u/project/pasaniuc/shihuwen/response_result/sim_zsc/sim_n_7500_hsq_0.05_ncau_3/sim_gwas_49824534_51243298_31.txt
+[ 611 1175  492] 3504 3
+/u/project/pasaniuc/shihuwen/response_result/sim_zsc/sim_n_7500_hsq_0.05_ncau_3/sim_gwas_49824534_51243298_32.txt
+[2998  668  818] 3504 3
+/u/project/pasaniuc/shihuwen/response_result/sim_zsc/sim_n_7500_hsq_0.05_ncau_3/sim_gwas_49824534_51243298_33.txt
+[2572  260 1064] 3504 3
+/u/project/pasaniuc/shihuwen/response_result/sim_zsc/sim_n_7500_hsq_0.05_ncau_3/sim_gwas_49824534_51243298_34.txt
+[3090 1030  380] 3504 3
+/u/project/pasaniuc/shihuwen/response_result/sim_zsc/sim_n_7500_hsq_0.05_ncau_3/sim_gwas_49824534_51243298_35.txt
+[2773 3052 1777] 3504 3
+/u/project/pasaniuc/shihuwen/response_result/sim_zsc/sim_n_7500_hsq_0.05_ncau_3/sim_gwas_49824534_51243298_36.txt
+[2462 3090 2099] 3504 3
+/u/project/pasaniuc/shihuwen/response_result/sim_zsc/sim_n_7500_hsq_0.05_ncau_3/sim_gwas_49824534_51243298_37.txt
+[3200 3385 2109] 3504 3
+/u/project/pasaniuc/shihuwen/response_result/sim_zsc/sim_n_7500_hsq_0.05_ncau_3/sim_gwas_49824534_51243298_38.txt
+[1066 3299 2749] 3504 3
+/u/project/pasaniuc/shihuwen/response_result/sim_zsc/sim_n_7500_hsq_0.05_ncau_3/sim_gwas_49824534_51243298_39.txt
+[2990 1353 3300] 3504 3
+/u/project/pasaniuc/shihuwen/response_result/sim_zsc/sim_n_7500_hsq_0.05_ncau_3/sim_gwas_49824534_51243298_40.txt
+[3420 2069 1978] 3504 3
+/u/project/pasaniuc/shihuwen/response_result/sim_zsc/sim_n_7500_hsq_0.05_ncau_3/sim_gwas_49824534_51243298_41.txt
+[ 710  897 1750] 3504 3
+/u/project/pasaniuc/shihuwen/response_result/sim_zsc/sim_n_7500_hsq_0.05_ncau_3/sim_gwas_49824534_51243298_42.txt
+[2967 1435 1844] 3504 3
+/u/project/pasaniuc/shihuwen/response_result/sim_zsc/sim_n_7500_hsq_0.05_ncau_3/sim_gwas_49824534_51243298_43.txt
+[2357 3250  231] 3504 3
+/u/project/pasaniuc/shihuwen/response_result/sim_zsc/sim_n_7500_hsq_0.05_ncau_3/sim_gwas_49824534_51243298_44.txt
+[2495 1422 1437] 3504 3
+/u/project/pasaniuc/shihuwen/response_result/sim_zsc/sim_n_7500_hsq_0.05_ncau_3/sim_gwas_49824534_51243298_45.txt
+[2824 1087  429] 3504 3
+/u/project/pasaniuc/shihuwen/response_result/sim_zsc/sim_n_7500_hsq_0.05_ncau_3/sim_gwas_49824534_51243298_46.txt
+[1989  340  877] 3504 3
+/u/project/pasaniuc/shihuwen/response_result/sim_zsc/sim_n_7500_hsq_0.05_ncau_3/sim_gwas_49824534_51243298_47.txt
+[3048 1705 3417] 3504 3
+/u/project/pasaniuc/shihuwen/response_result/sim_zsc/sim_n_7500_hsq_0.05_ncau_3/sim_gwas_49824534_51243298_48.txt
+[2141 2200  470] 3504 3
+/u/project/pasaniuc/shihuwen/response_result/sim_zsc/sim_n_7500_hsq_0.05_ncau_3/sim_gwas_49824534_51243298_49.txt
+[1309 3217    3] 3504 3
+/u/project/pasaniuc/shihuwen/response_result/sim_zsc/sim_n_7500_hsq_0.05_ncau_3/sim_gwas_49824534_51243298_50.txt
+7500 0.5 3 49824534 51243298
+/u/home/s/shihuwen/python_packages/lib/python2.7/site-packages/pysnptools/snpreader/snpreader.py:622: FutureWarning: Conversion of the second argument of issubdtype from `str` to `str` is deprecated. In future, it will be treated as `np.string_ == np.dtype(str).type`.
+  assert np.issubdtype(self._row.dtype, str) and len(self._row.shape)==2 and self._row.shape[1]==2, "iid should be dtype str, have two dimensions, and the second dimension should be size 2"
+/u/home/s/shihuwen/python_packages/lib/python2.7/site-packages/pysnptools/snpreader/snpreader.py:623: FutureWarning: Conversion of the second argument of issubdtype from `str` to `str` is deprecated. In future, it will be treated as `np.string_ == np.dtype(str).type`.
+  assert np.issubdtype(self._col.dtype, str) and len(self._col.shape)==1, "sid should be of dtype of str and one dimensional"
+[2482 2235 1848] 3504 3
+/u/project/pasaniuc/shihuwen/response_result/sim_zsc/sim_n_7500_hsq_0.5_ncau_3/sim_gwas_49824534_51243298_1.txt
+[2003 1489  351] 3504 3
+/u/project/pasaniuc/shihuwen/response_result/sim_zsc/sim_n_7500_hsq_0.5_ncau_3/sim_gwas_49824534_51243298_2.txt
+[ 901 2936 1903] 3504 3
+/u/project/pasaniuc/shihuwen/response_result/sim_zsc/sim_n_7500_hsq_0.5_ncau_3/sim_gwas_49824534_51243298_3.txt
+[ 571 1076   81] 3504 3
+/u/project/pasaniuc/shihuwen/response_result/sim_zsc/sim_n_7500_hsq_0.5_ncau_3/sim_gwas_49824534_51243298_4.txt
+[ 521 3496 2065] 3504 3
+/u/project/pasaniuc/shihuwen/response_result/sim_zsc/sim_n_7500_hsq_0.5_ncau_3/sim_gwas_49824534_51243298_5.txt
+[ 834 2263 2436] 3504 3
+/u/project/pasaniuc/shihuwen/response_result/sim_zsc/sim_n_7500_hsq_0.5_ncau_3/sim_gwas_49824534_51243298_6.txt
+[2406 2046 1038] 3504 3
+/u/project/pasaniuc/shihuwen/response_result/sim_zsc/sim_n_7500_hsq_0.5_ncau_3/sim_gwas_49824534_51243298_7.txt
+[2162  699 1540] 3504 3
+/u/project/pasaniuc/shihuwen/response_result/sim_zsc/sim_n_7500_hsq_0.5_ncau_3/sim_gwas_49824534_51243298_8.txt
+[2587 1026 1290] 3504 3
+/u/project/pasaniuc/shihuwen/response_result/sim_zsc/sim_n_7500_hsq_0.5_ncau_3/sim_gwas_49824534_51243298_9.txt
+[1223 2007 1125] 3504 3
+/u/project/pasaniuc/shihuwen/response_result/sim_zsc/sim_n_7500_hsq_0.5_ncau_3/sim_gwas_49824534_51243298_10.txt
+[ 847 1250 2795] 3504 3
+/u/project/pasaniuc/shihuwen/response_result/sim_zsc/sim_n_7500_hsq_0.5_ncau_3/sim_gwas_49824534_51243298_11.txt
+[ 914 1155  818] 3504 3
+/u/project/pasaniuc/shihuwen/response_result/sim_zsc/sim_n_7500_hsq_0.5_ncau_3/sim_gwas_49824534_51243298_12.txt
+[3188 2920  889] 3504 3
+/u/project/pasaniuc/shihuwen/response_result/sim_zsc/sim_n_7500_hsq_0.5_ncau_3/sim_gwas_49824534_51243298_13.txt
+[ 316 1807  112] 3504 3
+/u/project/pasaniuc/shihuwen/response_result/sim_zsc/sim_n_7500_hsq_0.5_ncau_3/sim_gwas_49824534_51243298_14.txt
+[1372 3255 1112] 3504 3
+/u/project/pasaniuc/shihuwen/response_result/sim_zsc/sim_n_7500_hsq_0.5_ncau_3/sim_gwas_49824534_51243298_15.txt
+[2258 2271 2334] 3504 3
+/u/project/pasaniuc/shihuwen/response_result/sim_zsc/sim_n_7500_hsq_0.5_ncau_3/sim_gwas_49824534_51243298_16.txt
+[ 737  330 3302] 3504 3
+/u/project/pasaniuc/shihuwen/response_result/sim_zsc/sim_n_7500_hsq_0.5_ncau_3/sim_gwas_49824534_51243298_17.txt
+[1038 2012  768] 3504 3
+/u/project/pasaniuc/shihuwen/response_result/sim_zsc/sim_n_7500_hsq_0.5_ncau_3/sim_gwas_49824534_51243298_18.txt
+[1962 1472 2533] 3504 3
+/u/project/pasaniuc/shihuwen/response_result/sim_zsc/sim_n_7500_hsq_0.5_ncau_3/sim_gwas_49824534_51243298_19.txt
+[ 517 3125 2039] 3504 3
+/u/project/pasaniuc/shihuwen/response_result/sim_zsc/sim_n_7500_hsq_0.5_ncau_3/sim_gwas_49824534_51243298_20.txt
+[2173 2674 1519] 3504 3
+/u/project/pasaniuc/shihuwen/response_result/sim_zsc/sim_n_7500_hsq_0.5_ncau_3/sim_gwas_49824534_51243298_21.txt
+[2606 2142 1957] 3504 3
+/u/project/pasaniuc/shihuwen/response_result/sim_zsc/sim_n_7500_hsq_0.5_ncau_3/sim_gwas_49824534_51243298_22.txt
+[ 984  894 1819] 3504 3
+/u/project/pasaniuc/shihuwen/response_result/sim_zsc/sim_n_7500_hsq_0.5_ncau_3/sim_gwas_49824534_51243298_23.txt
+[3407 1722  797] 3504 3
+/u/project/pasaniuc/shihuwen/response_result/sim_zsc/sim_n_7500_hsq_0.5_ncau_3/sim_gwas_49824534_51243298_24.txt
+[1700 2657  776] 3504 3
+/u/project/pasaniuc/shihuwen/response_result/sim_zsc/sim_n_7500_hsq_0.5_ncau_3/sim_gwas_49824534_51243298_25.txt
+[ 324 1285  943] 3504 3
+/u/project/pasaniuc/shihuwen/response_result/sim_zsc/sim_n_7500_hsq_0.5_ncau_3/sim_gwas_49824534_51243298_26.txt
+[2347  883  614] 3504 3
+/u/project/pasaniuc/shihuwen/response_result/sim_zsc/sim_n_7500_hsq_0.5_ncau_3/sim_gwas_49824534_51243298_27.txt
+[2042  376  827] 3504 3
+/u/project/pasaniuc/shihuwen/response_result/sim_zsc/sim_n_7500_hsq_0.5_ncau_3/sim_gwas_49824534_51243298_28.txt
+[1973 1648 3187] 3504 3
+/u/project/pasaniuc/shihuwen/response_result/sim_zsc/sim_n_7500_hsq_0.5_ncau_3/sim_gwas_49824534_51243298_29.txt
+[2517  421 1171] 3504 3
+/u/project/pasaniuc/shihuwen/response_result/sim_zsc/sim_n_7500_hsq_0.5_ncau_3/sim_gwas_49824534_51243298_30.txt
+[3383 2408 2661] 3504 3
+/u/project/pasaniuc/shihuwen/response_result/sim_zsc/sim_n_7500_hsq_0.5_ncau_3/sim_gwas_49824534_51243298_31.txt
+[1685 2892 2299] 3504 3
+/u/project/pasaniuc/shihuwen/response_result/sim_zsc/sim_n_7500_hsq_0.5_ncau_3/sim_gwas_49824534_51243298_32.txt
+[1505 3434  825] 3504 3
+/u/project/pasaniuc/shihuwen/response_result/sim_zsc/sim_n_7500_hsq_0.5_ncau_3/sim_gwas_49824534_51243298_33.txt
+[  91 1983 3214] 3504 3
+/u/project/pasaniuc/shihuwen/response_result/sim_zsc/sim_n_7500_hsq_0.5_ncau_3/sim_gwas_49824534_51243298_34.txt
+[2127 3310  804] 3504 3
+/u/project/pasaniuc/shihuwen/response_result/sim_zsc/sim_n_7500_hsq_0.5_ncau_3/sim_gwas_49824534_51243298_35.txt
+[1445 1027 3490] 3504 3
+/u/project/pasaniuc/shihuwen/response_result/sim_zsc/sim_n_7500_hsq_0.5_ncau_3/sim_gwas_49824534_51243298_36.txt
+[3099 1512 1692] 3504 3
+/u/project/pasaniuc/shihuwen/response_result/sim_zsc/sim_n_7500_hsq_0.5_ncau_3/sim_gwas_49824534_51243298_37.txt
+[1799 1591  783] 3504 3
+/u/project/pasaniuc/shihuwen/response_result/sim_zsc/sim_n_7500_hsq_0.5_ncau_3/sim_gwas_49824534_51243298_38.txt
+[3009 1514 1500] 3504 3
+/u/project/pasaniuc/shihuwen/response_result/sim_zsc/sim_n_7500_hsq_0.5_ncau_3/sim_gwas_49824534_51243298_39.txt
+[2848 3269 2477] 3504 3
+/u/project/pasaniuc/shihuwen/response_result/sim_zsc/sim_n_7500_hsq_0.5_ncau_3/sim_gwas_49824534_51243298_40.txt
+[3104 2575 3239] 3504 3
+/u/project/pasaniuc/shihuwen/response_result/sim_zsc/sim_n_7500_hsq_0.5_ncau_3/sim_gwas_49824534_51243298_41.txt
+[2861 2887  185] 3504 3
+/u/project/pasaniuc/shihuwen/response_result/sim_zsc/sim_n_7500_hsq_0.5_ncau_3/sim_gwas_49824534_51243298_42.txt
+[1079 1144  830] 3504 3
+/u/project/pasaniuc/shihuwen/response_result/sim_zsc/sim_n_7500_hsq_0.5_ncau_3/sim_gwas_49824534_51243298_43.txt
+[2316 1556 3235] 3504 3
+/u/project/pasaniuc/shihuwen/response_result/sim_zsc/sim_n_7500_hsq_0.5_ncau_3/sim_gwas_49824534_51243298_44.txt
+[2499  940 1973] 3504 3
+/u/project/pasaniuc/shihuwen/response_result/sim_zsc/sim_n_7500_hsq_0.5_ncau_3/sim_gwas_49824534_51243298_45.txt
+[3309 2788 2689] 3504 3
+/u/project/pasaniuc/shihuwen/response_result/sim_zsc/sim_n_7500_hsq_0.5_ncau_3/sim_gwas_49824534_51243298_46.txt
+[2306 1692 2582] 3504 3
+/u/project/pasaniuc/shihuwen/response_result/sim_zsc/sim_n_7500_hsq_0.5_ncau_3/sim_gwas_49824534_51243298_47.txt
+[1168 2403  634] 3504 3
+/u/project/pasaniuc/shihuwen/response_result/sim_zsc/sim_n_7500_hsq_0.5_ncau_3/sim_gwas_49824534_51243298_48.txt
+[1298 3046  762] 3504 3
+/u/project/pasaniuc/shihuwen/response_result/sim_zsc/sim_n_7500_hsq_0.5_ncau_3/sim_gwas_49824534_51243298_49.txt
+[2045 2675 2352] 3504 3
+/u/project/pasaniuc/shihuwen/response_result/sim_zsc/sim_n_7500_hsq_0.5_ncau_3/sim_gwas_49824534_51243298_50.txt

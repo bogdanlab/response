@@ -3,7 +3,7 @@ while read line
 do
     region_start=$(echo $line | awk '{print $2}')
     region_stop=$(echo $line | awk '{print $3}')
-    for n in 5000 50000 100000
+    for n in 5000 7500 10000 50000 75000 100000
     do
         for hsq in 0.0015 0.05 0.5
         do

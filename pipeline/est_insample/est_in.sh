@@ -32,20 +32,20 @@ ncau=$(echo $line | awk '{print $3}')
 region_start=$(echo $line | awk '{print $4}')
 region_stop=$(echo $line | awk '{print $5}')
 
-for idx in $(seq 100)
+for idx in $(seq 50)
 do
-    nsnp=$(grep -v SNP /u/project/pasaniuc/shihuwen/response_result/sim_n_"$n"_hsq_"$hsq"_ncau_"$ncau"/sim_gwas_"$region_start"_"$region_stop"_"$idx".txt | wc -l | awk '{print $1}')
+    nsnp=$(grep -v SNP /u/project/pasaniuc/shihuwen/response_result/sim_zsc/sim_n_"$n"_hsq_"$hsq"_ncau_"$ncau"/sim_gwas_"$region_start"_"$region_stop"_"$idx".txt | wc -l | awk '{print $1}')
 
     $mypython $src/hess.py \
-        --local-hsqg /u/project/pasaniuc/shihuwen/response_result/sim_n_"$n"_hsq_"$hsq"_ncau_"$ncau"/sim_gwas_"$region_start"_"$region_stop"_"$idx".txt --chrom 22 \
+        --local-hsqg /u/project/pasaniuc/shihuwen/response_result/sim_zsc/sim_n_"$n"_hsq_"$hsq"_ncau_"$ncau"/sim_gwas_"$region_start"_"$region_stop"_"$idx".txt --chrom 22 \
         --bfile /u/project/pasaniuc/shihuwen/posc/analysis/data/ukb_chr22_maf/22 \
-        --out /u/project/pasaniuc/shihuwen/response_result/est_insample_n_"$n"_hsq_"$hsq"_ncau_"$ncau"/sim_gwas_"$region_start"_"$region_stop"_"$idx"_step1 \
+        --out /u/project/pasaniuc/shihuwen/response_result/est_insample/est_insample_n_"$n"_hsq_"$hsq"_ncau_"$ncau"/sim_gwas_"$region_start"_"$region_stop"_"$idx"_step1 \
         --partition /u/project/pasaniuc/shihuwen/response/pipeline/regions/chr22_"$region_start"_"$region_stop".bed
         
     $mypython $src/hess.py \
         --max-num-eig $nsnp --min-eigval 1e-8 \
-        --prefix /u/project/pasaniuc/shihuwen/response_result/est_insample_n_"$n"_hsq_"$hsq"_ncau_"$ncau"/sim_gwas_"$region_start"_"$region_stop"_"$idx"_step1 \
-        --out /u/project/pasaniuc/shihuwen/response_result/est_insample_n_"$n"_hsq_"$hsq"_ncau_"$ncau"/sim_gwas_"$region_start"_"$region_stop"_"$idx"_step2
+        --prefix /u/project/pasaniuc/shihuwen/response_result/est_insample/est_insample_n_"$n"_hsq_"$hsq"_ncau_"$ncau"/sim_gwas_"$region_start"_"$region_stop"_"$idx"_step1 \
+        --out /u/project/pasaniuc/shihuwen/response_result/est_insample/est_insample_n_"$n"_hsq_"$hsq"_ncau_"$ncau"/sim_gwas_"$region_start"_"$region_stop"_"$idx"_step2
         
-    rm /u/project/pasaniuc/shihuwen/response_result/est_insample_n_"$n"_hsq_"$hsq"_ncau_"$ncau"/sim_gwas_"$region_start"_"$region_stop"_"$idx"*.gz
+    rm /u/project/pasaniuc/shihuwen/response_result/est_insample/est_insample_n_"$n"_hsq_"$hsq"_ncau_"$ncau"/sim_gwas_"$region_start"_"$region_stop"_"$idx"*.gz
 done
